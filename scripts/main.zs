@@ -1,9 +1,6 @@
 #priority 100
 // #ikwid
 
-// TEST
-// test
-
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.item.IItemStack;
