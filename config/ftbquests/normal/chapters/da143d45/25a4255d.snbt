@@ -1,0 +1,24 @@
+{
+	title: "Seared Bricks",
+	disable_toast: true,
+	x: 4.5d,
+	y: 1.0d,
+	text: [
+		"While your Grout is smelting, make a Clay Bucket and collect some lava; you will need it for the next step!"
+	],
+	dependencies: [
+		"6a450329"
+	],
+	tasks: [{
+		uid: "44ab889a",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}],
+	rewards: [{
+		uid: "b554f6ef",
+		type: "random",
+		table: 0
+	}]
+}

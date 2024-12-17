@@ -1,0 +1,53 @@
+{
+	title: "Tool Parts",
+	disable_toast: true,
+	x: 7.5d,
+	y: 1.0d,
+	text: [
+		"Using the Part Builder, create the wooden pickaxe parts, and you will be on the home stretch to getting your first pickaxe :D"
+	],
+	dependencies: [
+		"f0a7f20b"
+	],
+	tasks: [{
+		uid: "457d1308",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "wood"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c9130bc4",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "tconstruct:binding",
+			tag: {
+				Material: "wood"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6a7cc0b8",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "tconstruct:tool_rod",
+			tag: {
+				Material: "wood"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78b02526",
+		type: "random",
+		table: 0
+	}]
+}

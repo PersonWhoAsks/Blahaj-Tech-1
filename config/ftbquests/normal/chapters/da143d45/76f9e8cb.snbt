@@ -1,0 +1,24 @@
+{
+	title: "Casts",
+	disable_toast: true,
+	x: 0.5d,
+	y: 5.0d,
+	text: [
+		"After you've smelted some gold, cast it onto any brick you can make to get your final piece of the puzzle in obtaining an Iron Ingot."
+	],
+	dependencies: [
+		"253da53d"
+	],
+	tasks: [{
+		uid: "f5a08193",
+		type: "item",
+		items: [{
+			item: "tconstruct:cast_custom"
+		}]
+	}],
+	rewards: [{
+		uid: "a4ed9f01",
+		type: "random",
+		table: 0
+	}]
+}

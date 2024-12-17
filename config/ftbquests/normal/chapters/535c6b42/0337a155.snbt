@@ -1,0 +1,23 @@
+{
+	icon: "immersiveengineering:material 1 6",
+	x: 5.5d,
+	y: -1.0d,
+	dependencies: [
+		"f8758f96"
+	],
+	tasks: [{
+		uid: "4a9948ec",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 6"
+		},
+		{
+			item: "immersiveengineering:stone_decoration 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "59311bac",
+		type: "random",
+		table: 1
+	}]
+}

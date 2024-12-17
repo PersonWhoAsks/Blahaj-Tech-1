@@ -1,0 +1,31 @@
+{
+	x: 13.5d,
+	y: -1.0d,
+	shape: "rsquare",
+	dependencies: [
+		"9334bd9b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1992096c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71de2d58",
+		type: "random",
+		table: 1
+	}]
+}

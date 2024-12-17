@@ -1,0 +1,219 @@
+{
+	title: "ch2",
+	loot_size: 1,
+	rewards: [{
+		item: "storagedrawers:upgrade_storage 1 1",
+		count: 2
+	},
+	{
+		item: "storagedrawers:upgrade_storage",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:earmuffs",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:wood_iron_chest_upgrade"
+		}
+	},
+	{
+		item: "quark:lit_lamp",
+		count: 12
+	},
+	{
+		item: "quark:golden_frog_leg"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:archaeologist_hat",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:witch_hat",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:horse_whistle"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:pickarang"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:trowel"
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:piggybackpack",
+			tag: {}
+		}
+	},
+	{
+		item: "tconstruct:edible",
+		count: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		item: "nuclearcraft:smore"
+	},
+	{
+		item: "sereneseasons:season_clock"
+	},
+	{
+		item: "minecraft:saddle"
+	},
+	{
+		item: "minecraft:book",
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:carrot_on_a_stick"
+		}
+	},
+	{
+		item: "minecraft:flint",
+		count: 4
+	},
+	{
+		item: "minecraft:dye 1 3",
+		count: 2
+	},
+	{
+		item: "minecraft:arrow",
+		count: 32
+	},
+	{
+		item: "minecraft:golden_apple"
+	},
+	{
+		item: {
+			id: "tconstruct:sharpening_kit",
+			tag: {
+				Material: "paper"
+			}
+		}
+	},
+	{
+		item: "tconstruct:throwball",
+		count: 16
+	},
+	{
+		item: "nuclearcraft:milk_chocolate",
+		count: 8
+	},
+	{
+		item: "minecraft:jukebox"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:record_cat"
+		}
+	},
+	{
+		item: "minecraft:experience_bottle",
+		count: 4
+	},
+	{
+		item: "minecraft:ender_pearl",
+		count: 2
+	},
+	{
+		item: "minecraft:cookie",
+		count: 16
+	},
+	{
+		item: "minecraft:map"
+	},
+	{
+		item: "minecraft:coal 1 1",
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "biomesoplenty:record_wanderer"
+		}
+	},
+	{
+		item: "biomesoplenty:jar_empty",
+		count: 2
+	},
+	{
+		item: "minecraft:painting"
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ironchest:wood_copper_chest_upgrade"
+		}
+	},
+	{
+		item: "minecraft:hopper"
+	},
+	{
+		item: "minecraft:grass"
+	}]
+}

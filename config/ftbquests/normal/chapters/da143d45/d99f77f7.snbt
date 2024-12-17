@@ -1,0 +1,44 @@
+{
+	title: "First Iron!",
+	x: -0.6d,
+	y: 6.0d,
+	shape: "rsquare",
+	description: "Some Fe",
+	text: [
+		"Casting iron with one Seared Faucet can be time-consuming, so make sure to have multiple faucets or use Casting Basins to cast entire blocks. The casting process can also be automated with redstone and hoppers for greater efficiency.",
+		"",
+		"I hope you enjoyed the first chapter of this modpack! The next chapter will revolve around Immersive Engineering and creating steel, but until then, enjoy your rewards!"
+	],
+	dependencies: [
+		"76f9e8cb"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "bfbe495b",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "13a26dd2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slime_boots",
+			tag: {}
+		}
+	},
+	{
+		uid: "5ecb3534",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:slimesling"
+		}
+	}]
+}

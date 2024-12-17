@@ -1,0 +1,19 @@
+{
+	icon: "immersiveengineering:stone_device",
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"81aa8dd1"
+	],
+	tasks: [{
+		uid: "4cb6fab3",
+		type: "interaction",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:cokeoven"
+	}],
+	rewards: [{
+		uid: "cb38de91",
+		type: "random",
+		table: 1
+	}]
+}

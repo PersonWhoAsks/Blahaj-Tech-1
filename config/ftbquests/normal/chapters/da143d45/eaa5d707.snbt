@@ -1,0 +1,25 @@
+{
+	title: "Blank Patterns",
+	disable_toast: true,
+	x: 4.5d,
+	y: -2.0d,
+	text: [
+		"Let's start with the most basic component you’ll need: blank patterns. You can craft four of them with 2 wooden planks and 2 sticks directly in your inventory."
+	],
+	dependencies: [
+		"e2bd0725"
+	],
+	tasks: [{
+		uid: "b0ba9f90",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 6L
+	}],
+	rewards: [{
+		uid: "13dc9b52",
+		type: "random",
+		table: 0
+	}]
+}

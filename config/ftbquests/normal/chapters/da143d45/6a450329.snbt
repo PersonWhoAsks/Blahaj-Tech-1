@@ -1,0 +1,26 @@
+{
+	title: "Grout",
+	disable_toast: true,
+	x: 5.5d,
+	y: 0.0d,
+	text: [
+		"To smelt iron, you need a Smeltery. To create the smallest working smeltery possible, you'll need almost two stacks of Seared Bricks. To obtain those Seared Bricks, as you might guess, you'll need nearly two stacks of Grout.",
+		"",
+		"Grout is made from gravel, sand, and clay. The recipe isn’t cruel, so it shouldn’t take you long to gather over a stack of Grout."
+	],
+	dependencies: [
+		"b3df1082"
+	],
+	tasks: [{
+		uid: "944f2c52",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}]
+	}],
+	rewards: [{
+		uid: "0f41cc51",
+		type: "random",
+		table: 0
+	}]
+}

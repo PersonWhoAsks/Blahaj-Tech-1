@@ -1,0 +1,34 @@
+{
+	title: "Introduction",
+	icon: "minecraft:grass",
+	disable_toast: true,
+	x: -1.5d,
+	y: 0.0d,
+	description: "Welcome!",
+	text: [
+		"Hello!",
+		"",
+		"I’m glad that someone is playing my very first (and hopefully not last) modpack! This modpack was originally created for my friends and me, but as I worked on it, I started thinking about sharing it with the public. As I type this, I’m not entirely sure if it will be officially released, but here’s hoping!",
+		"",
+		"This modpack focuses mainly on technological progression, processing, and energy, while also offering an optional but rewarding magical progression. I made sure that the pack provides a unique experience with each mod and is mostly beginner-friendly, so no one gets stuck along the way.",
+		"",
+		"I hope you enjoy it and have a great time! Good luck :)"
+	],
+	tasks: [{
+		uid: "8d61b70d",
+		type: "checkmark",
+		title: "Introduction"
+	}],
+	rewards: [{
+		uid: "2e722119",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 8
+	},
+	{
+		uid: "269a8bcc",
+		type: "command",
+		auto: "invisible",
+		command: "/gamerule announceAdvancements false"
+	}]
+}

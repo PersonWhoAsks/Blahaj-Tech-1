@@ -1,0 +1,7 @@
+{
+	title: "Chapter III: Pneumatics",
+	icon: "pneumaticcraft:pressure_gauge",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

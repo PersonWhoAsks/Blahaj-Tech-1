@@ -1,0 +1,31 @@
+{
+	title: "Immersive Engineering",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "gear",
+	description: "Industrialization!",
+	text: [
+		"Welcome to the second chapter, featuring and focusing on the Immersive Engineering mod, which introduces many multiblock structures and machines. Don’t worry, most of them aren’t covered in this modpack, but you can discover them on your own. Your main goal in this chapter will be to produce Circuit Boards, and Steel along the way."
+	],
+	dependencies: [
+		"d99f77f7"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "3d8fbaf7",
+		type: "checkmark",
+		title: "Immersive Engineering",
+		disable_toast: true
+	}],
+	rewards: [{
+		uid: "6af7a8a6",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:tool",
+			Damage: 3s
+		}
+	}]
+}

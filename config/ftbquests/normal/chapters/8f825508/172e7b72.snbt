@@ -1,0 +1,23 @@
+{
+	title: "Progression",
+	icon: "minecraft:sapling",
+	disable_toast: true,
+	x: 1.5d,
+	y: 0.0d,
+	description: "Chicken or egg?",
+	text: [
+		"There is a progression line that prevents you from skipping chapters of the modpack. Each chapter has its own key resource(s) required for the next chapters, meaning, for example, you can't start Chapter IV without completing Chapter III. Additionally, the chapters unlock certain mechanics and advantages to help you progress further in the modpack.",
+		"",
+		"To facilitate access to resources, a section dedicated to Astral Sorcery and Mystical Agriculture has been provided. Instead of frequently going to caves to mine ores, you will be able to use magic to farm material seeds, automating resource gathering. This chapter is entirely optional and will be unlocked upon completing the Early Game. Along with material essences, you will gain access to perks and mechanics from Astral Sorcery."
+	],
+	tasks: [{
+		uid: "c2d1d398",
+		type: "checkmark",
+		title: "Progression"
+	}],
+	rewards: [{
+		uid: "89d7288c",
+		type: "item",
+		item: "sereneseasons:season_clock"
+	}]
+}

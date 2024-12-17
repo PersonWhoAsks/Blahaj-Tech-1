@@ -1,0 +1,17 @@
+{
+	x: 5.5d,
+	y: -2.5d,
+	shape: "gear",
+	dependencies: [
+		"0337a155",
+		"54575d28"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "fd01a18a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal 1 8"
+		}]
+	}]
+}

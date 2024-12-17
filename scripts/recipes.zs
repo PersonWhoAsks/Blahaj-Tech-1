@@ -1,7 +1,6 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
-recipes.remove(<thermalfoundation:fertilizer:1>);
 furnace.remove(<thermalfoundation:rockwool:7>, <thermalfoundation:material:864>);
 recipes.removeShaped(<minecraft:paper> * 6, [[null, null, null],[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>], [null, null, null]]);
 recipes.remove(<immersiveengineering:material:8>);
@@ -67,6 +66,8 @@ recipes.remove(<immersiveengineering:fluorescent_tube>);
 recipes.remove(<bonsaitrees:bonsaipot>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<thermalfoundation:fertilizer:1> * 16, [[<ore:dustCharcoal>, <thermalfoundation:material:772>],[<thermalfoundation:material:866>, null]]);
+recipes.addShaped(<thermalfoundation:fertilizer:1> * 4, [[<ore:dustWood>, <ore:dustWood>],[<thermalfoundation:material:772>, <thermalfoundation:material:866>]]);
 furnace.addRecipe(<thermalfoundation:rockwool:7>, <immersiveengineering:material:7>, 1.2962962500751019);
 recipes.addShapedMirrored(<immersiveengineering:material:2> * 2, [[<ore:ingotSteel>, null],[<ore:ingotSteel>, null]]);
 recipes.addShapedMirrored(<immersiveengineering:material:20>, [[<ore:ingotCopper>, null],[<ore:ingotCopper>, null]]);

@@ -1,0 +1,92 @@
+{
+	title: "Components",
+	disable_toast: true,
+	x: 3.5d,
+	y: 2.0d,
+	text: [
+		"Using the Seared Bricks, craft the Smeltery components. This task only requires the minimum number of blocks for the smallest working Smeltery, but you can build a bigger one or with more interactive components as you wish.",
+		"",
+		"You can refer to the \"Materials and You\" book for assistance in building your first Smeltery. Remember that you need some lava for smelting anything, and be careful not to smelt yourself!"
+	],
+	dependencies: [
+		"25a4255d"
+	],
+	tasks: [{
+		uid: "ae7910fb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:seared 1 3"
+		}]
+	},
+	{
+		uid: "97463c5c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "e50d7dc0",
+		type: "item",
+		title: "Smeltery Heart",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:seared_tank"
+		},
+		{
+			item: "tconstruct:seared_tank 1 1"
+		},
+		{
+			item: "tconstruct:seared_tank 1 2"
+		}]
+	},
+	{
+		uid: "b255979c",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "f5f3f2ee",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "53c81661",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "6291f632",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a631068f",
+		type: "random",
+		table: 0
+	}]
+}

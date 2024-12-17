@@ -47,13 +47,10 @@ mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:18
 mods.immersiveengineering.Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<immersiveengineering:material:19>);
 
-// Arc Furnace's void recipes removal
+// Recipes removal
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:136>); // Mana Infused Ingot
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:2>); // Manyullyn Ingot
-mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:1>); // Ardite Ingot
-mods.immersiveengineering.ArcFurnace.removeRecipe(<qmd:ingot:4>); // Cobalt Ingot
-mods.immersiveengineering.ArcFurnace.removeRecipe(<qmd:ingot:8>);
-mods.immersiveengineering.ArcFurnace.removeRecipe(<qmd:ingot:8> * 2); // Osmium Ingot
+mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:5>); // Aluminum Brass Ingot
 
 // Engineer's Hammer degradation
 mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:mold>);

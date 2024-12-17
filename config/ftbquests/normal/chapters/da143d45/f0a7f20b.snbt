@@ -1,0 +1,50 @@
+{
+	title: "Patterns",
+	disable_toast: true,
+	x: 7.0d,
+	y: -0.5d,
+	text: [
+		"Now, insert the three leftover blank patterns into the Stencil Table and create the Pickaxe Head Pattern, Binding Pattern, and Tool Rod Pattern by interacting with the side panel of the station's UI."
+	],
+	dependencies: [
+		"47f219a3"
+	],
+	tasks: [{
+		uid: "194b7f74",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}]
+	},
+	{
+		uid: "51010beb",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}]
+	},
+	{
+		uid: "2e9f06b0",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a09809ea",
+		type: "random",
+		table: 0
+	}]
+}

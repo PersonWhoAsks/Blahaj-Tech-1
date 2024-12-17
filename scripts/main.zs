@@ -12,7 +12,6 @@ import mods.jei.JEI;
 
 // looks for items with the same ore dict, and removes their ore dicts and removes & hides them from JEI
 function unify(pref as IItemStack) {
-    // val oreDictEntries = oreDict.entries;
     var oreEntry as IOreDictEntry = null;
 
     for entry in pref.ores {
@@ -35,7 +34,6 @@ function unify(pref as IItemStack) {
 
 // Removes item's ore dictionary, and removes and hides it from JEI
 function erase(item as IItemStack) {
-    // val oreDictEntries = oreDict.entries;
     var oreEntry as IOreDictEntry = null;
 
     // Loops through item's ore dictionaries and removes them
@@ -63,19 +61,9 @@ for str in categoriesToHide {
     mods.jei.JEI.hideCategory(str);
 }
 
-// Removing some ore dictionaries
-val oresDictsToErase = [
-    <ore:pulpWood>
-] as IIngredient[]; // TODO
-var oreToRemove as IOreDictEntry = null;
-for odid in oresDictsToErase {
-    oreToRemove = odid;
-    for item in odid.items {
-        oreToRemove.remove(item);
-    }
-}
-
 val thingsToErase = [
+    <thermalfoundation:material:865>,   // Rich Slag
+
     // Thermal Foundation's Mithril
     <thermalfoundation:ore:8>,
     <thermalfoundation:storage:8>,
@@ -295,7 +283,10 @@ val thingsToUnify = [
     <thermalfoundation:material:772>,    // dustSaltpeter
 
     // Quartz
-    <nuclearcraft:gem_dust:2>   // dustQuartz, dustNetherQuartz
+    <nuclearcraft:gem_dust:2>,  // dustQuartz, dustNetherQuartz
+
+    // Slag
+    <immersiveengineering:material:7>  // crystalSlag, itemSlag
 ] as IItemStack[];
 for thing in thingsToUnify {
     unify(thing);

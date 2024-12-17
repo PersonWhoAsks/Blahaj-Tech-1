@@ -1,0 +1,61 @@
+{
+	title: "Tinkering Stations",
+	disable_toast: true,
+	x: 6.0d,
+	y: -1.5d,
+	text: [
+		"Next, you’ll need the tinkering stations: Stencil Table, Part Builder, and Tool Station. You can use the blank patterns you crafted in the previous step to make them."
+	],
+	dependencies: [
+		"eaa5d707"
+	],
+	tasks: [{
+		uid: "1d702a21",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5cdbfe22",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6a2e9df",
+		type: "item",
+		disable_toast: true,
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: false
+	}],
+	rewards: [{
+		uid: "662b5bd4",
+		type: "random",
+		table: 0
+	}]
+}

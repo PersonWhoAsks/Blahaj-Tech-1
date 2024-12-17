@@ -1,0 +1,31 @@
+{
+	title: "Tinkering",
+	disable_toast: true,
+	x: 3.0d,
+	y: -2.4d,
+	shape: "rsquare",
+	description: "Tinkers' Construct",
+	text: [
+		"This chapter is dedicated to the Tinkers' Construct mod, which introduces a completely new tool-crafting system that you’ll need to learn in order to obtain your first iron. Also, if you haven’t noticed, I’ve removed all vanilla pickaxes, swords, etc., to force  you to rely on this mod.",
+		"",
+		"In addition to tools, I’ve removed certain ore smelting recipes from the vanilla furnace. This means that, to obtain ingots, you’ll need to build a smeltery, smelt the ores you mine, and cast them using an ingot cast. But don’t worry—you won’t have to do this forever; future chapters will unlock new methods for ore processing.",
+		"",
+		"The main goal of this chapter is to obtain an iron ingot, which will be essential for future chapters. Completing this task will reward you with the \"Materials and You\" book, which contains descriptions and helpful information on the mechanics of Tinkers' Construct."
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "10147f67",
+		type: "checkmark",
+		title: "Tinkering"
+	}],
+	rewards: [{
+		uid: "e73d3eeb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "tconstruct:book"
+		}
+	}]
+}

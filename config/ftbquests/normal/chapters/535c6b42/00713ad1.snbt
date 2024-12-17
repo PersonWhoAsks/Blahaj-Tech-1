@@ -1,0 +1,19 @@
+{
+	icon: "immersiveengineering:stone_device 1 7",
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"af6e8afa"
+	],
+	tasks: [{
+		uid: "5a797943",
+		type: "interaction",
+		match_type: "block_entity_id",
+		match: "immersiveengineering:alloysmelter"
+	}],
+	rewards: [{
+		uid: "74b841d0",
+		type: "random",
+		table: 1
+	}]
+}

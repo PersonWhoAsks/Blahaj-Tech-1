@@ -1,0 +1,188 @@
+{
+	title: "ch1",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:web",
+		count: 4
+	},
+	{
+		item: "minecraft:planks",
+		count: 8
+	},
+	{
+		item: "minecraft:glass",
+		count: 4
+	},
+	{
+		item: "minecraft:torch",
+		count: 16
+	},
+	{
+		item: "minecraft:slime"
+	},
+	{
+		item: "minecraft:cookie",
+		count: 8
+	},
+	{
+		item: "minecraft:wool",
+		count: 3
+	},
+	{
+		item: "minecraft:hay_block"
+	},
+	{
+		item: "minecraft:apple",
+		count: 4
+	},
+	{
+		item: "minecraft:snowball",
+		count: 16
+	},
+	{
+		item: "minecraft:egg",
+		count: 4
+	},
+	{
+		item: "minecraft:book",
+		count: 4
+	},
+	{
+		item: "minecraft:leather",
+		count: 6
+	},
+	{
+		item: "minecraft:brick",
+		count: 16
+	},
+	{
+		item: "minecraft:melon",
+		count: 8
+	},
+	{
+		item: "minecraft:dye 1 3",
+		count: 2
+	},
+	{
+		item: "minecraft:carrot",
+		count: 8
+	},
+	{
+		item: "minecraft:potato",
+		count: 8
+	},
+	{
+		item: "minecraft:pumpkin_pie",
+		count: 2
+	},
+	{
+		item: "minecraft:rabbit_stew"
+	},
+	{
+		item: "minecraft:mushroom_stew"
+	},
+	{
+		item: "biomesoplenty:flower_1 1 5"
+	},
+	{
+		item: "biomesoplenty:berries",
+		count: 8
+	},
+	{
+		item: "biomesoplenty:pear",
+		count: 4
+	},
+	{
+		item: "biomesoplenty:peach",
+		count: 4
+	},
+	{
+		item: "biomesoplenty:persimmon",
+		count: 4
+	},
+	{
+		item: "nuclearcraft:smore"
+	},
+	{
+		item: "nuclearcraft:milk_chocolate",
+		count: 4
+	},
+	{
+		item: "quark:chute"
+	},
+	{
+		item: "tconstruct:throwball",
+		count: 4
+	},
+	{
+		item: "mekanism:balloon 1 1"
+	},
+	{
+		item: "tconstruct:soil",
+		count: 8
+	},
+	{
+		item: "tconstruct:pattern",
+		count: 4
+	},
+	{
+		item: {
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		item: {
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:archaeologist_hat",
+			tag: {}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:pirate_hat",
+			tag: {}
+		}
+	},
+	{
+		item: "quark:tallow",
+		count: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "quark:horse_whistle"
+		}
+	},
+	{
+		item: "minecraft:sponge",
+		count: 2
+	}]
+}
