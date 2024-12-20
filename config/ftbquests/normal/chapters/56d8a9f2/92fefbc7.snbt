@@ -1,0 +1,12 @@
+{
+	title: "Pneumatics",
+	x: 0.5d,
+	y: 0.0d,
+	shape: "circle",
+	description: "PneumaticCraft: Repressurized",
+	tasks: [{
+		uid: "77bd0320",
+		type: "checkmark",
+		title: "PneumaticCraft"
+	}]
+}

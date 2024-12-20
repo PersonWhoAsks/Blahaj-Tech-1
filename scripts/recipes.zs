@@ -1,6 +1,16 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<mcmeds:hytoctine>);
+recipes.remove(<mcmeds:morphine>);
+recipes.remove(<mcmeds:deusizine>);
+recipes.remove(<mcmeds:opium>);
+recipes.remove(<pneumaticcraft:air_compressor>);
+recipes.remove(<pneumaticcraft:pressure_chamber_interface>);
+recipes.remove(<pneumaticcraft:pressure_chamber_valve>);
+recipes.remove(<pneumaticcraft:pressure_tube>);
+recipes.remove(<pneumaticcraft:pressure_chamber_glass>);
+recipes.remove(<pneumaticcraft:pressure_chamber_wall>);
 furnace.remove(<thermalfoundation:rockwool:7>, <thermalfoundation:material:864>);
 recipes.removeShaped(<minecraft:paper> * 6, [[null, null, null],[<ore:dustWood>, <ore:dustWood>, <ore:dustWood>], [null, null, null]]);
 recipes.remove(<immersiveengineering:material:8>);
@@ -66,12 +76,18 @@ recipes.remove(<immersiveengineering:fluorescent_tube>);
 recipes.remove(<bonsaitrees:bonsaipot>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<pneumaticcraft:air_compressor>, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>],[<immersiveengineering:metal:8>, <immersiveengineering:material:27>, <pneumaticcraft:pressure_tube>], [<immersiveengineering:metal:8>, <minecraft:furnace>, <immersiveengineering:metal:8>]]);
+recipes.addShapeless(<pneumaticcraft:pressure_chamber_interface>, [<immersiveengineering:material:27>,<minecraft:hopper>,<pneumaticcraft:pressure_chamber_wall>]);
+recipes.addShaped(<pneumaticcraft:pressure_chamber_valve> * 8, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>],[<immersiveengineering:metal:8>, <pneumaticcraft:pressure_tube>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
+recipes.addShaped(<pneumaticcraft:pressure_tube> * 4, [[<immersiveengineering:metal:8>, <ore:blockGlass>, <immersiveengineering:metal:8>]]);
+recipes.addShaped(<pneumaticcraft:pressure_chamber_glass> * 8, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>],[<immersiveengineering:metal:8>, <ore:blockGlass>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
+recipes.addShaped(<pneumaticcraft:pressure_chamber_wall> * 8, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>],[<immersiveengineering:metal:8>, null, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
 recipes.addShaped(<thermalfoundation:fertilizer:1> * 16, [[<ore:dustCharcoal>, <thermalfoundation:material:772>],[<thermalfoundation:material:866>, null]]);
 recipes.addShaped(<thermalfoundation:fertilizer:1> * 4, [[<ore:dustWood>, <ore:dustWood>],[<thermalfoundation:material:772>, <thermalfoundation:material:866>]]);
 furnace.addRecipe(<thermalfoundation:rockwool:7>, <immersiveengineering:material:7>, 1.2962962500751019);
 recipes.addShapedMirrored(<immersiveengineering:material:2> * 2, [[<ore:ingotSteel>, null],[<ore:ingotSteel>, null]]);
 recipes.addShapedMirrored(<immersiveengineering:material:20>, [[<ore:ingotCopper>, null],[<ore:ingotCopper>, null]]);
-recipes.addShaped(<immersiveengineering:connector:9>, [[null, null, null],[null, <ore:stickTreatedWood>, null], [<ore:ingotIron>, <immersiveengineering:metal:6>, <ore:ingotIron>]]);
+recipes.addShaped(<immersiveengineering:connector:9>, [[null, <ore:stickTreatedWood>, null], [<ore:ingotIron>, <immersiveengineering:metal:6>, <ore:ingotIron>]]);
 recipes.addShaped(<immersiveengineering:wooden_device0:2>, [[<immersiveengineering:connector:9>, <ore:stickSteel>, null],[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>], [<ore:workbench>, null, <ore:fenceTreatedWood>]]);
 recipes.addShaped(<buildinggadgets:destructiontool>, [[<immersiveengineering:metal:38>, <immersiveengineering:material:26>, <immersiveengineering:metal:38>],[<immersiveengineering:metal:38>, <immersiveengineering:material:27>, <immersiveengineering:metal:38>], [<immersiveengineering:metal:38>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:metal:38>]]);
 recipes.addShaped(<buildinggadgets:templatemanager>, [[<immersiveengineering:sheetmetal:9>, <immersiveengineering:metal_decoration0:3>, <immersiveengineering:sheetmetal:9>],[<immersiveengineering:sheetmetal:9>, <immersiveengineering:material:27>, <immersiveengineering:sheetmetal:9>], [<immersiveengineering:sheetmetal:9>, <immersiveengineering:metal_decoration0:5>, <immersiveengineering:sheetmetal:9>]]);
@@ -98,5 +114,5 @@ recipes.addShaped(<tconstruct:casting:1>, [[<tconstruct:materials>, null, <tcons
 recipes.addShaped(<ftbquests:loot_crate_opener>, [[<ore:plankWood>, <minecraft:dropper>, <ore:plankWood>],[<ore:plankWood>, <ftbquests:book>, <ore:plankWood>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 recipes.addShaped(<thermalexpansion:augment:416>, [[null, <thermalfoundation:material:290>, null],[<minecraft:diamond>, <thermalfoundation:material:512>, <minecraft:diamond>], [null, <minecraft:piston>, null]]);
 recipes.addShaped(<immersiveengineering:toolupgrade:4>, [[<minecraft:flint>, <immersiveengineering:metal:8>],[<immersiveengineering:metal:8>, <immersiveengineering:treated_wood:*>]]);
-recipes.addShaped(<bonsaitrees:bonsaipot>, [[null, null, null],[<immersiveengineering:metal:8>, <minecraft:enchanted_book>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
+recipes.addShaped(<bonsaitrees:bonsaipot>, [[<immersiveengineering:metal:8>, <minecraft:enchanted_book>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);
 //File End

@@ -1,0 +1,12 @@
+{
+	x: 2.0d,
+	y: -3.5d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "dadd0442",
+		type: "item",
+		items: [{
+			item: "mcmeds:hyperzine"
+		}]
+	}]
+}

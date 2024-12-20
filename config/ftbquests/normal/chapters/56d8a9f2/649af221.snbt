@@ -1,0 +1,12 @@
+{
+	x: 1.0d,
+	y: -3.5d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "4d28ac1b",
+		type: "item",
+		items: [{
+			item: "mcmeds:fentanyl"
+		}]
+	}]
+}

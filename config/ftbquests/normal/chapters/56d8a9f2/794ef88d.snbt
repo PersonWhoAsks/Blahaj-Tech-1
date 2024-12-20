@@ -1,0 +1,11 @@
+{
+	x: 11.5d,
+	y: 5.0d,
+	tasks: [{
+		uid: "bfb9f832",
+		type: "observation",
+		match_type: "block_id",
+		match: "",
+		timer: 0L
+	}]
+}

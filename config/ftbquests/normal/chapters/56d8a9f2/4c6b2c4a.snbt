@@ -1,0 +1,12 @@
+{
+	x: 0.5d,
+	y: -4.5d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "3657ceab",
+		type: "item",
+		items: [{
+			item: "mcmeds:deusizine"
+		}]
+	}]
+}

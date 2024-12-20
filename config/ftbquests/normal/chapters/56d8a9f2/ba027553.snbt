@@ -1,0 +1,12 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	shape: "circle",
+	tasks: [{
+		uid: "df0ae2d2",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:printed_circuit_board"
+		}]
+	}]
+}

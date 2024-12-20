@@ -1,0 +1,12 @@
+{
+	x: 1.5d,
+	y: -2.5d,
+	shape: "hexagon",
+	tasks: [{
+		uid: "11f058b1",
+		type: "item",
+		items: [{
+			item: "mcmeds:morphine"
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	shape: "circle",
+	tasks: [{
+		uid: "a3cc77f6",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:ingot_iron_compressed"
+		}]
+	}]
+}

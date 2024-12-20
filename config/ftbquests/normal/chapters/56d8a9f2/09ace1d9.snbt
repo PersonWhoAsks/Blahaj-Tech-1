@@ -1,0 +1,29 @@
+{
+	title: "Pressure Chamber",
+	x: 1.5d,
+	y: -1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "30c35c9a",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_wall"
+		}]
+	},
+	{
+		uid: "06d72c85",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_interface"
+		}]
+	},
+	{
+		uid: "5fb2ff5c",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:pressure_chamber_valve"
+		}]
+	}]
+}

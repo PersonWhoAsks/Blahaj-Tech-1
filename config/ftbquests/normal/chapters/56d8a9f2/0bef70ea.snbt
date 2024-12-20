@@ -1,0 +1,9 @@
+{
+	x: 3.0d,
+	y: 4.5d,
+	tasks: [{
+		uid: "09dffa0e",
+		type: "fluid",
+		fluid: "plastic"
+	}]
+}
