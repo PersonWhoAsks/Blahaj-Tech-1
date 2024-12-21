@@ -1,0 +1,18 @@
+{
+	x: 17.5d,
+	y: 0.0d,
+	shape: "hexagon",
+	optional: true,
+	tasks: [{
+		uid: "7d926f2c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "jecalculation:item_calculator",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}]
+}

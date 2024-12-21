@@ -1,0 +1,11 @@
+{
+	x: 6.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "346a6cc5",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:unassembled_pcb"
+		}]
+	}]
+}

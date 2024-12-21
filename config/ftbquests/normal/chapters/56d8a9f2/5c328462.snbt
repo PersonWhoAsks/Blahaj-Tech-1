@@ -2,6 +2,7 @@
 	x: 1.5d,
 	y: -2.5d,
 	shape: "hexagon",
+	optional: true,
 	tasks: [{
 		uid: "11f058b1",
 		type: "item",

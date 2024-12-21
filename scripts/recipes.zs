@@ -1,6 +1,16 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<pneumaticcraft:uv_light_box>);
+recipes.remove(<pneumaticcraft:refinery>);
+recipes.remove(<jecalculation:item_calculator>);
+recipes.remove(<jecalculation:item_calculator:1>);
+recipes.remove(<opencomputers:material:16>);
+recipes.remove(<opencomputers:screen2>);
+recipes.remove(<opencomputers:screen1>);
+recipes.remove(<opencomputers:material:8>);
+recipes.remove(<opencomputers:material:7>);
+recipes.remove(<opencomputers:material:6>);
 recipes.remove(<mcmeds:hytoctine>);
 recipes.remove(<mcmeds:morphine>);
 recipes.remove(<mcmeds:deusizine>);
@@ -76,6 +86,15 @@ recipes.remove(<immersiveengineering:fluorescent_tube>);
 recipes.remove(<bonsaitrees:bonsaipot>);
 //Don't touch me!
 //#Add
+recipes.addShapedMirrored(<pneumaticcraft:uv_light_box>, [[<immersiveengineering:toolupgrade:10>, <immersiveengineering:toolupgrade:10>, <immersiveengineering:toolupgrade:10>],[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>], [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <immersiveengineering:metal:38>]]);
+recipes.addShaped(<pneumaticcraft:refinery>, [[<immersiveengineering:metal:38>, <minecraft:glass_pane>, <immersiveengineering:metal:38>],[<pneumaticcraft:compressed_iron_gear>, <immersiveengineering:material:27>, <pneumaticcraft:compressed_iron_gear>], [<immersiveengineering:metal:38>, <minecraft:glass_pane>, <immersiveengineering:metal:38>]]);
+recipes.addShaped(<jecalculation:item_calculator>, [[<pneumaticcraft:plastic:8>, <opencomputers:screen2>, <pneumaticcraft:plastic:8>],[<pneumaticcraft:plastic:8>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:8>], [<pneumaticcraft:plastic:8>, <opencomputers:material:16>, <pneumaticcraft:plastic:8>]]);
+recipes.addShaped(<jecalculation:item_calculator:1>, [[<pneumaticcraft:plastic:8>, <opencomputers:screen1>, <pneumaticcraft:plastic:8>],[<pneumaticcraft:plastic:8>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:8>], [<pneumaticcraft:plastic:8>, <opencomputers:material:16>, <pneumaticcraft:plastic:8>]]);
+recipes.addShaped(<opencomputers:material:16>, [[<quark:iron_button>, <quark:iron_button>, <quark:iron_button>],[<pneumaticcraft:plastic:7>, <quark:iron_button>, <pneumaticcraft:plastic:7>], [<quark:iron_button>, <quark:iron_button>, <quark:iron_button>]]);
+recipes.addShapedMirrored(<opencomputers:screen2>, [[<pneumaticcraft:plastic:8>, <opencomputers:material:8>, <ore:dyeRed>],[<opencomputers:material:8>, <opencomputers:screen1>, <ore:dyeGreen>], [<pneumaticcraft:plastic:8>, <opencomputers:material:8>, <ore:dyeBlue>]]);
+recipes.addShapedMirrored(<opencomputers:screen1>, [[<pneumaticcraft:plastic:8>, <opencomputers:material:7>, <ore:paneGlass>],[<opencomputers:material:7>, <pneumaticcraft:printed_circuit_board>, <ore:paneGlass>], [<pneumaticcraft:plastic:8>, <opencomputers:material:7>, <ore:paneGlass>]]);
+recipes.addShaped(<opencomputers:material:8> * 4, [[<opencomputers:material:7>, <minecraft:gold_nugget>, <opencomputers:material:7>],[<pneumaticcraft:plastic>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic>], [<opencomputers:material:7>, <minecraft:gold_nugget>, <opencomputers:material:7>]]);
+recipes.addShaped(<opencomputers:material:7> * 8, [[<pneumaticcraft:transistor>, <minecraft:iron_nugget>, <pneumaticcraft:transistor>],[<pneumaticcraft:plastic>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic>], [<pneumaticcraft:transistor>, <minecraft:iron_nugget>, <pneumaticcraft:transistor>]]);
 recipes.addShaped(<pneumaticcraft:air_compressor>, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>],[<immersiveengineering:metal:8>, <immersiveengineering:material:27>, <pneumaticcraft:pressure_tube>], [<immersiveengineering:metal:8>, <minecraft:furnace>, <immersiveengineering:metal:8>]]);
 recipes.addShapeless(<pneumaticcraft:pressure_chamber_interface>, [<immersiveengineering:material:27>,<minecraft:hopper>,<pneumaticcraft:pressure_chamber_wall>]);
 recipes.addShaped(<pneumaticcraft:pressure_chamber_valve> * 8, [[<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>],[<immersiveengineering:metal:8>, <pneumaticcraft:pressure_tube>, <immersiveengineering:metal:8>], [<immersiveengineering:metal:8>, <immersiveengineering:metal:8>, <immersiveengineering:metal:8>]]);

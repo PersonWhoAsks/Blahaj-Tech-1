@@ -16,3 +16,14 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<mcmeds:opium>, <minecraft:dye:15
 mods.pneumaticcraft.pressurechamber.addRecipe([<minecraft:sugar>, <minecraft:glowstone_dust>, <minecraft:blaze_powder>, <minecraft:potion>.withTag({Potion: "minecraft:water"})], 2.5, [<mcmeds:hytoctine>]);  // Hytoctine
 mods.pneumaticcraft.pressurechamber.addRecipe([<mcmeds:fentanyl>, <minecraft:dye:15>, <minecraft:blaze_powder>, <minecraft:potion>.withTag({Potion: "minecraft:water"})], 3.0, [<mcmeds:deusizine>]);  // Deusizine
 
+// Handle colliding items with OpenComputers
+// PCB
+recipes.remove(<opencomputers:material:2>);
+removeAndHide(<opencomputers:material:2>);
+recipes.replaceAllOccurences(<opencomputers:material:4>, <pneumaticcraft:printed_circuit_board>);
+furnace.remove(<opencomputers:material:4>);
+removeAndHide(<opencomputers:material:4>);
+
+// Transistor
+recipes.replaceAllOccurences(<opencomputers:material:6>, <pneumaticcraft:transistor>);
+removeAndHide(<opencomputers:material:6>);
