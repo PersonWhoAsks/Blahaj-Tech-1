@@ -4,6 +4,9 @@
 	y: 0.0d,
 	shape: "circle",
 	description: "PneumaticCraft: Repressurized",
+	dependencies: [
+		"535c6b42"
+	],
 	tasks: [{
 		uid: "77bd0320",
 		type: "checkmark",

@@ -1,0 +1,15 @@
+{
+	x: 6.5d,
+	y: -2.0d,
+	dependencies: [
+		"0bef70ea"
+	],
+	tasks: [{
+		uid: "ef6faa64",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:empty_pcb 1 100"
+		}],
+		ignore_nbt: 1b
+	}]
+}

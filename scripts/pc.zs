@@ -18,12 +18,11 @@ mods.pneumaticcraft.pressurechamber.addRecipe([<mcmeds:fentanyl>, <minecraft:dye
 
 // Handle colliding items with OpenComputers
 // PCB
-recipes.remove(<opencomputers:material:2>);
-removeAndHide(<opencomputers:material:2>);
+scripts.main.erase(<opencomputers:material:2>);
 recipes.replaceAllOccurences(<opencomputers:material:4>, <pneumaticcraft:printed_circuit_board>);
+scripts.main.erase(<opencomputers:material:4>);
 furnace.remove(<opencomputers:material:4>);
-removeAndHide(<opencomputers:material:4>);
 
 // Transistor
 recipes.replaceAllOccurences(<opencomputers:material:6>, <pneumaticcraft:transistor>);
-removeAndHide(<opencomputers:material:6>);
+scripts.main.erase(<opencomputers:material:6>);

@@ -1,5 +1,4 @@
 #priority 100
-// #ikwid
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.oredict.IOreDict;
@@ -15,8 +14,6 @@ function unify(pref as IItemStack) {
     var oreEntry as IOreDictEntry = null;
 
     for entry in pref.ores {
-        print(pref.name);
-        print("Found " + entry.name);
         oreEntry = entry;
         for item in oreEntry.items {
             if (item.name != pref.name) {
@@ -38,12 +35,11 @@ function erase(item as IItemStack) {
 
     // Loops through item's ore dictionaries and removes them
     for entry in item.ores {
-        print(item.name);
         oreEntry = entry;
-        print("Removed " + entry.name);
         oreEntry.remove(item);
     }
 
+    print("ERASED: "+ item.displayName);
     removeAndHide(item);
 }
 

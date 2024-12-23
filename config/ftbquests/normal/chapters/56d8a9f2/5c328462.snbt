@@ -2,6 +2,10 @@
 	x: 1.5d,
 	y: -2.5d,
 	shape: "hexagon",
+	dependencies: [
+		"09ace1d9",
+		"98e4a64a"
+	],
 	optional: true,
 	tasks: [{
 		uid: "11f058b1",

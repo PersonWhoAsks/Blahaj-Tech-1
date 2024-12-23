@@ -1,20 +1,19 @@
 {
-	x: 11.0d,
-	y: -3.0d,
-	shape: "hexagon",
+	x: 5.0d,
+	y: -3.5d,
 	dependencies: [
-		"ba027553"
+		"0bef70ea"
 	],
-	optional: true,
 	tasks: [{
-		uid: "d78f530f",
+		uid: "65b96554",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "jecalculation:item_calculator"
+			id: "pneumaticcraft:amadron_tablet"
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

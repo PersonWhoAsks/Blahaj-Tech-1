@@ -47,7 +47,7 @@ mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:18
 mods.immersiveengineering.Squeezer.removeItemRecipe(<immersiveengineering:material:18>);
 mods.thermalexpansion.Pulverizer.removeRecipe(<immersiveengineering:material:19>);
 
-// Recipes removal
+// Arc Furnace recipes removal
 mods.immersiveengineering.ArcFurnace.removeRecipe(<thermalfoundation:material:136>); // Mana Infused Ingot
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:2>); // Manyullyn Ingot
 mods.immersiveengineering.ArcFurnace.removeRecipe(<tconstruct:ingots:5>); // Aluminum Brass Ingot

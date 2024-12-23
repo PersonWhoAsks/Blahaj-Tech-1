@@ -9,6 +9,7 @@ import mods.jei.JEI;
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Casting;
 
+// Remove alloying recipes for all Tinkers' Construct alloys
 val liquidsNoAlloying = [
     <liquid:steel>,
     <liquid:alubrass>,
@@ -23,6 +24,7 @@ for liquid in liquidsNoAlloying {
     mods.tconstruct.Alloy.removeRecipe(liquid);
 }
 
+// Remove casting recipes for all Aluminium Brass casts
 val castsNoAlubrass = [
     <tconstruct:cast>,
     <tconstruct:cast_custom>,

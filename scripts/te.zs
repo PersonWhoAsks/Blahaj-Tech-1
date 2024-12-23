@@ -5,8 +5,6 @@ import crafttweaker.item.IIngredient;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI;
 
-import mods.thermalexpansion.RedstoneFurnace;
-
 import mods.immersiveengineering.MetalPress;
 
 // Mana Infused oredict

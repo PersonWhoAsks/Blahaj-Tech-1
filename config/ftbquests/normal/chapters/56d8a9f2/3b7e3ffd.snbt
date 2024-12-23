@@ -1,8 +1,8 @@
 {
-	x: 7.0d,
-	y: 4.5d,
+	x: 5.0d,
+	y: 2.0d,
 	tasks: [{
-		uid: "745a0cb5",
+		uid: "2862f8f2",
 		type: "fluid",
 		fluid: "oil"
 	}]

@@ -1,6 +1,12 @@
 //This file was created via CT-GUI! Editing it is not advised!
 //Don't touch me!
 //#Remove
+recipes.remove(<pneumaticcraft:air_canister:30000>);
+recipes.removeShaped(<pneumaticcraft:gps_tool>, [[null, <ore:torchRedstoneActive>, null],[<ore:plasticRed>, <ore:paneGlassColorless>, <ore:plasticRed>], [<pneumaticcraft:plastic:1>, <minecraft:diamond>, <pneumaticcraft:plastic:1>]]);
+recipes.remove(<pneumaticcraft:amadron_tablet>);
+recipes.remove(<pneumaticcraft:vacuum_pump>);
+recipes.remove(<pneumaticcraft:plastic_mixer>);
+recipes.remove(<pneumaticcraft:thermopneumatic_processing_plant>);
 recipes.remove(<pneumaticcraft:uv_light_box>);
 recipes.remove(<pneumaticcraft:refinery>);
 recipes.remove(<jecalculation:item_calculator>);
@@ -86,6 +92,12 @@ recipes.remove(<immersiveengineering:fluorescent_tube>);
 recipes.remove(<bonsaitrees:bonsaipot>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<pneumaticcraft:air_canister:30000>, [[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:pressure_tube>, <pneumaticcraft:ingot_iron_compressed>],[<ore:ingotIronCompressed>, <pneumaticcraft:pressure_gauge>, <ore:ingotIronCompressed>], [<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:ingot_iron_compressed>]]);
+recipes.addShaped(<pneumaticcraft:gps_tool>, [[null, <ore:torchRedstoneActive>, null],[<ore:plasticRed>, <ore:paneGlass>, <ore:plasticRed>], [<pneumaticcraft:plastic:1>, <immersiveengineering:material:27>, <pneumaticcraft:plastic:1>]]);
+recipes.addShaped(<pneumaticcraft:amadron_tablet>, [[<pneumaticcraft:plastic:8>, <pneumaticcraft:gps_tool>, <pneumaticcraft:plastic:8>],[<ore:plasticGray>, <ore:paneGlass>, <ore:plasticGray>], [<pneumaticcraft:plastic:8>, <pneumaticcraft:air_canister>, <pneumaticcraft:plastic:8>]]);
+recipes.addShaped(<pneumaticcraft:vacuum_pump>, [[<pneumaticcraft:pressure_gauge>, <pneumaticcraft:turbine_rotor>, <pneumaticcraft:pressure_gauge>],[<pneumaticcraft:pressure_tube>, <immersiveengineering:material:26>, <pneumaticcraft:pressure_tube>], [<minecraft:stone_slab:3>, <minecraft:stone_slab:3>, <minecraft:stone_slab:3>]]);
+recipes.addShaped(<pneumaticcraft:plastic_mixer>, [[<immersiveengineering:metal:38>, <ore:paneGlass>, <immersiveengineering:metal:38>],[<ore:paneGlass>, <pneumaticcraft:compressed_iron_gear>, <ore:paneGlass>], [<pneumaticcraft:ingot_iron_compressed>, <immersiveengineering:material:27>, <pneumaticcraft:ingot_iron_compressed>]]);
+recipes.addShaped(<pneumaticcraft:thermopneumatic_processing_plant>, [[<immersiveengineering:metal:38>, <pneumaticcraft:pressure_tube>, <immersiveengineering:metal:38>],[<ore:paneGlass>, <immersiveengineering:material:27>, <ore:paneGlass>], [<immersiveengineering:metal:38>, <pneumaticcraft:compressed_iron_gear>, <immersiveengineering:metal:38>]]);
 recipes.addShapedMirrored(<pneumaticcraft:uv_light_box>, [[<immersiveengineering:toolupgrade:10>, <immersiveengineering:toolupgrade:10>, <immersiveengineering:toolupgrade:10>],[<pneumaticcraft:ingot_iron_compressed>, <pneumaticcraft:pcb_blueprint>, <pneumaticcraft:pressure_tube>], [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <immersiveengineering:metal:38>]]);
 recipes.addShaped(<pneumaticcraft:refinery>, [[<immersiveengineering:metal:38>, <minecraft:glass_pane>, <immersiveengineering:metal:38>],[<pneumaticcraft:compressed_iron_gear>, <immersiveengineering:material:27>, <pneumaticcraft:compressed_iron_gear>], [<immersiveengineering:metal:38>, <minecraft:glass_pane>, <immersiveengineering:metal:38>]]);
 recipes.addShaped(<jecalculation:item_calculator>, [[<pneumaticcraft:plastic:8>, <opencomputers:screen2>, <pneumaticcraft:plastic:8>],[<pneumaticcraft:plastic:8>, <pneumaticcraft:printed_circuit_board>, <pneumaticcraft:plastic:8>], [<pneumaticcraft:plastic:8>, <opencomputers:material:16>, <pneumaticcraft:plastic:8>]]);
