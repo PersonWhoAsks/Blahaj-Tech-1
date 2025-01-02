@@ -21,24 +21,26 @@
 		}]
 	}],
 	rewards: [{
-		uid: "13a26dd2",
+		uid: "cf138d53",
 		type: "item",
 		item: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "tconstruct:slime_boots",
-			tag: {}
+			tag: {},
+			Damage: 5s
 		}
 	},
 	{
-		uid: "5ecb3534",
+		uid: "10959d84",
 		type: "item",
 		item: {
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "tconstruct:slimesling"
+			id: "tconstruct:slimesling",
+			Damage: 5s
 		}
 	}]
 }

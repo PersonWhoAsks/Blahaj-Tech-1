@@ -38,23 +38,8 @@ function erase(item as IItemStack) {
         oreEntry = entry;
         oreEntry.remove(item);
     }
-
-    print("ERASED: "+ item.displayName);
+    
     removeAndHide(item);
-}
-
-val categoriesToHide = [
-    "thermalexpansion.furnace",
-    "thermalexpansion.furnace_food",
-    "thermalexpansion.furnace_ore",
-    "thermalexpansion.furnace_pyrolysis",
-    "thermalexpansion.factorizer_combine",
-    "thermalexpansion.factorizer_split",
-    "thermalexpansion.smelter",
-    "thermalexpansion.smelter_pyrotheum"
-] as string[];
-for str in categoriesToHide {
-    mods.jei.JEI.hideCategory(str);
 }
 
 val thingsToErase = [
@@ -121,12 +106,12 @@ val thingsToErase = [
     <tconstruct:fancy_frame:1>,
 
     // Tools
-    <immersiveengineering:sword_steel>,
     <minecraft:golden_sword>,
     <minecraft:diamond_sword>,
     <minecraft:stone_sword>,
     <minecraft:wooden_sword>,
     <minecraft:iron_sword>,
+    <immersiveengineering:sword_steel>,
     <minecraft:iron_shovel>,
     <minecraft:wooden_shovel>,
     <minecraft:stone_shovel>,
@@ -160,9 +145,6 @@ for thing in thingsToErase {
     erase(thing);
 }
 val thingsToUnify = [
-
-    // Charcoal
-    <thermalfoundation:storage_resource>,  // blockCharcoal
     
     // Coke
     <immersiveengineering:material:6>,          // fuelCoke
@@ -171,64 +153,11 @@ val thingsToUnify = [
     // Iron
     <minecraft:iron_nugget>,            // nuggetIron
     <immersiveengineering:metal:18>,    // dustIron
-    <immersiveengineering:material:1>,  // stickIron
     <immersiveengineering:metal:39>,    // plateIron
 
     // Gold
     <immersiveengineering:metal:19>,    // dustGold
     <immersiveengineering:metal:40>,    // plateGold
-
-    // Diamond
-    <mekanism:otherdust>,               // dustDiamond
-
-    // Aluminum
-    <immersiveengineering:ore:1>,       // oreAluminum
-    <immersiveengineering:metal:1>,     // ingotAluminum
-    <immersiveengineering:storage:1>,   // blockAluminum
-    <immersiveengineering:metal:21>,    // nuggetAluminum
-    <immersiveengineering:metal:10>,    // dustAluminum
-    <immersiveengineering:metal:31>,    // plateAluminum
-
-    // Copper
-    <immersiveengineering:ore>,         // oreCopper
-    <immersiveengineering:metal>,       // ingotCopper
-    <immersiveengineering:storage>,     // blockCopper
-    <immersiveengineering:metal:20>,    // nuggetCopper
-    <immersiveengineering:metal:9>,     // dustCopper
-    <immersiveengineering:metal:30>,    // plateCopper
-
-    // Lead
-    <immersiveengineering:ore:2>,       // oreLead
-    <immersiveengineering:metal:2>,     // ingotLead
-    <immersiveengineering:storage:2>,   // blockLead
-    <immersiveengineering:metal:22>,    // nuggetLead
-    <immersiveengineering:metal:11>,    // dustLead          
-    <immersiveengineering:metal:32>,    // plateLead
-
-    // Nickel
-    <immersiveengineering:ore:4>,       // oreNickel
-    <immersiveengineering:metal:4>,     // ingotNickel
-    <immersiveengineering:storage:4>,   // blockNickel
-    <immersiveengineering:metal:24>,    // nuggetNickel
-    <immersiveengineering:metal:13>,    // dustNickel
-    <immersiveengineering:metal:34>,    // plateNickel
-
-    // Silver
-    <immersiveengineering:ore:3>,       // oreSilver
-    <immersiveengineering:metal:3>,     // ingotSilver
-    <immersiveengineering:storage:3>,   // blockSilver
-    <immersiveengineering:metal:23>,    // nuggetSilver
-    <immersiveengineering:metal:12>,    // dustSilver
-    <immersiveengineering:metal:33>,    // plateSilver
-
-    // Steel
-    <immersiveengineering:metal:8>,     // ingotSteel
-    <immersiveengineering:storage:8>,   // blockSteel
-    <immersiveengineering:metal:28>,    // nuggetSteel
-    <immersiveengineering:material:2>,  // stickSteel
-    <immersiveengineering:metal:17>,    // dustSteel
-    <immersiveengineering:metal:38>,    // plateSteel
-    <thermalfoundation:material:288>,   // gearSteel
 
     // Tin
     <thermalfoundation:ore:1>,          // oreTin
@@ -238,15 +167,52 @@ val thingsToUnify = [
     <thermalfoundation:material:65>,    // dustTin
     <thermalfoundation:material:321>,   // plateTin
 
-    // Uranium
-    <immersiveengineering:ore:5>,       // oreUranium
-    <immersiveengineering:metal:5>,     // ingotUranium
-    <immersiveengineering:storage:5>,   // blockUranium
-    <immersiveengineering:metal:14>,    // dustUranium
+    // Copper
+    <immersiveengineering:ore>,         // oreCopper
+    <immersiveengineering:metal>,       // ingotCopper
+    <immersiveengineering:storage>,     // blockCopper
+    <immersiveengineering:metal:20>,    // nuggetCopper
+    <immersiveengineering:metal:9>,     // dustCopper
+    <immersiveengineering:metal:30>,    // plateCopper
 
-    // Osmium
-    <mekanism:dust:2>,      // dustOsmium
-    <mekanism:ingot:1>,     // ingotOsmium
+    // Aluminum
+    <immersiveengineering:ore:1>,       // oreAluminum
+    <immersiveengineering:metal:1>,     // ingotAluminum
+    <immersiveengineering:storage:1>,   // blockAluminum
+    <immersiveengineering:metal:21>,    // nuggetAluminum
+    <immersiveengineering:metal:10>,    // dustAluminum
+    <immersiveengineering:metal:31>,    // plateAluminum
+
+    // Lead
+    <immersiveengineering:ore:2>,       // oreLead
+    <immersiveengineering:metal:2>,     // ingotLead
+    <immersiveengineering:storage:2>,   // blockLead
+    <immersiveengineering:metal:22>,    // nuggetLead
+    <immersiveengineering:metal:11>,    // dustLead          
+    <immersiveengineering:metal:32>,    // plateLead
+
+    // Silver
+    <immersiveengineering:ore:3>,       // oreSilver
+    <immersiveengineering:metal:3>,     // ingotSilver
+    <immersiveengineering:storage:3>,   // blockSilver
+    <immersiveengineering:metal:23>,    // nuggetSilver
+    <immersiveengineering:metal:12>,    // dustSilver
+    <immersiveengineering:metal:33>,    // plateSilver
+
+    // Nickel
+    <immersiveengineering:ore:4>,       // oreNickel
+    <immersiveengineering:metal:4>,     // ingotNickel
+    <immersiveengineering:storage:4>,   // blockNickel
+    <immersiveengineering:metal:24>,    // nuggetNickel
+    <immersiveengineering:metal:13>,    // dustNickel
+    <immersiveengineering:metal:34>,    // plateNickel
+
+    // Steel
+    <immersiveengineering:metal:8>,     // ingotSteel
+    <immersiveengineering:storage:8>,   // blockSteel
+    <immersiveengineering:metal:28>,    // nuggetSteel
+    <immersiveengineering:metal:17>,    // dustSteel
+    <immersiveengineering:metal:38>,    // plateSteel
 
     // Constantan
     <immersiveengineering:storage:6>,   // blockConstantan
@@ -263,9 +229,7 @@ val thingsToUnify = [
     <immersiveengineering:metal:37>,    // plateConstantan
 
     // Bronze
-    <thermalfoundation:storage_alloy:3>,    // blockBronze
-    <thermalfoundation:material:163>,       // ingotBronze
-    <thermalfoundation:material:227>,       // nuggetBronze
+    <thermalfoundation:material:163>,   // ingotBronze
 
     // Iridium
     <thermalfoundation:material:71>,    // dustIridium

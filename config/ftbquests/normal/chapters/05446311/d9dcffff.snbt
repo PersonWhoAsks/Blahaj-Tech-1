@@ -1,15 +1,16 @@
 {
-	title: "Tier 2 Seeds",
-	x: 0.0d,
+	title: "Tier 3 Seeds",
+	x: 2.0d,
 	y: 1.5d,
 	tasks: [{
-		uid: "eab1889f",
+		uid: "b48454ba",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "astralsorcery:blockaltar"
+			id: "astralsorcery:blockaltar",
+			Damage: 1s
 		}],
 		ignore_nbt: 1b
 	}]

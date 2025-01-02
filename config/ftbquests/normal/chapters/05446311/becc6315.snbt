@@ -1,4 +1,5 @@
 {
+	icon: "pneumaticcraft:plastic",
 	x: 0.0d,
 	y: 0.0d,
 	dependencies: [
