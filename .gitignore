@@ -1,6 +1,6 @@
-VersionChecker.cfg
-CustomRecipes.cfg
-bookmarks.ini
-worldSettings.cfg
-splash.properties
-tails.cfg
+**/VersionChecker.cfg
+**/CustomRecipes.cfg
+**/bookmarks.ini
+**/worldSettings.cfg
+**/splash.properties
+**/tails.cfg
