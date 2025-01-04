@@ -1,7 +1,10 @@
 {
 	title: "Tier 2 Seeds",
-	x: 0.0d,
-	y: 1.5d,
+	x: 3.0d,
+	y: -4.5d,
+	dependencies: [
+		"becc6315"
+	],
 	tasks: [{
 		uid: "eab1889f",
 		type: "item",

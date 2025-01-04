@@ -1,7 +1,10 @@
 {
 	title: "Tier 4 Seeds",
-	x: 4.0d,
+	x: 3.0d,
 	y: 1.5d,
+	dependencies: [
+		"fa1beb1a"
+	],
 	tasks: [{
 		uid: "2b30a4d1",
 		type: "item",

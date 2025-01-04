@@ -139,7 +139,12 @@ val thingsToErase = [
     <minecraft:iron_hoe>,
     <minecraft:diamond_hoe>,
     <minecraft:golden_hoe>,
-    <immersiveengineering:hoe_steel>
+    <immersiveengineering:hoe_steel>,
+
+    // Dense ores
+    <densemetals:dense_iridium_ore>,
+    <densemetals:dense_mithril_ore>,
+    <densemetals:dense_platinum_ore>
 ] as IItemStack[];
 for thing in thingsToErase {
     erase(thing);
@@ -240,13 +245,16 @@ val thingsToUnify = [
     <thermalfoundation:material:134>,   // ingotPlatinum
 
     // Niter
-    <thermalfoundation:material:772>,    // dustSaltpeter
+    <thermalfoundation:material:772>,   // dustSaltpeter
 
     // Quartz
     <nuclearcraft:gem_dust:2>,  // dustQuartz, dustNetherQuartz
 
     // Slag
-    <immersiveengineering:material:7>  // crystalSlag, itemSlag
+    <immersiveengineering:material:7>,  // crystalSlag, itemSlag
+
+    // Silicon
+    <nuclearcraft:gem:6>   // itemSilicon 
 ] as IItemStack[];
 for thing in thingsToUnify {
     unify(thing);

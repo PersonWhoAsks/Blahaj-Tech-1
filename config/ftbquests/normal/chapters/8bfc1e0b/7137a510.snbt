@@ -1,20 +1,17 @@
 {
-	title: "Tier 5 Seeds",
 	x: 0.0d,
-	y: -1.5d,
-	dependencies: [
-		"342894ce"
-	],
+	y: 0.0d,
+	size: 4.0d,
 	tasks: [{
-		uid: "9cb6b000",
+		uid: "75eca74c",
 		type: "item",
 		items: [{
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "astralsorcery:blockaltar",
-			Damage: 3s
+			id: "blahaj:blue_shark"
 		}],
+		ignore_damage: true,
 		ignore_nbt: 1b
 	}]
 }

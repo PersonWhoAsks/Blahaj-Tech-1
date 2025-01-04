@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	dependencies: [
+		"9faad522"
+	],
+	tasks: [{
+		uid: "8ccc22db",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:starmetal_seeds"
+		}]
+	}]
+}

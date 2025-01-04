@@ -66,6 +66,12 @@ mods.qmd.mass_spectrometer.removeRecipeWithInput(null, <liquid:sulfuric_acid>*10
 mods.qmd.mass_spectrometer.addRecipe(null, <liquid:sulfuric_acid>*1000,
 null, null, <thermalfoundation:material:771>, null, <liquid:hydrogen>*1000, <liquid:oxygen>*2000, null, null, 1.0);
 
+// Uniting itemSilicon
+furnace.remove(<appliedenergistics2:material:5>, <appliedenergistics2:material:2>);
+furnace.remove(<appliedenergistics2:material:5>, <nuclearcraft:gem_dust:2>);
+
+furnace.addRecipe(<nuclearcraft:gem:6>, <appliedenergistics2:material:2>, 0.0);
+furnace.addRecipe(<nuclearcraft:gem:6>, <nuclearcraft:gem_dust:2>, 0.0);
 
 // RECIPES
 // Recipes using slag

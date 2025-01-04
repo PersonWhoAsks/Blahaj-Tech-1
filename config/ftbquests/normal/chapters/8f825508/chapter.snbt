@@ -1,6 +1,11 @@
 {
 	title: "Information",
-	icon: "biomesoplenty:terrarium 1 4",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "blahaj:blue_shark"
+	},
 	disable_toast: true,
 	always_invisible: false,
 	group: 0,

@@ -1,0 +1,11 @@
+{
+	x: 15.0d,
+	y: -6.0d,
+	tasks: [{
+		uid: "fe8bea12",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:berkelium 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"9faad522"
+	],
+	tasks: [{
+		uid: "a62ae79d",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:end_seeds"
+		}]
+	}]
+}

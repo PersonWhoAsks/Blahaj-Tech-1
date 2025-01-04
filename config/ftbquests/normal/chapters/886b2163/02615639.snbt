@@ -1,0 +1,11 @@
+{
+	x: 9.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "695e1dab",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:curium"
+		}]
+	}]
+}

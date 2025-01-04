@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"9bc021a1"
+	],
+	tasks: [{
+		uid: "d8692e6b",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:iridium_seeds"
+		}]
+	}]
+}

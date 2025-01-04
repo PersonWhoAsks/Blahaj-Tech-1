@@ -1,7 +1,10 @@
 {
 	title: "Tier 3 Seeds",
-	x: 2.0d,
-	y: 1.5d,
+	x: 6.0d,
+	y: -1.5d,
+	dependencies: [
+		"15f498e3"
+	],
 	tasks: [{
 		uid: "b48454ba",
 		type: "item",
