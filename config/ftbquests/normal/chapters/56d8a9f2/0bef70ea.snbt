@@ -5,6 +5,7 @@
 		"45170f89",
 		"0eb50c83"
 	],
+	size: 1.2d,
 	tasks: [{
 		uid: "09dffa0e",
 		type: "fluid",

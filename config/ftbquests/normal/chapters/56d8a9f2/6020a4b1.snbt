@@ -6,6 +6,7 @@
 		"2893ae13",
 		"09ace1d9"
 	],
+	size: 1.2d,
 	tasks: [{
 		uid: "a3cc77f6",
 		type: "item",
