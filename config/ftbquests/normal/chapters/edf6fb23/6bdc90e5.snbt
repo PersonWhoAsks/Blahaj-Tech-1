@@ -1,14 +1,14 @@
 {
-	x: 21.5d,
-	y: 0.5d,
+	x: 19.5d,
+	y: 2.0d,
 	dependencies: [
 		"80843130"
 	],
 	tasks: [{
-		uid: "bc0b0c99",
+		uid: "e07fe044",
 		type: "item",
 		items: [{
-			item: "thermaldynamics:duct_0 1 5"
+			item: "compactmachines3:fieldprojector"
 		}]
 	}]
 }

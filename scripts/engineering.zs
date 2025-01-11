@@ -13,13 +13,11 @@ import mods.immersiveengineering.Crusher;
 import mods.immersiveengineering.ArcFurnace;
 import mods.immersiveengineering.BlastFurnace;
 
-import mods.thermalexpansion.Insolator;
 import mods.nuclearcraft.Manufactory;
 import mods.thermalexpansion.Pulverizer;
 
 // Coke
-removeAndHide(<immersiveengineering:material:17>); // Coke dust
-
+scripts.main.erase(<immersiveengineering:material:17>); // Coke dust
 mods.immersiveengineering.Crusher.removeRecipe(<immersiveengineering:material:17>);
 
 mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);

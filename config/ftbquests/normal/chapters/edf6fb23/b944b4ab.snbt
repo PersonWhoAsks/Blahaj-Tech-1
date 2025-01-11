@@ -1,17 +1,17 @@
 {
-	x: 11.5d,
+	x: 23.0d,
 	y: 0.0d,
 	shape: "circle",
 	dependencies: [
-		"37ea4327",
-		"a581d5e3"
+		"2a5a63f7",
+		"dde2bcf3"
 	],
 	size: 1.2d,
 	tasks: [{
-		uid: "a3bf3da7",
+		uid: "591a558e",
 		type: "item",
 		items: [{
-			item: "thermalexpansion:frame 1 130"
+			item: "nuclearcraft:part 1 10"
 		}]
 	}]
 }

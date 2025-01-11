@@ -1,6 +1,12 @@
 {
-	x: 10.0d,
+	x: 15.5d,
 	y: 0.0d,
+	shape: "circle",
+	dependencies: [
+		"75d08ac4",
+		"0db39136"
+	],
+	size: 1.2d,
 	tasks: [{
 		uid: "917a4ff8",
 		type: "item",

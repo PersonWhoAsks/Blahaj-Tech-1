@@ -1,14 +1,14 @@
 {
-	x: 9.5d,
-	y: 0.5d,
+	x: 7.5d,
+	y: -2.0d,
 	dependencies: [
 		"2f250e56"
 	],
 	tasks: [{
-		uid: "90153a79",
+		uid: "2377851d",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:glass 1 3"
+			item: "nuclearcraft:melter"
 		}]
 	}]
 }

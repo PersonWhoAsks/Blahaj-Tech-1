@@ -1,14 +1,14 @@
 {
-	x: 13.5d,
-	y: 0.5d,
+	x: 11.5d,
+	y: -2.0d,
 	dependencies: [
 		"3e8f0d2f"
 	],
 	tasks: [{
-		uid: "7b7ea065",
+		uid: "384e5aa6",
 		type: "item",
 		items: [{
-			item: "thermalfoundation:material 1 165"
+			item: "nuclearcraft:ingot_former"
 		}]
 	}]
 }

@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 2.0d,
+	dependencies: [
+		"23e06708"
+	],
+	tasks: [{
+		uid: "6509dc33",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}]
+}

@@ -70,8 +70,13 @@ val thingsToErase = [
     <thermalexpansion:augment:256>,
     <thermalexpansion:augment:257>,
     <thermalexpansion:augment:258>,
+    <thermalexpansion:augment:273>,
     <thermalexpansion:augment:303>,
     <thermalexpansion:augment:304>,
+    <thermalexpansion:augment:336>,
+    <thermalexpansion:augment:337>,
+    <thermalexpansion:augment:352>,
+    <thermalexpansion:augment:416>,
 
     // Tinkers Construct materials
     <tconstruct:ore>,
@@ -245,6 +250,9 @@ val thingsToUnify = [
 
     // Quartz
     <nuclearcraft:gem_dust:2>,  // dustQuartz, dustNetherQuartz
+
+    // Obsidian
+    <thermalfoundation:material:770>,   // dustObsidian
 
     // Slag
     <immersiveengineering:material:7>,  // crystalSlag, itemSlag
