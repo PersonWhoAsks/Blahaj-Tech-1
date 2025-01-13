@@ -4,7 +4,7 @@
 	shape: "circle",
 	dependencies: [
 		"2a5a63f7",
-		"dde2bcf3"
+		"be757780"
 	],
 	size: 1.2d,
 	tasks: [{

@@ -23,9 +23,6 @@ recipes.addShaped(<immersiveengineering:toolupgrade:4>, [
     [<immersiveengineering:metal:8>, <immersiveengineering:treated_wood:*>]
 ]);
 
-recipes.remove(<thermalexpansion:augment:416>);
-recipes.addShaped(<thermalexpansion:augment:416>, [[null, <thermalfoundation:material:290>, null],[<minecraft:diamond>, <thermalfoundation:material:512>, <minecraft:diamond>], [null, <minecraft:piston>, null]]);
-
 // Remove alloying recipes for all Tinkers' Construct alloys
 val liquidsNoAlloying = [
     <liquid:steel>,
