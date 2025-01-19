@@ -5,10 +5,10 @@
 		"3e8f0d2f"
 	],
 	tasks: [{
-		uid: "384e5aa6",
+		uid: "2b388c8c",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:ingot_former"
+			item: "nuclearcraft:infuser"
 		}]
 	}]
 }

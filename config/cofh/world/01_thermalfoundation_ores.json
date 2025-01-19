@@ -214,27 +214,17 @@
 			}
 		},
 		"iridium": {
-			"enabled": "false",
+			"enabled": "true",
 			"distribution": "uniform",
 			"generator": {
-				"block": [
-					{
-						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "iridium"
-						},
-						"weight": 40
-					},
-					{
-						"name": "thermalfoundation:ore",
-						"properties": {
-							"type": "platinum"
-						},
-						"weight": 60
+				"block": {
+					"name": "thermalfoundation:ore",
+					"properties": {
+						"type": "iridium"
 					}
-				],
+				},
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 2
 			},
 			"cluster-count": 1,
 			"min-height": 5,

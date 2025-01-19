@@ -26,6 +26,21 @@ recipes.addShaped(<immersiveengineering:toolupgrade:4>, [
 // Remove alloying recipes for all Tinkers' Construct alloys
 val liquidsNoAlloying = [
     <liquid:steel>,
+    <liquid:constantan>,
+    <liquid:ferroboron>,
+    <liquid:tough>,
+    <liquid:hard_carbon>,
+    <liquid:lead_platinum>,
+    <liquid:enderium>,
+    <liquid:signalum>,
+    <liquid:lumium>,
+
+    <liquid:unsweetened_chocolate>,
+    <liquid:dark_chocolate>,
+    <liquid:milk_chocolate>,
+    <liquid:hydrated_gelatin>,
+    <liquid:marshmallow>,
+
     <liquid:alubrass>,
     <liquid:electrum>,
     <liquid:bronze>,
