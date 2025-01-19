@@ -11,6 +11,7 @@ import mods.nuclearcraft.AlloyFurnace;
 import mods.qmd.mass_spectrometer;
 import mods.appliedenergistics2.Inscriber;
 import mods.thermalexpansion.Transposer;
+import mods.astralsorcery.Altar;
 
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.Crusher;
@@ -207,6 +208,58 @@ import mods.immersiveengineering.Crusher;
 
     recipes.remove(<thermalfoundation:glass:3>);
     mods.nuclearcraft.AlloyFurnace.addRecipe(<minecraft:glass>, <thermalfoundation:material:770>, <thermalfoundation:glass:3>);
+
+// TIER 3 COMPONENTS RECIPES
+    recipes.remove(<thermalexpansion:frame:130>);
+    recipes.addShaped(<thermalexpansion:frame:130>, [
+        [<immersiveengineering:metal:7>, <thermalfoundation:material:515>, <immersiveengineering:metal:7>],
+        [<thermalfoundation:glass:3>, <thermalexpansion:frame:129>, <thermalfoundation:glass:3>],
+        [<immersiveengineering:metal:7>, <thermalfoundation:material:515>, <immersiveengineering:metal:7>]
+    ]);
+
+    recipes.remove(<thermalexpansion:machine:15>);
+    recipes.addShaped(<thermalexpansion:machine:15>, [
+        [<pneumaticcraft:heat_sink>, <thermalfoundation:glass:3>, <pneumaticcraft:heat_sink>],
+        [<immersiveengineering:metal:7>, <thermalexpansion:frame>, <immersiveengineering:metal:7>],
+        [<thermalfoundation:material:289>, <thermalexpansion:frame:130>, <thermalfoundation:material:289>]
+    ]);
+
+    recipes.remove(<thermalexpansion:machine:4>);
+    recipes.addShaped(<thermalexpansion:machine:4>, [
+        [<thermalfoundation:glass:3>, <thermalfoundation:material:515>, <thermalfoundation:glass:3>],
+        [<ore:dirt>, <thermalexpansion:frame>, <ore:dirt>],
+        [<thermalfoundation:material:289>, <thermalexpansion:frame:130>, <thermalfoundation:material:289>]
+    ]);
+
+    recipes.remove(<nuclearcraft:infuser>);
+    recipes.addShaped(<nuclearcraft:infuser>, [
+        [<nuclearcraft:part:1>, <pneumaticcraft:liquid_hopper>, <nuclearcraft:part:1>],
+        [<immersiveengineering:material:26>, <thermalexpansion:frame:130>, <immersiveengineering:material:26>],
+        [<nuclearcraft:part:1>, <nuclearcraft:part:7>, <nuclearcraft:part:1>]
+    ]);
+
+    recipes.remove(<thermalexpansion:device:4>);
+    recipes.addShaped(<thermalexpansion:device:4>, [
+        [<minecraft:iron_bars>, <minecraft:fishing_rod>, <minecraft:iron_bars>],
+        [<immersiveengineering:metal:7>, <thermalexpansion:frame:64>, <immersiveengineering:metal:7>],
+        [<thermalfoundation:material:289>, <thermalexpansion:frame:130>, <thermalfoundation:material:289>]
+    ]);
+
+    recipes.remove(<thermalexpansion:device:9>);
+    recipes.addShaped(<thermalexpansion:device:9>, [
+        [<thermalfoundation:glass:3>, <minecraft:dispenser>, <thermalfoundation:glass:3>],
+        [<immersiveengineering:metal:7>, <thermalexpansion:frame:64>, <immersiveengineering:metal:7>],
+        [<thermalfoundation:material:289>, <thermalexpansion:frame:130>, <thermalfoundation:material:289>]
+    ]);
+
+    mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2");
+    mods.astralsorcery.Altar.addDiscoveryAltarRecipe("mypack:shaped/internal/altar/attunementAltar", <astralsorcery:blockaltar:1>, 800, 800, [
+        <astralsorcery:blockmarble:2>, <astralsorcery:itemtunedcelestialcrystal> | <astralsorcery:itemtunedrockcrystal>, <astralsorcery:blockmarble:2>,
+        <astralsorcery:blockmarble:4>, <liquid:astralsorcery.liquidstarlight>, <astralsorcery:blockmarble:4>,
+        <astralsorcery:blockmarble:2>, <thermalexpansion:frame:130>, <astralsorcery:blockmarble:2>
+    ]);
+
+    recipes.remove(<thermalfoundation:material:101>);
 
 // RECIPES
     // Recipes using slag

@@ -53,6 +53,9 @@ for liquid in liquidsNoAlloying {
     mods.tconstruct.Alloy.removeRecipe(liquid);
 }
 
+// Making sure constantan can't be alloyed
+mods.tconstruct.Alloy.removeRecipe(<liquid:constantan>, [<liquid:copper>, <liquid:nickel>]);
+
 // Remove casting recipes for all Aluminium Brass casts
 val castsNoAlubrass = [
     <tconstruct:cast>,
