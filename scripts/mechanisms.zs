@@ -261,6 +261,69 @@ import mods.immersiveengineering.Crusher;
 
     recipes.remove(<thermalfoundation:material:101>);
 
+// TIER 4 COMPONENTS RECIPES
+recipes.remove(<thermalexpansion:frame:131>);
+recipes.addShaped(<thermalexpansion:frame:131>, [
+    [<nuclearcraft:part:1>, <thermalfoundation:material:165>, <nuclearcraft:part:1>],
+    [<thermalfoundation:material:165>, <thermalexpansion:frame:146>, <thermalfoundation:material:165>],
+    [<nuclearcraft:part:1>, <thermalfoundation:material:165>, <nuclearcraft:part:1>]
+]);
+
+recipes.remove(<thermalexpansion:machine:9>);
+recipes.addShaped(<thermalexpansion:machine:9>, [
+    [<thermalfoundation:material:514>, <thermalfoundation:material:293>, <thermalfoundation:material:514>],
+    [<immersiveengineering:metal_decoration0:2>, <thermalexpansion:frame>, <immersiveengineering:metal_decoration0:2>],
+    [<thermalfoundation:material:294>, <thermalexpansion:frame:131>, <thermalfoundation:material:294>]
+]);
+
+recipes.remove(<thermalexpansion:machine:7>);
+recipes.addShaped(<thermalexpansion:machine:7>, [
+    [<immersiveengineering:metal:38>, <pneumaticcraft:compressed_iron_gear>, <immersiveengineering:metal:38>],
+    [<thermalfoundation:glass:3>, <thermalexpansion:frame>, <thermalfoundation:glass:3>],
+    [<thermalfoundation:material:292>, <thermalexpansion:frame:131>, <thermalfoundation:material:292>]
+]);
+
+recipes.remove(<nuclearcraft:melter>);
+recipes.addShaped(<nuclearcraft:melter>, [
+    [<nuclearcraft:part:1>, <immersiveengineering:material:9>, <nuclearcraft:part:1>],
+    [<immersiveengineering:metal_decoration0:1>, <thermalexpansion:frame:131>, <immersiveengineering:metal_decoration0:1>],
+    [<nuclearcraft:part:1>, <nuclearcraft:part:7>, <nuclearcraft:part:1>]
+]);
+
+recipes.remove(<thermalexpansion:device:3>);
+recipes.addShaped(<thermalexpansion:device:3>, [
+    [<immersiveengineering:material:9>, <immersiveengineering:material:26>, <immersiveengineering:material:9>],
+    [<immersiveengineering:metal>, <thermalexpansion:frame:64>, <immersiveengineering:metal>],
+    [<thermalfoundation:material:291>, <thermalexpansion:frame:131>, <thermalfoundation:material:291>]
+]);
+
+recipes.remove(<thermalexpansion:device:2>);
+recipes.addShaped(<thermalexpansion:device:2>, [
+    [<immersiveengineering:material:9>, <immersiveengineering:metal_decoration0:2>, <immersiveengineering:material:9>],
+    [<thermalfoundation:material:513>, <thermalexpansion:frame:64>, <thermalfoundation:material:513>],
+    [<thermalfoundation:material:261>, <thermalexpansion:frame:131>, <thermalfoundation:material:261>]
+]);
+
+recipes.remove(<compactmachines3:fieldprojector>);
+recipes.addShaped(<compactmachines3:fieldprojector> * 4, [
+    [null, <opencomputers:hologram1>, null],
+    [null, <compactmachines3:psd>, null],
+    [<appliedenergistics2:sky_stone_brick>, <thermalexpansion:frame:131>, <appliedenergistics2:sky_stone_brick>]
+]);
+
+recipes.remove(<compactmachines3:psd>);
+recipes.addShaped(<compactmachines3:psd>, [
+    [<immersiveengineering:metal:39>, <appliedenergistics2:material:12>, <immersiveengineering:metal:39>],
+    [<immersiveengineering:metal:39>, <opencomputers:screen1>, <immersiveengineering:metal:39>],
+    [<immersiveengineering:metal:39>, <pneumaticcraft:printed_circuit_board>, <immersiveengineering:metal:39>]
+]);
+
+recipes.remove(<thermalexpansion:frame:147>);
+mods.thermalexpansion.Transposer.removeFillRecipe(<thermalexpansion:frame:131>, <liquid:redstone> * 4000);
+mods.thermalexpansion.Transposer.addFillRecipe(<thermalexpansion:frame:147>, <thermalexpansion:frame:131>, <liquid:redstone> * 8000, 32000);
+
+recipes.remove(<thermalfoundation:material:103>);
+
 // RECIPES
     // Recipes using slag
     furnace.remove(<thermalfoundation:rockwool:7>, <thermalfoundation:material:864>);

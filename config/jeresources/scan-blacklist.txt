@@ -55,6 +55,10 @@ minecraft:bone_block
 minecraft:glass
 minecraft:obsidian
 minecraft:wooden_button
+minecraft:skull
+minecraft:snow
+minecraft:packed_ice
+minecraft:snow_layer
 biomesoplenty:mud
 biomesoplenty:flower_0
 biomesoplenty:flower_1
@@ -103,6 +107,7 @@ quark:smoker
 quark:netherrack_speleothem
 quark:andesite_speleothem
 quark:blaze_lantern
+quark:biome_cobblestone:1
 quark:biome_cobblestone:2
 tconstruct:slime_congealed:4
 tconstruct:slime_leaves:2
@@ -115,6 +120,7 @@ nuclearcraft:wasteland_earth
 nuclearcraft:glowing_mushroom
 astralsorcery:blockmarble
 astralsorcery:blockmarblestairs
+astralsorcery:blockcollectorcrystal
 appliedenergistics2:matrix_frame
 appliedenergistics2:sky_stone_block
 mysticalagriculture:soulstone
