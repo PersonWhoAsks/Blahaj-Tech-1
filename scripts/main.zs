@@ -6,18 +6,15 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 import mods.jei.JEI.removeAndHide;
-import mods.jei.JEI.hideCategory;
 import mods.jei.JEI;
 
 // looks for items with the same ore dict, and removes their ore dicts and removes & hides them from JEI
 function unify(pref as IItemStack) {
-    var oreEntry as IOreDictEntry = null;
-
     for entry in pref.ores {
-        oreEntry = entry;
+        var oreEntry = entry as IOreDictEntry;
         for item in oreEntry.items {
             if (item.name != pref.name) {
-                val st = furnace.getSmeltingResult(item);
+                var st = furnace.getSmeltingResult(item);
                 if (isNull(st) == false) {
                     furnace.remove(st, item);
                 }
@@ -31,11 +28,8 @@ function unify(pref as IItemStack) {
 
 // Removes item's ore dictionary, and removes and hides it from JEI
 function erase(item as IItemStack) {
-    var oreEntry as IOreDictEntry = null;
-
-    // Loops through item's ore dictionaries and removes them
     for entry in item.ores {
-        oreEntry = entry;
+        var oreEntry = entry as IOreDictEntry;
         oreEntry.remove(item);
     }
     
@@ -44,6 +38,7 @@ function erase(item as IItemStack) {
 
 val thingsToErase = [
     <thermalfoundation:material:865>,   // Rich Slag
+    <thermalfoundation:geode>,          // Geode
 
     // Thermal Foundation's Mithril
     <thermalfoundation:ore:8>,
@@ -155,6 +150,9 @@ val thingsToUnify = [
     // Coke
     <immersiveengineering:material:6>,          // fuelCoke
     <immersiveengineering:stone_decoration:3>,  // blockFuelCoke
+
+    // Coal
+    <thermalfoundation:material:768>,   // dustCoal
 
     // Iron
     <minecraft:iron_nugget>,            // nuggetIron

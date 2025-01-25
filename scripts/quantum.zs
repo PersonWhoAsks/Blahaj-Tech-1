@@ -1,3 +1,5 @@
+#norun
+
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
