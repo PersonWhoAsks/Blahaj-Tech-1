@@ -1,5 +1,12 @@
 {
 	version: 9,
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "blahaj:blue_shark"
+	},
+	disable_toast: true,
 	default_reward_team: false,
 	default_consume_items: false,
 	default_autoclaim_rewards: "disabled",

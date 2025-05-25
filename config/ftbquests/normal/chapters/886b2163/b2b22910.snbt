@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: 1.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5d048c53"
+	],
+	tasks: [{
+		uid: "66060e58",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:separator"
+		}]
+	}]
+}

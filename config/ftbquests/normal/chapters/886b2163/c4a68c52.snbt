@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 5.5d,
+	shape: "octagon",
+	dependencies: [
+		"21245426"
+	],
+	tasks: [{
+		uid: "0bd80d1b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:radaway_slow"
+		}]
+	}]
+}

@@ -1,6 +1,10 @@
 {
+	icon: "nuclearcraft:neptunium 1 5",
 	x: 3.0d,
 	y: 0.0d,
+	dependencies: [
+		"589d1ec0"
+	],
 	tasks: [{
 		uid: "0ceee24a",
 		type: "checkmark"

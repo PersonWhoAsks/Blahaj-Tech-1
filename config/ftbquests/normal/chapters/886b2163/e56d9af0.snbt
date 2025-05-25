@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -5.5d,
+	shape: "octagon",
+	dependencies: [
+		"a4a84afd"
+	],
+	tasks: [{
+		uid: "2dbbe8cc",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:upgrade 1 1"
+		}]
+	}]
+}

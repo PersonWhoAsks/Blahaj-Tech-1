@@ -1,0 +1,16 @@
+{
+	x: 1.5d,
+	y: 5.5d,
+	shape: "octagon",
+	dependencies: [
+		"932b4081",
+		"6793989d"
+	],
+	tasks: [{
+		uid: "2fa97255",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_shielding 1 2"
+		}]
+	}]
+}

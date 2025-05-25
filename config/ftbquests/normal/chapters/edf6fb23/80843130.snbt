@@ -13,5 +13,10 @@
 		items: [{
 			item: "thermalexpansion:frame 1 132"
 		}]
+	}],
+	rewards: [{
+		uid: "7692550a",
+		type: "item",
+		item: "nuclearcraft:portable_ender_chest"
 	}]
 }

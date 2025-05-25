@@ -1,11 +1,24 @@
 {
-	x: 13.5d,
-	y: -4.5d,
+	x: 6.5d,
+	y: -0.5d,
+	dependencies: [
+		"dfd993de"
+	],
 	tasks: [{
 		uid: "05269964",
 		type: "item",
+		title: "Americium-241",
 		items: [{
 			item: "nuclearcraft:americium"
+		},
+		{
+			item: "nuclearcraft:americium 1 2"
+		},
+		{
+			item: "nuclearcraft:americium 1 3"
+		},
+		{
+			item: "nuclearcraft:americium 1 4"
 		}]
 	}]
 }

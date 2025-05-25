@@ -1,0 +1,23 @@
+{
+	x: 7.0d,
+	y: -3.0d,
+	shape: "octagon",
+	dependencies: [
+		"aaebdaca"
+	],
+	tasks: [{
+		uid: "385fd9a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

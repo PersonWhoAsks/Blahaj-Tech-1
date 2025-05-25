@@ -1,0 +1,15 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5d048c53"
+	],
+	tasks: [{
+		uid: "76c86344",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:graham_cracker"
+		}]
+	}]
+}

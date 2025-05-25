@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5d048c53"
+	],
+	tasks: [{
+		uid: "1bbf9cf8",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rock_crusher"
+		}]
+	}]
+}

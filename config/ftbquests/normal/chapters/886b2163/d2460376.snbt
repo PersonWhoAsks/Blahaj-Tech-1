@@ -1,0 +1,21 @@
+{
+	x: -7.8d,
+	y: -1.2d,
+	shape: "octagon",
+	dependencies: [
+		"1eac2059"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "97589964",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:moresmore"
+		}]
+	}],
+	rewards: [{
+		uid: "85c3f6bb",
+		type: "item",
+		item: "nuclearcraft:dominos"
+	}]
+}

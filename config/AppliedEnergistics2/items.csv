@@ -1547,6 +1547,18 @@ nuclearcraft:ingot_block:12, Aluminum Block
 nuclearcraft:ingot_block:13, Silver Block
 nuclearcraft:ingot_block:14, Manganese Oxide Block
 nuclearcraft:ingot_block:15, Manganese Dioxide Block
+nuclearcraft:ingot_block2:0, Zirconia Block
+nuclearcraft:ingot_block2:1, Palladium Block
+nuclearcraft:ingot_block2:2, Tin Oxide Block
+nuclearcraft:ingot_block2:3, Nickel Oxide Block
+nuclearcraft:ingot_block2:4, Cobalt Oxide Block
+nuclearcraft:ingot_block2:5, Ruthenium Oxide Block
+nuclearcraft:ingot_block2:6, Iridium Oxide Block
+nuclearcraft:material_block:0, Molybdenum Block
+nuclearcraft:material_block:1, Copper Oxide Block
+nuclearcraft:material_block:2, Cobalt Block
+nuclearcraft:material_block:3, Nickel Block
+nuclearcraft:material_block:4, Platinum Block
 nuclearcraft:fertile_isotope:0, Uranium-238 Block
 nuclearcraft:fertile_isotope:1, Neptunium-237 Block
 nuclearcraft:fertile_isotope:2, Plutonium-242 Block
@@ -1577,6 +1589,30 @@ nuclearcraft:extractor, Fluid Extractor
 nuclearcraft:centrifuge, Centrifuge
 nuclearcraft:rock_crusher, Rock Crusher
 nuclearcraft:machine_interface, Machine Interface
+nuclearcraft:machine_frame, Large Machine Casing
+nuclearcraft:machine_glass, Large Machine Glass
+nuclearcraft:machine_power_port, Large Machine Power Port
+nuclearcraft:machine_process_port, Large Machine Process Port
+nuclearcraft:machine_reservoir_port, Large Machine Reservoir Port
+nuclearcraft:machine_redstone_port, Large Machine Redstone Port
+nuclearcraft:machine_computer_port, Large Machine Computer Port
+nuclearcraft:machine_diaphragm:0, Sintered Steel Diaphragm
+nuclearcraft:machine_diaphragm:1, Polyethersulfone Diaphragm
+nuclearcraft:machine_diaphragm:2, Zirfon Diaphragm
+nuclearcraft:machine_sieve_assembly:0, Steel Sieve Assembly
+nuclearcraft:machine_sieve_assembly:1, Polytetrafluoroethene Sieve Assembly
+nuclearcraft:machine_sieve_assembly:2, Hastelloy Sieve Assembly
+nuclearcraft:electrolyzer_controller, Electrolyzer Controller
+nuclearcraft:electrolyzer_cathode_terminal, Electrolyzer Cathode Terminal
+nuclearcraft:electrolyzer_anode_terminal, Electrolyzer Anode Terminal
+nuclearcraft:distiller_controller, Distiller Controller
+nuclearcraft:distiller_sieve_tray, Distiller Sieve Tray
+nuclearcraft:distiller_reflux_unit, Distiller Reflux Unit
+nuclearcraft:distiller_reboiling_unit, Distiller Reboiling Unit
+nuclearcraft:distiller_liquid_distributor, Distiller Liquid Distributor
+nuclearcraft:infiltrator_controller, Infiltrator Controller
+nuclearcraft:infiltrator_pressure_chamber, Infiltrator Pressure Chamber
+nuclearcraft:infiltrator_heating_unit, Infiltrator Heating Unit
 nuclearcraft:rtg_uranium, Uranium RTG
 nuclearcraft:rtg_plutonium, Plutonium RTG
 nuclearcraft:rtg_americium, Americium RTG
@@ -1714,15 +1750,16 @@ nuclearcraft:salt_fission_heater2:12, Liquid Nitrogen Fission Coolant Heater
 nuclearcraft:salt_fission_heater2:13, Liquid Helium Fission Coolant Heater
 nuclearcraft:salt_fission_heater2:14, Enderium Fission Coolant Heater
 nuclearcraft:salt_fission_heater2:15, Cryotheum Fission Coolant Heater
-nuclearcraft:heat_exchanger_controller, Heat Exchanger Controller (MULTIBLOCK BROKEN!)
-nuclearcraft:heat_exchanger_casing, Heat Exchanger Shell
+nuclearcraft:heat_exchanger_controller, Heat Exchanger Controller (WIP)
+nuclearcraft:heat_exchanger_casing, Heat Exchanger Casing
 nuclearcraft:heat_exchanger_glass, Heat Exchanger Glass
 nuclearcraft:heat_exchanger_vent, Heat Exchanger Vent
 nuclearcraft:heat_exchanger_tube_copper, Copper Heat Exchanger Tube
 nuclearcraft:heat_exchanger_tube_hard_carbon, Hard Carbon Heat Exchanger Tube
 nuclearcraft:heat_exchanger_tube_thermoconducting, Thermoconducting Alloy Heat Exchanger Tube
+nuclearcraft:heat_exchanger_redstone_port, Heat Exchanger Redstone Port
 nuclearcraft:heat_exchanger_computer_port, Heat Exchanger Computer Port
-nuclearcraft:condenser_controller, Condenser Controller (MULTIBLOCK BROKEN!)
+nuclearcraft:condenser_controller, Condenser Controller (WIP)
 nuclearcraft:condenser_tube_copper, Copper Condensation Tube
 nuclearcraft:condenser_tube_hard_carbon, Hard Carbon Condensation Tube
 nuclearcraft:condenser_tube_thermoconducting, Thermoconducting Alloy Condensation Tube
@@ -1744,6 +1781,7 @@ nuclearcraft:turbine_dynamo_coil:5, Silver Turbine Dynamo Coil
 nuclearcraft:turbine_coil_connector, Turbine Dynamo Coil Connector
 nuclearcraft:turbine_inlet, Turbine Fluid Inlet
 nuclearcraft:turbine_outlet, Turbine Fluid Outlet
+nuclearcraft:turbine_redstone_port, Turbine Redstone Port
 nuclearcraft:turbine_computer_port, Turbine Computer Port
 nuclearcraft:cobblestone_generator, Cobblestone Generator
 nuclearcraft:cobblestone_generator_compact, Compact Cobblestone Generator
@@ -1809,6 +1847,13 @@ nuclearcraft:ingot:12, Aluminum Ingot
 nuclearcraft:ingot:13, Silver Ingot
 nuclearcraft:ingot:14, Manganese Oxide Ingot
 nuclearcraft:ingot:15, Manganese Dioxide Ingot
+nuclearcraft:ingot2:0, Zirconia Ingot
+nuclearcraft:ingot2:1, Palladium Ingot
+nuclearcraft:ingot2:2, Tin Oxide Ingot
+nuclearcraft:ingot2:3, Nickel Oxide Ingot
+nuclearcraft:ingot2:4, Cobalt Oxide Ingot
+nuclearcraft:ingot2:5, Ruthenium Oxide Ingot
+nuclearcraft:ingot2:6, Iridium Oxide Ingot
 nuclearcraft:dust:0, Copper Dust
 nuclearcraft:dust:1, Tin Dust
 nuclearcraft:dust:2, Lead Dust
@@ -1825,6 +1870,13 @@ nuclearcraft:dust:12, Aluminum Dust
 nuclearcraft:dust:13, Silver Dust
 nuclearcraft:dust:14, Manganese Oxide Dust
 nuclearcraft:dust:15, Manganese Dioxide Dust
+nuclearcraft:dust2:0, Zirconia Dust
+nuclearcraft:dust2:1, Palladium Dust
+nuclearcraft:dust2:2, Tin Oxide Dust
+nuclearcraft:dust2:3, Nickel Oxide Dust
+nuclearcraft:dust2:4, Cobalt Oxide Dust
+nuclearcraft:dust2:5, Ruthenium Oxide Dust
+nuclearcraft:dust2:6, Iridium Oxide Dust
 nuclearcraft:gem:0, Rhodochrosite
 nuclearcraft:gem:1, Cubic Boron Nitride
 nuclearcraft:gem:2, Fluorite
@@ -1861,6 +1913,7 @@ nuclearcraft:alloy:13, Silicon Carbide Ingot
 nuclearcraft:alloy:14, SiC-SiC Ceramic Matrix Composite Ingot
 nuclearcraft:alloy:15, HSLA Steel Ingot
 nuclearcraft:alloy:16, Zirconium-Molybdenum Alloy Ingot
+nuclearcraft:alloy:17, Hastelloy Ingot
 nuclearcraft:compound:0, Calcium Sulfate
 nuclearcraft:compound:1, Crystal Binder
 nuclearcraft:compound:2, Energetic Blend
@@ -1873,6 +1926,12 @@ nuclearcraft:compound:8, Irradiated Borax
 nuclearcraft:compound:9, Dimensional Blend
 nuclearcraft:compound:10, Carbon-Manganese Blend
 nuclearcraft:compound:11, Alugentum Dust
+nuclearcraft:compound:12, Ammonium Sulfate
+nuclearcraft:compound:13, Ammonium Bisulfate
+nuclearcraft:compound:14, Ammonium Persulfate
+nuclearcraft:compound:15, Hydroquinone
+nuclearcraft:compound:16, Sodium Hydroquinone
+nuclearcraft:compound:17, Potassium Hydroquinone
 nuclearcraft:part:0, Basic Plating
 nuclearcraft:part:1, Advanced Plating
 nuclearcraft:part:2, DU Plating
@@ -1889,6 +1948,13 @@ nuclearcraft:part:12, Steel Chassis
 nuclearcraft:part:13, Silicon Carbide Fiber
 nuclearcraft:part:14, Empty Heat Sink
 nuclearcraft:part:15, Pyrolytic Carbon
+nuclearcraft:part:16, Sintered Steel
+nuclearcraft:part:17, Sintered Zirconia
+nuclearcraft:part:18, Polyethersulfone
+nuclearcraft:part:19, Zirfon
+nuclearcraft:part:20, Polytetrafluoroethene
+nuclearcraft:part:21, Polydimethylsilylene
+nuclearcraft:part:22, Polymethylsilylene-Methylene
 nuclearcraft:upgrade:0, Speed Upgrade
 nuclearcraft:upgrade:1, Energy Upgrade
 nuclearcraft:fission_dust:0, Bismuth Dust
@@ -2358,12 +2424,20 @@ nuclearcraft:fluid_manganese_dioxide, Molten Manganese Dioxide
 nuclearcraft:fluid_sulfur, Molten Sulfur
 nuclearcraft:fluid_liquid_helium, Liquid Helium
 nuclearcraft:fluid_liquid_nitrogen, Liquid Nitrogen
+nuclearcraft:fluid_le_water, Low Enriched Water
+nuclearcraft:fluid_he_water, Highly Enriched Water
 nuclearcraft:fluid_heavy_water, Heavy Water
+nuclearcraft:fluid_hydrogen_peroxide, Hydrogen Peroxide
 nuclearcraft:fluid_lead_platinum, Molten Lead Platinum
 nuclearcraft:fluid_enderium, Molten Enderium
 nuclearcraft:fluid_plasma, Plasma
 nuclearcraft:fluid_ethanol, Ethanol
 nuclearcraft:fluid_methanol, Methanol
+nuclearcraft:fluid_benzene, Benzene
+nuclearcraft:fluid_phenol, Phenol
+nuclearcraft:fluid_fluorobenzene, Fluorobenzene
+nuclearcraft:fluid_difluorobenzene, Difluorobenzene
+nuclearcraft:fluid_dimethyldifluorosilane, Dimethyldifluorosilane
 nuclearcraft:fluid_radaway, RadAway Fluid
 nuclearcraft:fluid_radaway_slow, Slow-Acting RadAway Fluid
 nuclearcraft:fluid_redstone_ethanol, Redstone-Infused Ethanol
@@ -2372,12 +2446,16 @@ nuclearcraft:fluid_fluorine, Fluorine
 nuclearcraft:fluid_carbon_dioxide, Carbon Dioxide
 nuclearcraft:fluid_carbon_monoxide, Carbon Monoxide
 nuclearcraft:fluid_ethene, Ethylene
+nuclearcraft:fluid_ethyne, Acetylene
 nuclearcraft:fluid_fluoromethane, Fluoromethane
 nuclearcraft:fluid_ammonia, Ammonia
 nuclearcraft:fluid_oxygen_difluoride, Oxygen Difluoride
 nuclearcraft:fluid_diborane, Diborane
 nuclearcraft:fluid_sulfur_dioxide, Sulfur Dioxide
 nuclearcraft:fluid_sulfur_trioxide, Sulfur Trioxide
+nuclearcraft:fluid_tetrafluoroethene, Tetrafluoroethylene
+nuclearcraft:fluid_hydrogen_sulfide, Hydrogen Sulfide
+nuclearcraft:fluid_depleted_hydrogen_sulfide, Depleted Hydrogen Sulfide
 nuclearcraft:fluid_hydrofluoric_acid, Hydrofluoric Acid
 nuclearcraft:fluid_boric_acid, Boric Acid
 nuclearcraft:fluid_sulfuric_acid, Sulfuric Acid
@@ -2390,6 +2468,12 @@ nuclearcraft:fluid_sodium_hydroxide_solution, Sodium Hydroxide Solution
 nuclearcraft:fluid_potassium_hydroxide_solution, Potassium Hydroxide Solution
 nuclearcraft:fluid_borax_solution, Borax Solution
 nuclearcraft:fluid_irradiated_borax_solution, Irradiated Borax Solution
+nuclearcraft:fluid_ammonium_sulfate_solution, Ammonium Sulfate Solution
+nuclearcraft:fluid_ammonium_bisulfate_solution, Ammonium Bisulfate Solution
+nuclearcraft:fluid_ammonium_persulfate_solution, Ammonium Persulfate Solution
+nuclearcraft:fluid_hydroquinone_solution, Hydroquinone Solution
+nuclearcraft:fluid_sodium_hydroquinone_solution, Sodium Hydroquinone Solution
+nuclearcraft:fluid_potassium_hydroquinone_solution, Potassium Hydroquinone Solution
 nuclearcraft:fluid_corium, Corium
 nuclearcraft:fluid_ice, Crushed Ice
 nuclearcraft:fluid_slurry_ice, Slurry Ice
@@ -2408,6 +2492,12 @@ nuclearcraft:fluid_bef2, Molten Beryllium Fluoride
 nuclearcraft:fluid_flibe, Molten FLiBe Salt Mixture
 nuclearcraft:fluid_naoh, Molten Sodium Hydroxide
 nuclearcraft:fluid_koh, Molten Potassium Hydroxide
+nuclearcraft:fluid_dfdps, Molten Difluorodiphenyl Sulfone
+nuclearcraft:fluid_polyphenylene_sulfide, Molten Polyphenylene Sulfide
+nuclearcraft:fluid_polydimethylsilylene, Molten Polydimethylsilylene
+nuclearcraft:fluid_polymethylsilylene_methylene, Molten Polymethylsilylene-Methylene
+nuclearcraft:fluid_polyethersulfone, Molten Polyethersulfone
+nuclearcraft:fluid_polytetrafluoroethene, Molten Polytetrafluoroethylene
 nuclearcraft:fluid_high_pressure_steam, High Pressure Steam
 nuclearcraft:fluid_exhaust_steam, Exhaust Steam
 nuclearcraft:fluid_low_pressure_steam, Low Pressure Steam
@@ -2416,13 +2506,16 @@ nuclearcraft:fluid_preheated_water, Preheated Water
 nuclearcraft:fluid_condensate_water, Condensate Water
 nuclearcraft:fluid_sodium, Molten Sodium
 nuclearcraft:fluid_potassium, Molten Potassium
+nuclearcraft:fluid_sodium_sulfide, Molten Sodium Sulfide
+nuclearcraft:fluid_potassium_sulfide, Molten Potassium Sulfide
 nuclearcraft:fluid_nak, Eutectic NaK Alloy
 nuclearcraft:fluid_nak_hot, Hot Eutectic NaK Alloy
 nuclearcraft:fluid_emergency_coolant, Emergency Coolant
 nuclearcraft:fluid_emergency_coolant_heated, Heated Emergency Coolant
+nuclearcraft:fluid_silicon, Molten Silicon
 nuclearcraft:fluid_arsenic, Sublimated Arsenic
 nuclearcraft:fluid_bas, Molten Boron Arsenide
-nuclearcraft:fluid_sic_vapor, Silicon Carbide Vapor
+nuclearcraft:fluid_sic_vapor, Sublimated Silicon Carbide
 nuclearcraft:fluid_alugentum, Molten Alugentum
 nuclearcraft:fluid_alumina, Molten Alumina
 nuclearcraft:fluid_strontium_90, Molten Strontium-90
@@ -2747,7 +2840,7 @@ qmd:ingot:13, Calcium Ingot
 qmd:ingot:14, Strontium Ingot
 qmd:ingot2:0, Yttrium Ingot
 qmd:ingot2:1, Neodymium Ingot
-qmd:ingot2:2, Mercury (Legacy Item)
+qmd:ingot2:2, Mercury
 qmd:ingot_alloy:0, Tungsten Carbide Ingot
 qmd:ingot_alloy:1, Niobium-Tin Ingot
 qmd:ingot_alloy:2, Stainless Steel Ingot
@@ -3711,6 +3804,18 @@ thermaldynamics:cover:0, Aluminum Block Cover
 thermaldynamics:cover:0, Silver Block Cover
 thermaldynamics:cover:0, Manganese Oxide Block Cover
 thermaldynamics:cover:0, Manganese Dioxide Block Cover
+thermaldynamics:cover:0, Zirconia Block Cover
+thermaldynamics:cover:0, Palladium Block Cover
+thermaldynamics:cover:0, Tin Oxide Block Cover
+thermaldynamics:cover:0, Nickel Oxide Block Cover
+thermaldynamics:cover:0, Cobalt Oxide Block Cover
+thermaldynamics:cover:0, Ruthenium Oxide Block Cover
+thermaldynamics:cover:0, Iridium Oxide Block Cover
+thermaldynamics:cover:0, Molybdenum Block Cover
+thermaldynamics:cover:0, Copper Oxide Block Cover
+thermaldynamics:cover:0, Cobalt Block Cover
+thermaldynamics:cover:0, Nickel Block Cover
+thermaldynamics:cover:0, Platinum Block Cover
 thermaldynamics:cover:0, Uranium-238 Block Cover
 thermaldynamics:cover:0, Neptunium-237 Block Cover
 thermaldynamics:cover:0, Plutonium-242 Block Cover
@@ -3720,6 +3825,12 @@ thermaldynamics:cover:0, Berkelium-247 Block Cover
 thermaldynamics:cover:0, Californium-252 Block Cover
 thermaldynamics:cover:0, Supercold Ice Cover
 thermaldynamics:cover:0, Heavy Water Moderator Cover
+thermaldynamics:cover:0, Sintered Steel Diaphragm Cover
+thermaldynamics:cover:0, Polyethersulfone Diaphragm Cover
+thermaldynamics:cover:0, Zirfon Diaphragm Cover
+thermaldynamics:cover:0, Steel Sieve Assembly Cover
+thermaldynamics:cover:0, Polytetrafluoroethene Sieve Assembly Cover
+thermaldynamics:cover:0, Hastelloy Sieve Assembly Cover
 thermaldynamics:cover:0, Beryllium-Carbon Neutron Reflector Cover
 thermaldynamics:cover:0, Lead-Steel Neutron Reflector Cover
 thermaldynamics:cover:0, Glowing Mushroom Cover
@@ -4164,6 +4275,18 @@ appliedenergistics2:facade:0, Cable Facade - Aluminum Block
 appliedenergistics2:facade:0, Cable Facade - Silver Block
 appliedenergistics2:facade:0, Cable Facade - Manganese Oxide Block
 appliedenergistics2:facade:0, Cable Facade - Manganese Dioxide Block
+appliedenergistics2:facade:0, Cable Facade - Zirconia Block
+appliedenergistics2:facade:0, Cable Facade - Palladium Block
+appliedenergistics2:facade:0, Cable Facade - Tin Oxide Block
+appliedenergistics2:facade:0, Cable Facade - Nickel Oxide Block
+appliedenergistics2:facade:0, Cable Facade - Cobalt Oxide Block
+appliedenergistics2:facade:0, Cable Facade - Ruthenium Oxide Block
+appliedenergistics2:facade:0, Cable Facade - Iridium Oxide Block
+appliedenergistics2:facade:0, Cable Facade - Molybdenum Block
+appliedenergistics2:facade:0, Cable Facade - Copper Oxide Block
+appliedenergistics2:facade:0, Cable Facade - Cobalt Block
+appliedenergistics2:facade:0, Cable Facade - Nickel Block
+appliedenergistics2:facade:0, Cable Facade - Platinum Block
 appliedenergistics2:facade:0, Cable Facade - Uranium-238 Block
 appliedenergistics2:facade:0, Cable Facade - Neptunium-237 Block
 appliedenergistics2:facade:0, Cable Facade - Plutonium-242 Block
@@ -4267,6 +4390,12 @@ appliedenergistics2:facade:0, Cable Facade - Slime Block
 appliedenergistics2:facade:0, Cable Facade - Slime Block
 appliedenergistics2:facade:0, Cable Facade - Blood Slime Block
 appliedenergistics2:facade:0, Cable Facade - Slime Block
+appliedenergistics2:facade:0, Cable Facade - Sugar Block
+appliedenergistics2:facade:0, Cable Facade - Red Slime Block
+appliedenergistics2:facade:0, Cable Facade - Gravisand
+appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
+appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
+appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
 appliedenergistics2:facade:0, Cable Facade - Swamp Oak Leaves
 appliedenergistics2:facade:0, Cable Facade - White Cave Crystal
 appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
@@ -4312,12 +4441,6 @@ appliedenergistics2:facade:0, Cable Facade - Soul Sandstone
 appliedenergistics2:facade:0, Cable Facade - Turf Block
 appliedenergistics2:facade:0, Cable Facade - Netherwrought Stone
 appliedenergistics2:facade:0, Cable Facade - White Quilted Wool
-appliedenergistics2:facade:0, Cable Facade - Sugar Block
-appliedenergistics2:facade:0, Cable Facade - Red Slime Block
-appliedenergistics2:facade:0, Cable Facade - Gravisand
-appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
-appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
-appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
 appliedenergistics2:facade:0, Cable Facade - Dense Construction Block
 appliedenergistics2:facade:0, Cable Facade - Porcelain Bricks
 appliedenergistics2:facade:0, Cable Facade - Rainbow Bricks
@@ -4834,33 +4957,33 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
 tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Knife Blade Pattern
 tconstruct:pattern:0, Hammer Head Pattern
 tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
 tconstruct:pattern:0, Wide Guard Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
@@ -6089,6 +6212,7 @@ tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
 tconstruct:toolforge:0, Tool Forge
+tconstruct:toolforge:0, Tool Forge
 tconstruct:pickaxe, Pickaxe
 tconstruct:shovel, Shovel
 tconstruct:hatchet, Hatchet
@@ -6159,30 +6283,30 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
 tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Knife Blade Cast
 tconstruct:cast:0, Hammer Head Cast
 tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
 tconstruct:cast:0, Wide Guard Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
@@ -6190,30 +6314,30 @@ tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
 tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
 tconstruct:clay_cast:0, Hammer Head Clay Cast
 tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
 tconstruct:clay_cast:0, Wide Guard Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
@@ -6296,23 +6420,121 @@ ae2wtlib:infinity_booster_card, Infinity Booster Card
 ae2wtlib:wut, Wireless Ultimate Terminal
 ae2wtlib:wut_creative, Creative Wireless Ultimate Terminal
 quark:witch_hat, item.witch_hat.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, tile.paper_wall.name
+quark:paper_wall_big, tile.paper_wall_big.name
+quark:paper_wall_sakura, tile.paper_wall_sakura.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:paper_lantern:0, Paper Lamp
+quark:paper_lantern:1, Decorated Paper Lamp
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:custom_bookshelf:0, Spruce Bookshelf
+quark:custom_bookshelf:1, Birch Bookshelf
+quark:custom_bookshelf:2, Jungle Bookshelf
+quark:custom_bookshelf:3, Acacia Bookshelf
+quark:custom_bookshelf:4, Dark Oak Bookshelf
+quark:colored_item_frame:0, White Item Frame
+quark:colored_item_frame:1, Orange Item Frame
+quark:colored_item_frame:2, Magenta Item Frame
+quark:colored_item_frame:3, Light Blue Item Frame
+quark:colored_item_frame:4, Yellow Item Frame
+quark:colored_item_frame:5, Lime Item Frame
+quark:colored_item_frame:6, Pink Item Frame
+quark:colored_item_frame:7, Gray Item Frame
+quark:colored_item_frame:8, Light Gray Item Frame
+quark:colored_item_frame:9, Cyan Item Frame
+quark:colored_item_frame:10, Purple Item Frame
+quark:colored_item_frame:11, Blue Item Frame
+quark:colored_item_frame:12, Brown Item Frame
+quark:colored_item_frame:13, Green Item Frame
+quark:colored_item_frame:14, Red Item Frame
+quark:colored_item_frame:15, Black Item Frame
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, Spruce Chest
+quark:custom_chest:1, Birch Chest
+quark:custom_chest:2, Jungle Chest
+quark:custom_chest:3, Acacia Chest
+quark:custom_chest:4, Dark Oak Chest
+quark:custom_chest_trap:0, Spruce Trapped Chest
+quark:custom_chest_trap:1, Birch Trapped Chest
+quark:custom_chest_trap:2, Jungle Trapped Chest
+quark:custom_chest_trap:3, Acacia Trapped Chest
+quark:custom_chest_trap:4, Dark Oak Trapped Chest
+quark:candle:0, White Candle
+quark:candle:1, Orange Candle
+quark:candle:2, Magenta Candle
+quark:candle:3, Light Blue Candle
+quark:candle:4, Yellow Candle
+quark:candle:5, Lime Candle
+quark:candle:6, Pink Candle
+quark:candle:7, Gray Candle
+quark:candle:8, Light Gray Candle
+quark:candle:9, Cyan Candle
+quark:candle:10, Purple Candle
+quark:candle:11, Blue Candle
+quark:candle:12, Brown Candle
+quark:candle:13, Green Candle
+quark:candle:14, Red Candle
+quark:candle:15, Black Candle
+quark:tallow, item.tallow.name
+quark:rope, tile.rope.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, Oak Leaf Carpet
+quark:leaf_carpet:1, Spruce Leaf Carpet
+quark:leaf_carpet:2, Birch Leaf Carpet
+quark:leaf_carpet:3, Jungle Leaf Carpet
+quark:leaf_carpet:4, Acacia Leaf Carpet
+quark:leaf_carpet:5, Dark Oak Leaf Carpet
+quark:leaf_carpet:6, Swamp Oak Leaf Carpet
+quark:leaf_carpet:7, Blossoming Leaf Carpet
+quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
+quark:birch_pressure_plate, tile.birch_pressure_plate.name
+quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
+quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
+quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
+quark:spruce_button, tile.spruce_button.name
+quark:birch_button, tile.birch_button.name
+quark:jungle_button, tile.jungle_button.name
+quark:acacia_button, tile.acacia_button.name
+quark:dark_oak_button, tile.dark_oak_button.name
+quark:grate, tile.grate.name
+quark:glass_item_frame, item.glass_item_frame.name
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -6437,6 +6659,55 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, tile.smoker.name
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:rune:0, White Rune
+quark:rune:1, Orange Rune
+quark:rune:2, Magenta Rune
+quark:rune:3, Light Blue Rune
+quark:rune:4, Yellow Rune
+quark:rune:5, Lime Rune
+quark:rune:6, Pink Rune
+quark:rune:7, Gray Rune
+quark:rune:8, Light Gray Rune
+quark:rune:9, Cyan Rune
+quark:rune:10, Purple Rune
+quark:rune:11, Blue Rune
+quark:rune:12, Brown Rune
+quark:rune:13, Green Rune
+quark:rune:14, Red Rune
+quark:rune:15, Black Rune
+quark:rune:16, Rainbow Rune
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -6757,153 +7028,6 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:rune:0, White Rune
-quark:rune:1, Orange Rune
-quark:rune:2, Magenta Rune
-quark:rune:3, Light Blue Rune
-quark:rune:4, Yellow Rune
-quark:rune:5, Lime Rune
-quark:rune:6, Pink Rune
-quark:rune:7, Gray Rune
-quark:rune:8, Light Gray Rune
-quark:rune:9, Cyan Rune
-quark:rune:10, Purple Rune
-quark:rune:11, Blue Rune
-quark:rune:12, Brown Rune
-quark:rune:13, Green Rune
-quark:rune:14, Red Rune
-quark:rune:15, Black Rune
-quark:rune:16, Rainbow Rune
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
-quark:enderdragon_scale, item.enderdragon_scale.name
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, tile.paper_wall.name
-quark:paper_wall_big, tile.paper_wall_big.name
-quark:paper_wall_sakura, tile.paper_wall_sakura.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:paper_lantern:0, Paper Lamp
-quark:paper_lantern:1, Decorated Paper Lamp
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:custom_bookshelf:0, Spruce Bookshelf
-quark:custom_bookshelf:1, Birch Bookshelf
-quark:custom_bookshelf:2, Jungle Bookshelf
-quark:custom_bookshelf:3, Acacia Bookshelf
-quark:custom_bookshelf:4, Dark Oak Bookshelf
-quark:colored_item_frame:0, White Item Frame
-quark:colored_item_frame:1, Orange Item Frame
-quark:colored_item_frame:2, Magenta Item Frame
-quark:colored_item_frame:3, Light Blue Item Frame
-quark:colored_item_frame:4, Yellow Item Frame
-quark:colored_item_frame:5, Lime Item Frame
-quark:colored_item_frame:6, Pink Item Frame
-quark:colored_item_frame:7, Gray Item Frame
-quark:colored_item_frame:8, Light Gray Item Frame
-quark:colored_item_frame:9, Cyan Item Frame
-quark:colored_item_frame:10, Purple Item Frame
-quark:colored_item_frame:11, Blue Item Frame
-quark:colored_item_frame:12, Brown Item Frame
-quark:colored_item_frame:13, Green Item Frame
-quark:colored_item_frame:14, Red Item Frame
-quark:colored_item_frame:15, Black Item Frame
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, Spruce Chest
-quark:custom_chest:1, Birch Chest
-quark:custom_chest:2, Jungle Chest
-quark:custom_chest:3, Acacia Chest
-quark:custom_chest:4, Dark Oak Chest
-quark:custom_chest_trap:0, Spruce Trapped Chest
-quark:custom_chest_trap:1, Birch Trapped Chest
-quark:custom_chest_trap:2, Jungle Trapped Chest
-quark:custom_chest_trap:3, Acacia Trapped Chest
-quark:custom_chest_trap:4, Dark Oak Trapped Chest
-quark:candle:0, White Candle
-quark:candle:1, Orange Candle
-quark:candle:2, Magenta Candle
-quark:candle:3, Light Blue Candle
-quark:candle:4, Yellow Candle
-quark:candle:5, Lime Candle
-quark:candle:6, Pink Candle
-quark:candle:7, Gray Candle
-quark:candle:8, Light Gray Candle
-quark:candle:9, Cyan Candle
-quark:candle:10, Purple Candle
-quark:candle:11, Blue Candle
-quark:candle:12, Brown Candle
-quark:candle:13, Green Candle
-quark:candle:14, Red Candle
-quark:candle:15, Black Candle
-quark:tallow, item.tallow.name
-quark:rope, tile.rope.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, Oak Leaf Carpet
-quark:leaf_carpet:1, Spruce Leaf Carpet
-quark:leaf_carpet:2, Birch Leaf Carpet
-quark:leaf_carpet:3, Jungle Leaf Carpet
-quark:leaf_carpet:4, Acacia Leaf Carpet
-quark:leaf_carpet:5, Dark Oak Leaf Carpet
-quark:leaf_carpet:6, Swamp Oak Leaf Carpet
-quark:leaf_carpet:7, Blossoming Leaf Carpet
-quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
-quark:birch_pressure_plate, tile.birch_pressure_plate.name
-quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
-quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
-quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
-quark:spruce_button, tile.spruce_button.name
-quark:birch_button, tile.birch_button.name
-quark:jungle_button, tile.jungle_button.name
-quark:acacia_button, tile.acacia_button.name
-quark:dark_oak_button, tile.dark_oak_button.name
-quark:grate, tile.grate.name
-quark:glass_item_frame, item.glass_item_frame.name
 akashictome:tome, item.tome.name
 bonsaitrees:bonsaipot:0, Bonsai Pot
 bonsaitrees:bonsaipot:1, Hopping Bonsai Pot
@@ -7015,10 +7139,18 @@ ceramics:clay_bucket:0, Molten Manganese Dioxide Clay Bucket
 ceramics:clay_bucket:0, Molten Sulfur Clay Bucket
 ceramics:clay_bucket:0, Liquid Helium Clay Bucket
 ceramics:clay_bucket:0, Liquid Nitrogen Clay Bucket
+ceramics:clay_bucket:0, Low Enriched Water Clay Bucket
+ceramics:clay_bucket:0, Highly Enriched Water Clay Bucket
 ceramics:clay_bucket:0, Heavy Water Clay Bucket
+ceramics:clay_bucket:0, Hydrogen Peroxide Clay Bucket
 ceramics:clay_bucket:0, Molten Lead Platinum Clay Bucket
 ceramics:clay_bucket:0, Plasma Clay Bucket
 ceramics:clay_bucket:0, Methanol Clay Bucket
+ceramics:clay_bucket:0, Benzene Clay Bucket
+ceramics:clay_bucket:0, Phenol Clay Bucket
+ceramics:clay_bucket:0, Fluorobenzene Clay Bucket
+ceramics:clay_bucket:0, Difluorobenzene Clay Bucket
+ceramics:clay_bucket:0, Dimethyldifluorosilane Clay Bucket
 ceramics:clay_bucket:0, RadAway Fluid Clay Bucket
 ceramics:clay_bucket:0, Slow-Acting RadAway Fluid Clay Bucket
 ceramics:clay_bucket:0, Redstone-Infused Ethanol Clay Bucket
@@ -7027,12 +7159,16 @@ ceramics:clay_bucket:0, Fluorine Clay Bucket
 ceramics:clay_bucket:0, Carbon Dioxide Clay Bucket
 ceramics:clay_bucket:0, Carbon Monoxide Clay Bucket
 ceramics:clay_bucket:0, Ethylene Clay Bucket
+ceramics:clay_bucket:0, Acetylene Clay Bucket
 ceramics:clay_bucket:0, Fluoromethane Clay Bucket
 ceramics:clay_bucket:0, Ammonia Clay Bucket
 ceramics:clay_bucket:0, Oxygen Difluoride Clay Bucket
 ceramics:clay_bucket:0, Diborane Clay Bucket
 ceramics:clay_bucket:0, Sulfur Dioxide Clay Bucket
 ceramics:clay_bucket:0, Sulfur Trioxide Clay Bucket
+ceramics:clay_bucket:0, Tetrafluoroethylene Clay Bucket
+ceramics:clay_bucket:0, Hydrogen Sulfide Clay Bucket
+ceramics:clay_bucket:0, Depleted Hydrogen Sulfide Clay Bucket
 ceramics:clay_bucket:0, Hydrofluoric Acid Clay Bucket
 ceramics:clay_bucket:0, Boric Acid Clay Bucket
 ceramics:clay_bucket:0, Sulfuric Acid Clay Bucket
@@ -7045,6 +7181,12 @@ ceramics:clay_bucket:0, Sodium Hydroxide Solution Clay Bucket
 ceramics:clay_bucket:0, Potassium Hydroxide Solution Clay Bucket
 ceramics:clay_bucket:0, Borax Solution Clay Bucket
 ceramics:clay_bucket:0, Irradiated Borax Solution Clay Bucket
+ceramics:clay_bucket:0, Ammonium Sulfate Solution Clay Bucket
+ceramics:clay_bucket:0, Ammonium Bisulfate Solution Clay Bucket
+ceramics:clay_bucket:0, Ammonium Persulfate Solution Clay Bucket
+ceramics:clay_bucket:0, Hydroquinone Solution Clay Bucket
+ceramics:clay_bucket:0, Sodium Hydroquinone Solution Clay Bucket
+ceramics:clay_bucket:0, Potassium Hydroquinone Solution Clay Bucket
 ceramics:clay_bucket:0, Corium Clay Bucket
 ceramics:clay_bucket:0, Crushed Ice Clay Bucket
 ceramics:clay_bucket:0, Slurry Ice Clay Bucket
@@ -7062,6 +7204,12 @@ ceramics:clay_bucket:0, Molten Beryllium Fluoride Clay Bucket
 ceramics:clay_bucket:0, Molten FLiBe Salt Mixture Clay Bucket
 ceramics:clay_bucket:0, Molten Sodium Hydroxide Clay Bucket
 ceramics:clay_bucket:0, Molten Potassium Hydroxide Clay Bucket
+ceramics:clay_bucket:0, Molten Difluorodiphenyl Sulfone Clay Bucket
+ceramics:clay_bucket:0, Molten Polyphenylene Sulfide Clay Bucket
+ceramics:clay_bucket:0, Molten Polydimethylsilylene Clay Bucket
+ceramics:clay_bucket:0, Molten Polymethylsilylene-Methylene Clay Bucket
+ceramics:clay_bucket:0, Molten Polyethersulfone Clay Bucket
+ceramics:clay_bucket:0, Molten Polytetrafluoroethylene Clay Bucket
 ceramics:clay_bucket:0, High Pressure Steam Clay Bucket
 ceramics:clay_bucket:0, Exhaust Steam Clay Bucket
 ceramics:clay_bucket:0, Low Pressure Steam Clay Bucket
@@ -7070,13 +7218,16 @@ ceramics:clay_bucket:0, Preheated Water Clay Bucket
 ceramics:clay_bucket:0, Condensate Water Clay Bucket
 ceramics:clay_bucket:0, Molten Sodium Clay Bucket
 ceramics:clay_bucket:0, Molten Potassium Clay Bucket
+ceramics:clay_bucket:0, Molten Sodium Sulfide Clay Bucket
+ceramics:clay_bucket:0, Molten Potassium Sulfide Clay Bucket
 ceramics:clay_bucket:0, Eutectic NaK Alloy Clay Bucket
 ceramics:clay_bucket:0, Hot Eutectic NaK Alloy Clay Bucket
 ceramics:clay_bucket:0, Emergency Coolant Clay Bucket
 ceramics:clay_bucket:0, Heated Emergency Coolant Clay Bucket
+ceramics:clay_bucket:0, Molten Silicon Clay Bucket
 ceramics:clay_bucket:0, Sublimated Arsenic Clay Bucket
 ceramics:clay_bucket:0, Molten Boron Arsenide Clay Bucket
-ceramics:clay_bucket:0, Silicon Carbide Vapor Clay Bucket
+ceramics:clay_bucket:0, Sublimated Silicon Carbide Clay Bucket
 ceramics:clay_bucket:0, Molten Alugentum Clay Bucket
 ceramics:clay_bucket:0, Molten Alumina Clay Bucket
 ceramics:clay_bucket:0, Molten Strontium-90 Clay Bucket
@@ -7377,7 +7528,6 @@ ceramics:clay_bucket:0, Chlorine Clay Bucket
 ceramics:clay_bucket:0, Nitric Oxide Clay Bucket
 ceramics:clay_bucket:0, Nitrogen Dioxide Clay Bucket
 ceramics:clay_bucket:0, Compressed Air Clay Bucket
-ceramics:clay_bucket:0, Molten Silicon Clay Bucket
 ceramics:clay_bucket:0, Molten Yttrium Aluminum Garnet Clay Bucket
 ceramics:clay_bucket:0, Molten Neodymium Doped YAG Clay Bucket
 ceramics:clay_bucket:0, Molten Tungsten Clay Bucket
@@ -7509,24 +7659,6 @@ ftbquests:lootcrate, Loot Crate
 ftbquests:custom_icon, Custom Icon
 gravestone:gravestone, Grave
 gravestone:death_info, Obituary
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -7647,6 +7779,24 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 jecalculation:item_calculator:0, Crafting Calculator
 jecalculation:item_calculator:1, Math Calculator
 mysticalagriculture:storage:0, §eBlock of Inferium Essence
@@ -8319,13 +8469,22 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
-pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.kerosene, Kerosene
-pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.lubricant, Lubricant
-pneumaticcraft:fluid.oil, Oil
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
 pneumaticcraft:fluid.plastic, Plastic
 pneumaticcraft:fluid.diesel, Diesel
+pneumaticcraft:fluid.oil, Oil
+pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.lubricant, Lubricant
+pneumaticcraft:fluid.etchacid, Etching Acid
+pneumaticcraft:fluid.kerosene, Kerosene
 pneumaticcraft:fluid.fuel, Gasoline
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
@@ -8484,15 +8643,6 @@ pneumaticcraft:regulator_tube_module, Regulator Tube Module
 pneumaticcraft:charging_module, Charging Module
 pneumaticcraft:logistics_module, Logistics Module
 pneumaticcraft:redstone_module, Redstone Module
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer

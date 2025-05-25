@@ -240,6 +240,7 @@ val thingsToUnify = [
     <thermalfoundation:material:135>,   // ingotIridium
 
     // Platinum
+    <thermalfoundation:storage:6>,      // blockPlatinum
     <thermalfoundation:material:70>,    // dustPlatinum
     <thermalfoundation:material:134>,   // ingotPlatinum
 
@@ -256,7 +257,10 @@ val thingsToUnify = [
     <immersiveengineering:material:7>,  // crystalSlag, itemSlag
 
     // Silicon
-    <nuclearcraft:gem:6>   // itemSilicon 
+    <nuclearcraft:gem:6>,   // itemSilicon 
+
+    // Flour
+    <nuclearcraft:flour>    // dustWheat
 ] as IItemStack[];
 for thing in thingsToUnify {
     unify(thing);

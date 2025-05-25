@@ -1,13 +1,12 @@
 {
+	title: "Mechanisms",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "circle",
-	dependencies: [
-		"56d8a9f2"
-	],
+	description: "Thermal Foundation",
 	size: 1.2d,
 	tasks: [{
-		uid: "b7c50cd7",
+		uid: "f949d91b",
 		type: "checkmark"
 	}]
 }

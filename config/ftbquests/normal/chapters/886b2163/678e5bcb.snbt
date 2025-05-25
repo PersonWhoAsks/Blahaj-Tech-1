@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	shape: "octagon",
+	dependencies: [
+		"92cdae54"
+	],
+	tasks: [{
+		uid: "14274f52",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rtg_uranium"
+		}]
+	}]
+}

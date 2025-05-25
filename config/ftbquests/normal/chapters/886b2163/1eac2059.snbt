@@ -1,0 +1,16 @@
+{
+	x: -7.0d,
+	y: 0.0d,
+	dependencies: [
+		"a03d4b08",
+		"3925747c",
+		"b78dfe4e"
+	],
+	tasks: [{
+		uid: "b8d8ab6b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:smore"
+		}]
+	}]
+}

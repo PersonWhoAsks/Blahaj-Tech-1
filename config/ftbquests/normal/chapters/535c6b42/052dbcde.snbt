@@ -8,7 +8,7 @@
 		"Welcome to the second chapter, featuring and focusing on the Immersive Engineering mod, which introduces many multiblock structures and machines. Don’t worry, most of them aren’t covered in this modpack, but you can discover them on your own. Your main goal in this chapter will be to produce Circuit Boards, and Steel along the way."
 	],
 	dependencies: [
-		"d99f77f7"
+		"da143d45"
 	],
 	size: 1.2d,
 	tasks: [{

@@ -1,0 +1,16 @@
+{
+	x: -3.0d,
+	y: 2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"5d048c53"
+	],
+	tasks: [{
+		uid: "32a83af6",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ground_cocoa_nibs"
+		}],
+		consume_items: false
+	}]
+}

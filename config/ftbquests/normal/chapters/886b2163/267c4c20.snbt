@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: -4.5d,
+	shape: "octagon",
+	dependencies: [
+		"3671ef66"
+	],
+	tasks: [{
+		uid: "d133653a",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}]
+}

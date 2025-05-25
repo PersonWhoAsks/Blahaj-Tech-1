@@ -1,11 +1,24 @@
 {
-	x: 22.5d,
-	y: -9.0d,
+	x: 4.5d,
+	y: -3.0d,
+	dependencies: [
+		"dfd993de"
+	],
 	tasks: [{
 		uid: "95702fd2",
 		type: "item",
+		title: "Californium-250",
 		items: [{
 			item: "nuclearcraft:californium 1 5"
+		},
+		{
+			item: "nuclearcraft:californium 1 7"
+		},
+		{
+			item: "nuclearcraft:californium 1 8"
+		},
+		{
+			item: "nuclearcraft:californium 1 9"
 		}]
 	}]
 }

@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	shape: "octagon",
+	dependencies: [
+		"3671ef66"
+	],
+	tasks: [{
+		uid: "b2ca1ea0",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rtg_californium"
+		}]
+	}]
+}

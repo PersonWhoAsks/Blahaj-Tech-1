@@ -1,0 +1,16 @@
+{
+	x: 6.0d,
+	y: 5.3999999999999995d,
+	shape: "octagon",
+	dependencies: [
+		"932b4081"
+	],
+	size: 1.2d,
+	tasks: [{
+		uid: "4da27034",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 3"
+		}]
+	}]
+}

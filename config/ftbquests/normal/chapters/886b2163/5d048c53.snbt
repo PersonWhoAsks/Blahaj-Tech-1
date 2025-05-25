@@ -1,8 +1,26 @@
 {
 	x: 0.0d,
 	y: 0.0d,
+	shape: "octagon",
+	dependencies: [
+		"b944b4ab"
+	],
+	size: 1.2d,
 	tasks: [{
 		uid: "2a7ed2d7",
 		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "10b2aab0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "nuclearcraft:guide"
+			}
+		}
 	}]
 }

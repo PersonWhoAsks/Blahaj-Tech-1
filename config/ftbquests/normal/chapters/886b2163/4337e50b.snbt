@@ -1,11 +1,24 @@
 {
-	x: 9.0d,
-	y: -3.0d,
+	x: 6.5d,
+	y: 0.5d,
+	dependencies: [
+		"dfd993de"
+	],
 	tasks: [{
 		uid: "6cbc15a2",
 		type: "item",
+		title: "Plutonium-238",
 		items: [{
 			item: "nuclearcraft:plutonium"
+		},
+		{
+			item: "nuclearcraft:plutonium 1 2"
+		},
+		{
+			item: "nuclearcraft:plutonium 1 3"
+		},
+		{
+			item: "nuclearcraft:plutonium 1 4"
 		}]
 	}]
 }

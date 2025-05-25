@@ -1,0 +1,24 @@
+{
+	x: 5.5d,
+	y: -2.5d,
+	dependencies: [
+		"dfd993de"
+	],
+	tasks: [{
+		uid: "5c60fea3",
+		type: "item",
+		title: "Berkelium-247",
+		items: [{
+			item: "nuclearcraft:berkelium"
+		},
+		{
+			item: "nuclearcraft:berkelium 1 2"
+		},
+		{
+			item: "nuclearcraft:berkelium 1 3"
+		},
+		{
+			item: "nuclearcraft:berkelium 1 4"
+		}]
+	}]
+}

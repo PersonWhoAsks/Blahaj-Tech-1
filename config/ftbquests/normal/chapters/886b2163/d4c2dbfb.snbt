@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -1.5d,
+	dependencies: [
+		"dfd993de"
+	],
+	tasks: [{
+		uid: "52bd8c8c",
+		type: "item",
+		title: "Curium-246",
+		items: [{
+			item: "nuclearcraft:curium 1 10"
+		},
+		{
+			item: "nuclearcraft:curium 1 12"
+		},
+		{
+			item: "nuclearcraft:curium 1 13"
+		},
+		{
+			item: "nuclearcraft:curium 1 14"
+		}]
+	}]
+}
