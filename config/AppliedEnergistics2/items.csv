@@ -1640,12 +1640,14 @@ nuclearcraft:fission_reflector:1, Lead-Steel Neutron Reflector
 nuclearcraft:fission_power_port, Fission Reactor Power Port
 nuclearcraft:fission_vent, Fission Reactor Vent
 nuclearcraft:fission_irradiator, Fission Irradiator
+nuclearcraft:fission_cooler, tile.nuclearcraft.fission_cooler.name
 nuclearcraft:fission_source:0, Ra-Be Fission Neutron Source
 nuclearcraft:fission_source:1, Po-Be Fission Neutron Source
 nuclearcraft:fission_source:2, Cf-252 Fission Neutron Source
 nuclearcraft:fission_shield:0, Boron-Silver Fission Neutron Shield
 nuclearcraft:fission_computer_port, Fission Computer Port
 nuclearcraft:fission_irradiator_port, Fission Irradiator Port
+nuclearcraft:fission_cooler_port, tile.nuclearcraft.fission_cooler_port.name
 nuclearcraft:fission_cell_port, Fission Fuel Cell Port
 nuclearcraft:fission_vessel_port, Fission Fuel Vessel Port
 nuclearcraft:fission_heater_port:0, Standard Fission Coolant Heater Port
@@ -1750,19 +1752,18 @@ nuclearcraft:salt_fission_heater2:12, Liquid Nitrogen Fission Coolant Heater
 nuclearcraft:salt_fission_heater2:13, Liquid Helium Fission Coolant Heater
 nuclearcraft:salt_fission_heater2:14, Enderium Fission Coolant Heater
 nuclearcraft:salt_fission_heater2:15, Cryotheum Fission Coolant Heater
-nuclearcraft:heat_exchanger_controller, Heat Exchanger Controller (WIP)
+nuclearcraft:heat_exchanger_controller, Heat Exchanger Controller
+nuclearcraft:condenser_controller, Condenser Controller
 nuclearcraft:heat_exchanger_casing, Heat Exchanger Casing
 nuclearcraft:heat_exchanger_glass, Heat Exchanger Glass
-nuclearcraft:heat_exchanger_vent, Heat Exchanger Vent
+nuclearcraft:heat_exchanger_inlet, Heat Exchanger Fluid Inlet
+nuclearcraft:heat_exchanger_outlet, Heat Exchanger Fluid Outlet
 nuclearcraft:heat_exchanger_tube_copper, Copper Heat Exchanger Tube
 nuclearcraft:heat_exchanger_tube_hard_carbon, Hard Carbon Heat Exchanger Tube
 nuclearcraft:heat_exchanger_tube_thermoconducting, Thermoconducting Alloy Heat Exchanger Tube
+nuclearcraft:heat_exchanger_baffle, Heat Exchanger Shell Baffle
 nuclearcraft:heat_exchanger_redstone_port, Heat Exchanger Redstone Port
 nuclearcraft:heat_exchanger_computer_port, Heat Exchanger Computer Port
-nuclearcraft:condenser_controller, Condenser Controller (WIP)
-nuclearcraft:condenser_tube_copper, Copper Condensation Tube
-nuclearcraft:condenser_tube_hard_carbon, Hard Carbon Condensation Tube
-nuclearcraft:condenser_tube_thermoconducting, Thermoconducting Alloy Condensation Tube
 nuclearcraft:turbine_controller, Turbine Controller
 nuclearcraft:turbine_casing, Turbine Casing
 nuclearcraft:turbine_glass, Turbine Glass
@@ -1829,6 +1830,7 @@ nuclearcraft:quantum_computer_gate_control:11, Quantum Computer Controlled Z-Rot
 nuclearcraft:quantum_computer_gate_swap:0, Quantum Computer Swap Gate
 nuclearcraft:quantum_computer_gate_swap:1, Quantum Computer Controlled Swap Gate
 nuclearcraft:quantum_computer_connector, Quantum Computer Connector
+nuclearcraft:quantum_computer_port, Quantum Computer Port
 nuclearcraft:quantum_computer_code_generator:0, Quantum Computer QASM Code Generator
 nuclearcraft:quantum_computer_code_generator:1, Quantum Computer Qiskit Code Generator
 nuclearcraft:ingot:0, Copper Ingot
@@ -4390,9 +4392,6 @@ appliedenergistics2:facade:0, Cable Facade - Slime Block
 appliedenergistics2:facade:0, Cable Facade - Slime Block
 appliedenergistics2:facade:0, Cable Facade - Blood Slime Block
 appliedenergistics2:facade:0, Cable Facade - Slime Block
-appliedenergistics2:facade:0, Cable Facade - Sugar Block
-appliedenergistics2:facade:0, Cable Facade - Red Slime Block
-appliedenergistics2:facade:0, Cable Facade - Gravisand
 appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
 appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
 appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
@@ -4413,6 +4412,9 @@ appliedenergistics2:facade:0, Cable Facade - Elder Prismarine
 appliedenergistics2:facade:0, Cable Facade - Elder Sea Lantern
 appliedenergistics2:facade:0, Cable Facade - Glowcelium
 appliedenergistics2:facade:0, Cable Facade - Glowshroom
+appliedenergistics2:facade:0, Cable Facade - Sugar Block
+appliedenergistics2:facade:0, Cable Facade - Red Slime Block
+appliedenergistics2:facade:0, Cable Facade - Gravisand
 appliedenergistics2:facade:0, Cable Facade - Polished Sandstone
 appliedenergistics2:facade:0, Cable Facade - Polished Stone
 appliedenergistics2:facade:0, Cable Facade - White Stained Planks
@@ -4957,34 +4959,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Shard Pattern
-tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
 tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Knife Blade Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Shovel Head Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Tough Binding Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -6283,62 +6285,62 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Shard Cast
-tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Pickaxe Head Cast
 tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Knife Blade Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Shovel Head Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Tough Binding Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Shard Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
 tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -6419,23 +6421,110 @@ tconstruct:moms_spaghetti, Mom's Spaghetti
 ae2wtlib:infinity_booster_card, Infinity Booster Card
 ae2wtlib:wut, Wireless Ultimate Terminal
 ae2wtlib:wut_creative, Creative Wireless Ultimate Terminal
-quark:witch_hat, item.witch_hat.name
-quark:chute, tile.chute.name
-quark:sugar_block, tile.sugar_block.name
-quark:redstone_randomizer, tile.redstone_randomizer.name
-quark:iron_button, tile.iron_button.name
-quark:gold_button, tile.gold_button.name
-quark:ender_watcher, tile.ender_watcher.name
-quark:iron_rod, tile.iron_rod.name
-quark:color_slime:0, Red Slime Block
-quark:color_slime:1, Blue Slime Block
-quark:color_slime:2, Cyan Slime Block
-quark:color_slime:3, Magenta Slime Block
-quark:color_slime:4, Yellow Slime Block
-quark:gravisand, tile.gravisand.name
-quark:redstone_inductor, tile.redstone_inductor.name
-quark:rain_detector, tile.rain_detector.name
-quark:chain, item.chain.name
+ags_modernmarkings:chalk, Chalk
+ags_modernmarkings:floor_marking_black_singleline, Black Line Floor Marking
+ags_modernmarkings:floor_marking_blue_singleline, Blue Line Floor Marking
+ags_modernmarkings:floor_marking_danger_red, Red Danger Floor Marking
+ags_modernmarkings:floor_marking_danger_yellow, Yellow Danger Floor Marking
+ags_modernmarkings:floor_marking_exit, Exit Floor Marking
+ags_modernmarkings:floor_marking_green_singleline, Green Line Floor Marking
+ags_modernmarkings:floor_marking_noentry, No Entry Floor Marking
+ags_modernmarkings:floor_marking_nostep, No Step Floor Marking
+ags_modernmarkings:floor_marking_orange_singleline, Orange Line Floor Marking
+ags_modernmarkings:floor_marking_red_hazardline, Red Hazard Line Floor Marking
+ags_modernmarkings:floor_marking_red_singleline, Red Line Floor Marking
+ags_modernmarkings:floor_marking_redx, Red X Floor Marking
+ags_modernmarkings:floor_marking_white_arrow, White Arrow Floor Marking
+ags_modernmarkings:floor_marking_white_lane, White Lane Floor Marking
+ags_modernmarkings:floor_marking_white_lane_cross, White Lane Cross Floor Marking
+ags_modernmarkings:floor_marking_white_singleline, White Line Floor Marking
+ags_modernmarkings:floor_marking_white_square, White Square Floor Marking
+ags_modernmarkings:floor_marking_whiteblack_hazardline, White Hazard Line Floor Marking
+ags_modernmarkings:floor_marking_yellow_arrow, Yellow Arrow Floor Marking
+ags_modernmarkings:floor_marking_yellow_hazardline, Yellow Hazard Line Floor Marking
+ags_modernmarkings:floor_marking_yellow_lane, Yellow Lane Floor Marking
+ags_modernmarkings:floor_marking_yellow_sideline, Yellow Sideline Floor Marking
+ags_modernmarkings:floor_marking_yellow_singleline, Yellow Line Floor Marking
+ags_modernmarkings:floor_marking_yellow_square, Yellow Square Floor Marking
+ags_modernmarkings:floor_marking_yellow_stripes, Yellow Stripes Floor Marking
+ags_modernmarkings:floor_marking_black_corner, Black Corner Floor Marking
+ags_modernmarkings:floor_marking_blue_corner, Blue Corner Floor Marking
+ags_modernmarkings:floor_marking_green_corner, Green Corner Floor Marking
+ags_modernmarkings:floor_marking_orange_corner, Orange Corner Floor Marking
+ags_modernmarkings:floor_marking_white_corner, White Corner Floor Marking
+ags_modernmarkings:floor_marking_yellow_corner, Yellow Corner Floor Marking
+ags_modernmarkings:floor_marking_red_corner, Red Corner Floor Marking
+ags_modernmarkings:wall_marking_number_0, 0 Wall Marking
+ags_modernmarkings:wall_marking_number_1, 1 Wall Marking
+ags_modernmarkings:wall_marking_number_2, 2 Wall Marking
+ags_modernmarkings:wall_marking_number_3, 3 Wall Marking
+ags_modernmarkings:wall_marking_number_4, 4 Wall Marking
+ags_modernmarkings:wall_marking_number_5, 5 Wall Marking
+ags_modernmarkings:wall_marking_number_6, 6 Wall Marking
+ags_modernmarkings:wall_marking_number_7, 7 Wall Marking
+ags_modernmarkings:wall_marking_number_8, 8 Wall Marking
+ags_modernmarkings:wall_marking_number_9, 9 Wall Marking
+ags_modernmarkings:wall_marking_number_no, No. Wall Marking
+ags_modernmarkings:wall_marking_number_numero, Numero Wall Marking
+ags_modernmarkings:wall_marking_number_dash, - Wall Marking
+ags_modernmarkings:wall_marking_number_comma, Comma Wall Marking
+ags_modernmarkings:wall_marking_number_period, Period Wall Marking
+ags_modernmarkings:wall_marking_hazard_diamond, Hazard Diamond Wall Marking
+ags_modernmarkings:wall_marking_exclamation_mark, Exclamation Mark Wall Marking
+ags_modernmarkings:wall_marking_question_mark, Question Mark Wall Marking
+ags_modernmarkings:wall_marking_symbol_chemical, Chemical Wall Symbol
+ags_modernmarkings:wall_marking_symbol_electric, Electric Wall Symbol
+ags_modernmarkings:wall_marking_symbol_fire, Fire Wall Symbol
+ags_modernmarkings:wall_marking_symbol_fluid, Fluid Wall Symbol
+ags_modernmarkings:wall_marking_symbol_frost, Frost Wall Symbol
+ags_modernmarkings:wall_marking_symbol_gears, Gears Wall Symbol
+ags_modernmarkings:wall_marking_symbol_laser, Laser Wall Symbol
+ags_modernmarkings:wall_marking_symbol_magic, Magic Wall Symbol
+ags_modernmarkings:wall_marking_symbol_mob, Mob Wall Symbol
+ags_modernmarkings:wall_marking_symbol_pinch, Pinch Point Wall Symbol
+ags_modernmarkings:wall_marking_symbol_production, Production Wall Symbol
+ags_modernmarkings:wall_marking_symbol_radiation, Radiation Wall Symbol
+ags_modernmarkings:wall_marking_symbol_storage, Storage Wall Symbol
+ags_modernmarkings:wall_marking_warning_danger, Warning Wall Marking
+ags_modernmarkings:wall_marking_arrowleft, Arrow Left Wall Marking
+ags_modernmarkings:wall_marking_arrowright, Arrow Right Wall Marking
+ags_modernmarkings:wall_marking_exit, Exit Wall Marking
+ags_modernmarkings:wall_marking_hazardline_left, Hazardline Left Corner Marking
+ags_modernmarkings:wall_marking_hazardline_right, Hazardline Right Corner Wall Marking
+ags_modernmarkings:wall_marking_symbol_yellow_chemical, Yellow Chemical Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_electric, Yellow Electric Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_fire, Yellow Fire Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_fluid, Yellow Fluid Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_frost, Yellow Frost Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_gears, Yellow Gears Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_laser, Yellow Laser Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_magic, Yellow Magic Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_mob, Yellow Mob Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_pinch, Pinch Point Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_production, Production Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_radiation, Radiation Wall Symbol
+ags_modernmarkings:wall_marking_symbol_yellow_storage, Yellow Storage Wall Symbol
+ags_modernmarkings:wall_marking_symbol_jeo, Just Enough Opinions Podcast Symbol(product placement!)
+ags_modernmarkings:wall_marking_voltage_ulv, ULV Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_steam, Steam Tier Wall Symbol
+ags_modernmarkings:wall_marking_voltage_eu, EU Wall Symbol
+ags_modernmarkings:wall_marking_voltage_ev, Extreme Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_fe, Forge Energy Wall Symbol
+ags_modernmarkings:wall_marking_voltage_hv, High Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_iv, Insane Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_luv, Ludicrous Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_lv, Low Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_max, MAX Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_mv, Medium Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_pert, per tick Wall Symbol
+ags_modernmarkings:wall_marking_voltage_rf, Redstone Flux Wall Symbol
+ags_modernmarkings:wall_marking_voltage_uev, UEV Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_uhv, UHV Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_uiv, UIV Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_umv, UMV Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_uv, UV Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_uxv, UXV Voltage Wall Symbol
+ags_modernmarkings:wall_marking_voltage_zpm, Zero Point Module Voltage Wall Symbol
 quark:spruce_trapdoor, tile.spruce_trapdoor.name
 quark:birch_trapdoor, tile.birch_trapdoor.name
 quark:jungle_trapdoor, tile.jungle_trapdoor.name
@@ -6535,6 +6624,56 @@ quark:acacia_button, tile.acacia_button.name
 quark:dark_oak_button, tile.dark_oak_button.name
 quark:grate, tile.grate.name
 quark:glass_item_frame, item.glass_item_frame.name
+quark:witch_hat, item.witch_hat.name
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:rune:0, White Rune
+quark:rune:1, Orange Rune
+quark:rune:2, Magenta Rune
+quark:rune:3, Light Blue Rune
+quark:rune:4, Yellow Rune
+quark:rune:5, Lime Rune
+quark:rune:6, Pink Rune
+quark:rune:7, Gray Rune
+quark:rune:8, Light Gray Rune
+quark:rune:9, Cyan Rune
+quark:rune:10, Purple Rune
+quark:rune:11, Blue Rune
+quark:rune:12, Brown Rune
+quark:rune:13, Green Rune
+quark:rune:14, Red Rune
+quark:rune:15, Black Rune
+quark:rune:16, Rainbow Rune
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:enderdragon_scale, item.enderdragon_scale.name
+quark:glass_shards:0, Glass Shard
+quark:glass_shards:1, White Glass Shard
+quark:glass_shards:2, Orange Glass Shard
+quark:glass_shards:3, Magenta Glass Shard
+quark:glass_shards:4, Light Blue Glass Shard
+quark:glass_shards:5, Yellow Glass Shard
+quark:glass_shards:6, Lime Glass Shard
+quark:glass_shards:7, Pink Glass Shard
+quark:glass_shards:8, Gray Glass Shard
+quark:glass_shards:9, Light Gray Glass Shard
+quark:glass_shards:10, Cyan Glass Shard
+quark:glass_shards:11, Purple Glass Shard
+quark:glass_shards:12, Blue Glass Shard
+quark:glass_shards:13, Brown Glass Shard
+quark:glass_shards:14, Green Glass Shard
+quark:glass_shards:15, Red Glass Shard
+quark:glass_shards:16, Black Glass Shard
 quark:roots, tile.roots.name
 quark:root, item.root.name
 quark:roots_blue_flower, tile.roots_blue_flower.name
@@ -6659,55 +6798,22 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, tile.smoker.name
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:rune:0, White Rune
-quark:rune:1, Orange Rune
-quark:rune:2, Magenta Rune
-quark:rune:3, Light Blue Rune
-quark:rune:4, Yellow Rune
-quark:rune:5, Lime Rune
-quark:rune:6, Pink Rune
-quark:rune:7, Gray Rune
-quark:rune:8, Light Gray Rune
-quark:rune:9, Cyan Rune
-quark:rune:10, Purple Rune
-quark:rune:11, Blue Rune
-quark:rune:12, Brown Rune
-quark:rune:13, Green Rune
-quark:rune:14, Red Rune
-quark:rune:15, Black Rune
-quark:rune:16, Rainbow Rune
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
-quark:enderdragon_scale, item.enderdragon_scale.name
-quark:glass_shards:0, Glass Shard
-quark:glass_shards:1, White Glass Shard
-quark:glass_shards:2, Orange Glass Shard
-quark:glass_shards:3, Magenta Glass Shard
-quark:glass_shards:4, Light Blue Glass Shard
-quark:glass_shards:5, Yellow Glass Shard
-quark:glass_shards:6, Lime Glass Shard
-quark:glass_shards:7, Pink Glass Shard
-quark:glass_shards:8, Gray Glass Shard
-quark:glass_shards:9, Light Gray Glass Shard
-quark:glass_shards:10, Cyan Glass Shard
-quark:glass_shards:11, Purple Glass Shard
-quark:glass_shards:12, Blue Glass Shard
-quark:glass_shards:13, Brown Glass Shard
-quark:glass_shards:14, Green Glass Shard
-quark:glass_shards:15, Red Glass Shard
-quark:glass_shards:16, Black Glass Shard
+quark:chute, tile.chute.name
+quark:sugar_block, tile.sugar_block.name
+quark:redstone_randomizer, tile.redstone_randomizer.name
+quark:iron_button, tile.iron_button.name
+quark:gold_button, tile.gold_button.name
+quark:ender_watcher, tile.ender_watcher.name
+quark:iron_rod, tile.iron_rod.name
+quark:color_slime:0, Red Slime Block
+quark:color_slime:1, Blue Slime Block
+quark:color_slime:2, Cyan Slime Block
+quark:color_slime:3, Magenta Slime Block
+quark:color_slime:4, Yellow Slime Block
+quark:gravisand, tile.gravisand.name
+quark:redstone_inductor, tile.redstone_inductor.name
+quark:rain_detector, tile.rain_detector.name
+quark:chain, item.chain.name
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -8469,23 +8575,22 @@ immersiveengineering:steel_armor_feet, Steel Boots
 immersiveengineering:steel_armor_legs, Steel Leggings
 immersiveengineering:steel_armor_chest, Steel Chestplate
 immersiveengineering:steel_armor_head, Steel Helmet
-pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
-pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
-pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
-pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
-pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
-pneumaticcraft:heat_frame, Heat Frame
-pneumaticcraft:spawner_agitator, Spawner Agitator
-pneumaticcraft:crop_support, Crop Support
-pneumaticcraft:transfer_gadget, Transfer Gadget
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.diesel, Diesel
 pneumaticcraft:fluid.oil, Oil
 pneumaticcraft:fluid.lpg, LPG
-pneumaticcraft:fluid.lubricant, Lubricant
 pneumaticcraft:fluid.etchacid, Etching Acid
-pneumaticcraft:fluid.kerosene, Kerosene
 pneumaticcraft:fluid.fuel, Gasoline
+pneumaticcraft:fluid.diesel, Diesel
+pneumaticcraft:fluid.lubricant, Lubricant
+pneumaticcraft:fluid.kerosene, Kerosene
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:safety_tube_module, Safety Tube Module
+pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
+pneumaticcraft:flow_detector_module, Flow Detector Tube Module
+pneumaticcraft:air_grate_module, Air Grate Tube Module
+pneumaticcraft:regulator_tube_module, Regulator Tube Module
+pneumaticcraft:charging_module, Charging Module
+pneumaticcraft:logistics_module, Logistics Module
+pneumaticcraft:redstone_module, Redstone Module
 pneumaticcraft:gps_tool, GPS Tool
 pneumaticcraft:gps_area_tool, GPS Area Tool
 pneumaticcraft:ingot_iron_compressed, Compressed Iron Ingot
@@ -8635,14 +8740,36 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
-pneumaticcraft:safety_tube_module, Safety Tube Module
-pneumaticcraft:pressure_gauge_module, Pressure Gauge Tube Module
-pneumaticcraft:flow_detector_module, Flow Detector Tube Module
-pneumaticcraft:air_grate_module, Air Grate Tube Module
-pneumaticcraft:regulator_tube_module, Regulator Tube Module
-pneumaticcraft:charging_module, Charging Module
-pneumaticcraft:logistics_module, Logistics Module
-pneumaticcraft:redstone_module, Redstone Module
+pneumaticcraft:logistic_frame_active_provider, Logistic Active Provider Frame
+pneumaticcraft:logistic_frame_passive_provider, Logistic Passive Provider Frame
+pneumaticcraft:logistic_frame_storage, Logistic Storage Frame
+pneumaticcraft:logistic_frame_default_storage, Logistic Default Storage Frame
+pneumaticcraft:logistic_frame_requester, Logistic Requester Frame
+pneumaticcraft:heat_frame, Heat Frame
+pneumaticcraft:spawner_agitator, Spawner Agitator
+pneumaticcraft:crop_support, Crop Support
+pneumaticcraft:transfer_gadget, Transfer Gadget
+storagedrawers:upgrade_template, Upgrade Template
+storagedrawers:upgrade_storage:0, Storage Upgrade (I)
+storagedrawers:upgrade_storage:1, Storage Upgrade (II)
+storagedrawers:upgrade_storage:2, Storage Upgrade (III)
+storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
+storagedrawers:upgrade_storage:4, Storage Upgrade (V)
+storagedrawers:upgrade_one_stack, Storage Downgrade
+storagedrawers:upgrade_status:0, Status Upgrade (I)
+storagedrawers:upgrade_status:1, Status Upgrade (II)
+storagedrawers:upgrade_void, Void Upgrade
+storagedrawers:upgrade_conversion, Conversion Upgrade
+storagedrawers:upgrade_creative:0, Creative Storage Upgrade
+storagedrawers:upgrade_creative:1, Creative Vending Upgrade
+storagedrawers:upgrade_redstone:0, Redstone Upgrade
+storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
+storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
+storagedrawers:drawer_key, Drawer Key
+storagedrawers:shroud_key, Concealment Key
+storagedrawers:personal_key, Personal Key
+storagedrawers:quantify_key, Quantify Key
+storagedrawers:tape, Packing Tape
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -8693,27 +8820,6 @@ storagedrawers:customdrawers:3, Framed Half Drawers 1x2
 storagedrawers:customdrawers:4, Framed Half Drawers 2x2
 storagedrawers:customtrim, Framed Trim
 storagedrawers:framingtable, Framing Table
-storagedrawers:upgrade_template, Upgrade Template
-storagedrawers:upgrade_storage:0, Storage Upgrade (I)
-storagedrawers:upgrade_storage:1, Storage Upgrade (II)
-storagedrawers:upgrade_storage:2, Storage Upgrade (III)
-storagedrawers:upgrade_storage:3, Storage Upgrade (IV)
-storagedrawers:upgrade_storage:4, Storage Upgrade (V)
-storagedrawers:upgrade_one_stack, Storage Downgrade
-storagedrawers:upgrade_status:0, Status Upgrade (I)
-storagedrawers:upgrade_status:1, Status Upgrade (II)
-storagedrawers:upgrade_void, Void Upgrade
-storagedrawers:upgrade_conversion, Conversion Upgrade
-storagedrawers:upgrade_creative:0, Creative Storage Upgrade
-storagedrawers:upgrade_creative:1, Creative Vending Upgrade
-storagedrawers:upgrade_redstone:0, Redstone Upgrade
-storagedrawers:upgrade_redstone:1, Redstone Max Upgrade
-storagedrawers:upgrade_redstone:2, Redstone Min Upgrade
-storagedrawers:drawer_key, Drawer Key
-storagedrawers:shroud_key, Concealment Key
-storagedrawers:personal_key, Personal Key
-storagedrawers:quantify_key, Quantify Key
-storagedrawers:tape, Packing Tape
 wct:wct, Wireless Crafting Terminal
 wct:wct_creative, Creative Wireless Crafting Terminal
 wct:magnet_card, Magnet Card

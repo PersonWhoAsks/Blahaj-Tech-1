@@ -17,12 +17,14 @@ import mods.nuclearcraft.Electrolyzer;
 import mods.nuclearcraft.FuelReprocessor;
 import mods.nuclearcraft.Separator;
 import mods.nuclearcraft.DecayHastener;
+import mods.nuclearcraft.IngotFormer;
+import mods.nuclearcraft.ChemicalReactor;
 
 // Removing impossible recipes
 mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:nuggets>);
 mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:ingots>);
 
-// REMOVING UNFINISHED CONTENT
+// REMOVING CONTENT
 
     // Pebble-bed fission
     mods.jei.JEI.hideCategory("nuclearcraft_pebble_fission");
@@ -101,7 +103,9 @@ mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:ingots>);
         <nuclearcraft:heat_exchanger_controller>,
         <nuclearcraft:heat_exchanger_casing>,
         <nuclearcraft:heat_exchanger_glass>,
-        <nuclearcraft:heat_exchanger_vent>,
+        <nuclearcraft:heat_exchanger_inlet>,
+        <nuclearcraft:heat_exchanger_outlet>,
+        <nuclearcraft:heat_exchanger_baffle>,
         <nuclearcraft:heat_exchanger_tube_copper>,
         <nuclearcraft:heat_exchanger_tube_hard_carbon>,
         <nuclearcraft:heat_exchanger_tube_thermoconducting>,
@@ -428,7 +432,7 @@ mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:ingots>);
         scripts.main.erase(carbide);
     }
 
-// Removing impossible to get molten depleted fuels (what's the point of them anyway?)
+// Removing molten fuels
 val moltenDepletedFuels = [
     <liquid:depleted_hea_242>,
     <liquid:depleted_hea_242_fluoride>,
@@ -495,6 +499,86 @@ for liquid in moltenDepletedFuels {
     }
 
     mods.jei.JEI.hide(liquid);
+}
+
+val moltenFuels = [
+    <liquid:hea_242>,
+    <liquid:hea_242_fluoride>,
+    <liquid:heb_248>,
+    <liquid:heb_248_fluoride>,
+    <liquid:hecf_249>,
+    <liquid:hecf_249_fluoride>,
+    <liquid:hecf_251>,
+    <liquid:hecf_251_fluoride>,
+    <liquid:hecm_243>,
+    <liquid:hecm_243_fluoride>,
+    <liquid:hecm_245>,
+    <liquid:hecm_245_fluoride>,
+    <liquid:hecm_247>,
+    <liquid:hecm_247_fluoride>,
+    <liquid:hen_236>,
+    <liquid:hen_236_fluoride>,
+    <liquid:hep_239>,
+    <liquid:hep_239_fluoride>,
+    <liquid:hep_241>,
+    <liquid:hep_241_fluoride>,
+    <liquid:heu_233>,
+    <liquid:heu_233_fluoride>,
+    <liquid:heu_235>,
+    <liquid:heu_235_fluoride>,
+    <liquid:lea_242>,
+    <liquid:lea_242_fluoride>,
+    <liquid:leb_248>,
+    <liquid:leb_248_fluoride>,
+    <liquid:lecf_249>,
+    <liquid:lecf_249_fluoride>,
+    <liquid:lecf_251>,
+    <liquid:lecf_251_fluoride>,
+    <liquid:lecm_243>,
+    <liquid:lecm_243_fluoride>,
+    <liquid:lecm_245>,
+    <liquid:lecm_245_fluoride>,
+    <liquid:lecm_247>,
+    <liquid:lecm_247_fluoride>,
+    <liquid:len_236>,
+    <liquid:len_236_fluoride>,
+    <liquid:lep_239>,
+    <liquid:lep_239_fluoride>,
+    <liquid:lep_241>,
+    <liquid:lep_241_fluoride>,
+    <liquid:leu_233>,
+    <liquid:leu_233_fluoride>,
+    <liquid:leu_235>,
+    <liquid:leu_235_fluoride>,
+    <liquid:mix_239>,
+    <liquid:mix_239_fluoride>,
+    <liquid:mix_241>,
+    <liquid:mix_241_fluoride>,
+    <liquid:tbu>,
+    <liquid:tbu_fluoride>
+] as ILiquidStack[];
+
+for liquid in moltenFuels {
+    if (!(liquid.name has "fluoride")) {
+        mods.nuclearcraft.IngotFormer.removeRecipeWithInput(liquid*144);
+        mods.nuclearcraft.Melter.removeRecipeWithOutput(liquid*144);
+
+        if (!(liquid.name == "mix_239" || liquid.name == "tbu" || liquid.name == "mix_241")) {
+            if (liquid.name.substring(0, 1) == "h") {  // Separates heavy liquids for appropriate recipe
+                mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(liquid*64);
+            } else {
+                mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(liquid*144);
+            }
+        }
+
+        if (!(liquid.name == "tbu")) {
+            mods.nuclearcraft.Centrifuge.removeRecipeWithInput(liquid*144);
+        }
+
+    } else {
+        mods.nuclearcraft.ChemicalReactor.removeRecipeWithOutput(liquid*72, null);
+        mods.nuclearcraft.Electrolyzer.removeRecipeWithInput(liquid*72);
+    }
 }
 
 // Zirconium recipes
