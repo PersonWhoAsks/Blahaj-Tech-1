@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "dfdeddf3",
+		type: "item",
+		items: [{
+			item: "qmd:dust 1 6"
+		}]
+	}]
+}

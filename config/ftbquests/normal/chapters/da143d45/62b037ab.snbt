@@ -5,7 +5,7 @@
 	x: 2.5d,
 	y: 3.0d,
 	text: [
-		"Now you can smelt iron, but you can't cast it into an ingot — how horrendous! To obtain an ingot cast, you will need a golden Ingot Cast, and yes, you will need a pickaxe that can break gold ore."
+		""
 	],
 	dependencies: [
 		"a7d61aca"

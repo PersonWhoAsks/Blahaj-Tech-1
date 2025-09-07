@@ -2,7 +2,9 @@
 	icon: "pneumaticcraft:plastic",
 	x: 3.0d,
 	y: -3.0d,
-	description: "Plastic Fantastic",
+	text: [
+		""
+	],
 	dependencies: [
 		"0bef70ea"
 	],

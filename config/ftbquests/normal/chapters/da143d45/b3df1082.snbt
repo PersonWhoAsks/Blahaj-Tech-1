@@ -3,11 +3,8 @@
 	x: 7.8d,
 	y: 2.4d,
 	shape: "rsquare",
-	description: "So we back in the mine",
 	text: [
-		"Finally, select the Pickaxe in the Tool Station and insert the parts you’ve just made, and boom — you got an Pickaxe! However, this isn’t the last time you will use the Tool Station. You still need to create a stone pickaxe to mine iron ore. Because you can't smelt iron and other ores in the vanilla furnace, you will need to learn about the smeltery next.",
-		"",
-		"The Tool Station allows you to be creative with the tools you make, allowing you to craft a variety of tools using different parts and combinations of materials for various tool modifiers. The tools you create can also be upgraded, but you need to use those tools to unlock upgrade slots. You can read more in the \"Materials and You\" book."
+		""
 	],
 	dependencies: [
 		"8a9acbf6"

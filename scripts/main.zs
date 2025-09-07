@@ -140,7 +140,20 @@ val thingsToErase = [
     // Dense ores
     <densemetals:dense_iridium_ore>,
     <densemetals:dense_mithril_ore>,
-    <densemetals:dense_platinum_ore>
+    <densemetals:dense_platinum_ore>,
+
+    // Mystical Agriculture
+    <mysticalagriculture:chunk>,
+    <mysticalagriculture:chunk:1>,
+    <mysticalagriculture:chunk:2>,
+    <mysticalagriculture:chunk:3>,
+    <mysticalagriculture:chunk:4>,
+    <mysticalagradditions:insanium:4>,
+    <mysticalagriculture:crafting:23>,
+    <mysticalagriculture:crafting:24>,
+
+    // Immersive Engineering
+    <immersiveengineering:fluorescent_tube>
 ] as IItemStack[];
 for thing in thingsToErase {
     erase(thing);

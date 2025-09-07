@@ -1,0 +1,11 @@
+{
+	x: -6.5d,
+	y: -5.5d,
+	tasks: [{
+		uid: "75126993",
+		type: "item",
+		items: [{
+			item: "qmd:luminous_paint 1 2"
+		}]
+	}]
+}

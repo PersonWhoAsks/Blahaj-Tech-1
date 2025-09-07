@@ -1,0 +1,11 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "574d5b93",
+		type: "item",
+		items: [{
+			item: "qmd:chemical_dust 1 5"
+		}]
+	}]
+}

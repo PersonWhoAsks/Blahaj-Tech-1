@@ -1,0 +1,11 @@
+{
+	x: -4.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "0574bc1b",
+		type: "item",
+		items: [{
+			item: "qmd:ore_leacher"
+		}]
+	}]
+}

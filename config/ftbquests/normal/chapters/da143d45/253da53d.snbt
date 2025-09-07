@@ -4,9 +4,7 @@
 	x: 1.5d,
 	y: 4.0d,
 	text: [
-		"To create metallic tool parts, you must cast molten metals into casts, and your only available cast right now is a clay cast. You can make one by smelting clay and casting it onto a tool part on a Casting Table by right-clicking the Seared Faucet connected to the Seared Drain. Keep in mind that the tool part will be destroyed, and clay casts are one-use only.",
-		"",
-		"You can refer to the JEI recipe for guidance."
+		""
 	],
 	dependencies: [
 		"62b037ab"

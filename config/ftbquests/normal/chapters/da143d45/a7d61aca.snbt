@@ -4,9 +4,7 @@
 	x: 3.5d,
 	y: 2.0d,
 	text: [
-		"Using the Seared Bricks, craft the Smeltery components. This task only requires the minimum number of blocks for the smallest working Smeltery, but you can build a bigger one or with more interactive components as you wish.",
-		"",
-		"You can refer to the \"Materials and You\" book for assistance in building your first Smeltery. Remember that you need some lava for smelting anything, and be careful not to smelt yourself!"
+		""
 	],
 	dependencies: [
 		"25a4255d"

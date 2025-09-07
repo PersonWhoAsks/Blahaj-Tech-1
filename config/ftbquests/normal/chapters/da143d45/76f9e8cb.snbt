@@ -4,7 +4,7 @@
 	x: 0.5d,
 	y: 5.0d,
 	text: [
-		"After you've smelted some gold, cast it onto any brick you can make to get your final piece of the puzzle in obtaining an Iron Ingot."
+		""
 	],
 	dependencies: [
 		"253da53d"

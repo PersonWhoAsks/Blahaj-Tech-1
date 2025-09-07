@@ -4,7 +4,7 @@
 	x: 4.5d,
 	y: 1.0d,
 	text: [
-		"While your Grout is smelting, make a Clay Bucket and collect some lava; you will need it for the next step!"
+		""
 	],
 	dependencies: [
 		"6a450329"

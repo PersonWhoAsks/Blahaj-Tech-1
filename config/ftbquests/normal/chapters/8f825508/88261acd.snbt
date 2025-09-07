@@ -4,15 +4,8 @@
 	disable_toast: true,
 	x: 0.0d,
 	y: 0.0d,
-	description: "Step by step",
 	text: [
-		"The modpack consists of three stages of the game:",
-		"",
-		"Early Game – You will start without any vanilla tools and will be introduced to the Tinkers' Construct mod, which will help you obtain your first iron. Your first technological advancements will begin with Immersive Engineering, where you will learn how to make steel. Later, you will spend time learning how to use pressure with PneumaticCraft.",
-		"",
-		"Mid Game – This is where automation begins. Your first challenge will be generating enough electricity to power your new machines and create stronger components for more advanced contraptions using Thermal Expansion. Once you are ready, you will embark on a new, deadly career as a nuclear physicist with NuclearCraft.",
-		"",
-		"Late Game – Once you’ve become nicely irradiated by various isotopes, you will dive into the complex Quantum Minecraft Dynamics to create creative items that will help you shape the world. But until then, a lot of building and learning await as you gather the resources you’ll need for further advancements."
+		""
 	],
 	tasks: [{
 		uid: "0832394e",

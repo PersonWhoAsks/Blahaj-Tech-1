@@ -1,0 +1,11 @@
+{
+	x: -4.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "887b0511",
+		type: "item",
+		items: [{
+			item: "qmd:semiconductor 1 4"
+		}]
+	}]
+}

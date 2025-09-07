@@ -1,0 +1,11 @@
+{
+	x: -6.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "ba06606d",
+		type: "item",
+		items: [{
+			item: "qmd:atmosphere_collector"
+		}]
+	}]
+}

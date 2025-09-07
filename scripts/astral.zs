@@ -100,3 +100,39 @@ for key in t3table {
         t3table[key], t3table[key], t3table[key], t3table[key]
     ]);
 }
+
+// Tier 4 seeds recipes
+val t4essen = <mysticalagriculture:crafting:3>;
+val t4essenBlock = <mysticalagriculture:storage:3>;
+val t4seeds = <mysticalagriculture:crafting:20>;
+
+val t4table = {
+    "end" : <mysticalagriculture:crafting:9>,
+    "experience" : <mysticalagriculture:chunk:5>,
+    "diamond" : <minecraft:diamond>,
+    "emerald" : <minecraft:emerald>,
+    "blaze" : <mysticalagriculture:chunk:17>,
+    "ghast" : <mysticalagriculture:chunk:18>,
+    "enderman" : <mysticalagriculture:chunk:19>,
+    "nickel" : <immersiveengineering:metal:4>,
+    "signalum" : <thermalfoundation:material:165>,
+    "lumium" : <thermalfoundation:material:166>,
+    "thorium" : <nuclearcraft:ingot:3>,
+    "starmetal" : <astralsorcery:itemcraftingcomponent:1>,
+    "fluix" : <appliedenergistics2:material:7>
+} as IIngredient[string];
+
+for key in t4table {
+    val seed = itemUtils.getItem("mysticalagriculture:" ~ key ~ "_seeds"); 
+    recipes.remove(seed);
+    mods.astralsorcery.Altar.addConstellationAltarRecipe("mypack:shaped/internal/altar/" ~ key ~ "_seeds", seed, 1600, 1600, [
+        t4essen, t4table[key], t4essen,
+        t4table[key], t4seeds, t4table[key],
+        t4essen, t4table[key], t4essen,
+        t4essenBlock, t4essenBlock, t4essenBlock, t4essenBlock,
+        t4table[key], t4table[key],
+        t4table[key], t4table[key],
+        t4table[key], t4table[key],
+        t4table[key], t4table[key]
+    ]);
+}

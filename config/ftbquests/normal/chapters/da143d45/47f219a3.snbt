@@ -4,7 +4,7 @@
 	x: 6.0d,
 	y: -1.5d,
 	text: [
-		"Next, you’ll need the tinkering stations: Stencil Table, Part Builder, and Tool Station. You can use the blank patterns you crafted in the previous step to make them."
+		""
 	],
 	dependencies: [
 		"eaa5d707"

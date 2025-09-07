@@ -1,0 +1,9 @@
+{
+	x: -4.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "fce324b1",
+		type: "fluid",
+		fluid: "hydrochloric_acid"
+	}]
+}

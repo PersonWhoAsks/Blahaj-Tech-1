@@ -4,7 +4,7 @@
 	x: 7.5d,
 	y: 1.0d,
 	text: [
-		"Using the Part Builder, create the wooden pickaxe parts, and you will be on the home stretch to getting your first pickaxe :D"
+		""
 	],
 	dependencies: [
 		"f0a7f20b"

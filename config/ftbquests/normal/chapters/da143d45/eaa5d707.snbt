@@ -4,7 +4,7 @@
 	x: 4.5d,
 	y: -2.0d,
 	text: [
-		"Let's start with the most basic component you’ll need: blank patterns. You can craft four of them with 2 wooden planks and 2 sticks directly in your inventory."
+		""
 	],
 	dependencies: [
 		"e2bd0725"

@@ -19,6 +19,7 @@ import mods.nuclearcraft.Separator;
 import mods.nuclearcraft.DecayHastener;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.ChemicalReactor;
+import mods.nuclearcraft.FissionHeating;
 
 // Removing impossible recipes
 mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:nuggets>);
@@ -96,26 +97,6 @@ mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:ingots>);
         }
     }
 
-    // Heat exchange
-    mods.jei.JEI.hideCategory("nuclearcraft_heat_exchanger");
-    mods.nuclearcraft.HeatExchanger.removeAllRecipes();
-    val HEItems = [
-        <nuclearcraft:heat_exchanger_controller>,
-        <nuclearcraft:heat_exchanger_casing>,
-        <nuclearcraft:heat_exchanger_glass>,
-        <nuclearcraft:heat_exchanger_inlet>,
-        <nuclearcraft:heat_exchanger_outlet>,
-        <nuclearcraft:heat_exchanger_baffle>,
-        <nuclearcraft:heat_exchanger_tube_copper>,
-        <nuclearcraft:heat_exchanger_tube_hard_carbon>,
-        <nuclearcraft:heat_exchanger_tube_thermoconducting>,
-        <nuclearcraft:heat_exchanger_redstone_port>,
-        <nuclearcraft:heat_exchanger_computer_port>
-    ] as IItemStack[];
-    for item in HEItems {
-        scripts.main.erase(item);
-    }
-    
     val NaKLiquids = [
         <liquid:aluminum_nak>,
         <liquid:aluminum_nak_hot>,
@@ -185,6 +166,7 @@ mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:ingots>);
     for liquid in NaKLiquids {
         if (!(liquid.name has "hot")) {
             mods.nuclearcraft.SaltMixer.removeRecipeWithOutput(liquid*144);
+            mods.nuclearcraft.FissionHeating.removeRecipeWithInput(liquid);
 
             if (liquid.name != "nak") {
                 mods.nuclearcraft.Centrifuge.removeRecipeWithInput(liquid*144);
@@ -602,3 +584,10 @@ recipes.addShaped(<nuclearcraft:upgrade> * 2, [
     [<pneumaticcraft:plastic:4>, <nuclearcraft:ingot:10>, <pneumaticcraft:plastic:4>]
 ]);
 
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3");
+mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier3", <astralsorcery:blockaltar:2>, 1600, 1600, [
+    <astralsorcery:itemcraftingcomponent>, <ore:ingotNeptunium237All>, <astralsorcery:itemcraftingcomponent>,
+    <astralsorcery:blockmarble:4>, <astralsorcery:itemrockcrystalsimple> | <astralsorcery:itemcelestialcrystal>, <astralsorcery:blockmarble:4>,
+    <astralsorcery:blockmarble:2>, <astralsorcery:itemcraftingcomponent:1>, <astralsorcery:blockmarble:2>,
+    <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:blockmarble:4>, <astralsorcery:blockmarble:4>
+]);
