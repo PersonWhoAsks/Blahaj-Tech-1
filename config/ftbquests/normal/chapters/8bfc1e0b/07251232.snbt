@@ -1,0 +1,45 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	shape: "heart",
+	can_repeat: true,
+	dependencies: [
+		"7f95c421",
+		"c1f1594c",
+		"cf9dfa47"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ea143130",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "blahaj:gray_shark"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b67f6655",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "blahaj:gray_shark"
+		}
+	},
+	{
+		uid: "2f96ea7f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "blahaj:gray_shark"
+		}
+	}]
+}

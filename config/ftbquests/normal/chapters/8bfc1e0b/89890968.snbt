@@ -1,0 +1,29 @@
+{
+	x: 7.0d,
+	y: 8.0d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"afd2221e",
+		"e056d6c7"
+	],
+	tasks: [{
+		uid: "48f41a63",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "qmd:legs_hev",
+			tag: {
+				energyStorage: {
+					maxTransfer: 1000000,
+					energy: 0L,
+					capacity: 1000000L
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

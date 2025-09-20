@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: 9.0d,
+	dependencies: [
+		"f1563648",
+		"a45e3f45"
+	],
+	tasks: [{
+		uid: "8b911929",
+		type: "item",
+		items: [{
+			item: "qmd:part 1 5"
+		}]
+	}]
+}

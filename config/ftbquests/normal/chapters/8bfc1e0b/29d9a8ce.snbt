@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: 8.5d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"afd2221e",
+		"5537a776",
+		"a253fe55"
+	],
+	tasks: [{
+		uid: "3be5b51b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8630824201861639239L,
+					AS_Amulet_HolderMost: -7424322137771980438L
+				}
+			},
+			id: "qmd:antimatter_launcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

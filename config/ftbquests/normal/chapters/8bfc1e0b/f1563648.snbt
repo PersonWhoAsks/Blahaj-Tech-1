@@ -1,15 +1,15 @@
 {
-	x: -2.5d,
-	y: 5.5d,
+	x: 1.0d,
+	y: 9.0d,
 	hide_dependency_lines: true,
 	dependencies: [
-		"9cb05dfa"
+		"2e378630"
 	],
 	tasks: [{
-		uid: "5d5d124c",
+		uid: "b522f01f",
 		type: "item",
 		items: [{
-			item: "qmd:dust 1 7"
+			item: "qmd:ingot2 1 1"
 		}]
 	}]
 }

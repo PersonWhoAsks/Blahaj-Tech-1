@@ -1,14 +1,14 @@
 {
-	x: 2.5d,
-	y: 5.5d,
+	x: -4.0d,
+	y: 4.5d,
 	dependencies: [
 		"14db4982"
 	],
 	tasks: [{
-		uid: "9a4757df",
+		uid: "769ec670",
 		type: "item",
 		items: [{
-			item: "qmd:chemical_dust 1 7"
+			item: "qmd:ingot 1 7"
 		}]
 	}]
 }

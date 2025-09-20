@@ -1,0 +1,11 @@
+{
+	x: 1.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "4eccfab4",
+		type: "item",
+		items: [{
+			item: "qmd:ingot_alloy 1 4"
+		}]
+	}]
+}

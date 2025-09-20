@@ -2,6 +2,14 @@
 	x: 0.0d,
 	y: 0.0d,
 	shape: "heart",
+	can_repeat: true,
+	dependencies: [
+		"57af257f",
+		"cf9dfa47",
+		"7f95c421",
+		"5f6f38b9",
+		"9de4ccca"
+	],
 	size: 4.0d,
 	tasks: [{
 		uid: "75eca74c",
@@ -12,7 +20,34 @@
 			},
 			id: "blahaj:blue_shark"
 		}],
+		consume_items: true,
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cc87e74e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8630824201861639239L,
+					AS_Amulet_HolderMost: -7424322137771980438L
+				}
+			},
+			id: "blahaj:blue_shark"
+		}
+	},
+	{
+		uid: "655f8884",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8630824201861639239L,
+					AS_Amulet_HolderMost: -7424322137771980438L
+				}
+			},
+			id: "blahaj:blue_shark"
+		}
 	}]
 }

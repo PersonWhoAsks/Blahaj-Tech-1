@@ -1,0 +1,24 @@
+{
+	title: "Exotic Containment Chamber",
+	x: 0.0d,
+	y: 6.0d,
+	dependencies: [
+		"e056d6c7",
+		"021d44e3",
+		"a253fe55"
+	],
+	tasks: [{
+		uid: "7cef9164",
+		type: "item",
+		items: [{
+			item: "qmd:neutral_containment_controller"
+		}]
+	},
+	{
+		uid: "879d3d6c",
+		type: "item",
+		items: [{
+			item: "qmd:containment_laser"
+		}]
+	}]
+}

@@ -1,14 +1,14 @@
 {
 	x: 4.0d,
-	y: 4.5d,
+	y: 9.0d,
 	dependencies: [
-		"3a111d3d"
+		"f1563648"
 	],
 	tasks: [{
-		uid: "75126993",
+		uid: "613fb9c2",
 		type: "item",
 		items: [{
-			item: "qmd:luminous_paint 1 2"
+			item: "qmd:part 1 8"
 		}]
 	}]
 }

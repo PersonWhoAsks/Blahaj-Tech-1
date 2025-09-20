@@ -1,6 +1,10 @@
 {
+	icon: "qmd:semiconductor 1 6",
 	x: 1.5d,
 	y: -1.5d,
+	dependencies: [
+		"e056d6c7"
+	],
 	tasks: [{
 		uid: "a644c452",
 		type: "checkmark"

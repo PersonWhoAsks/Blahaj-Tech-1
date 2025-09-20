@@ -1,0 +1,14 @@
+{
+	x: -4.0d,
+	y: 13.0d,
+	dependencies: [
+		"6a7e1b3e"
+	],
+	tasks: [{
+		uid: "03262463",
+		type: "item",
+		items: [{
+			item: "qmd:semiconductor 1 1"
+		}]
+	}]
+}

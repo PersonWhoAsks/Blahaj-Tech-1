@@ -1,0 +1,45 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	shape: "heart",
+	can_repeat: true,
+	dependencies: [
+		"5f6f38b9",
+		"cf9dfa47",
+		"8f41fcd2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "06cf313c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "blahaj:bread"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "742a18dc",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "blahaj:bread"
+		}
+	},
+	{
+		uid: "9dc75976",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "blahaj:bread"
+		}
+	}]
+}

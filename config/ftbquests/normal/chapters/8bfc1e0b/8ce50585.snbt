@@ -1,0 +1,23 @@
+{
+	x: 6.0d,
+	y: 7.5d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"afd2221e",
+		"5537a776",
+		"a253fe55"
+	],
+	tasks: [{
+		uid: "92cec939",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "qmd:lepton_cannon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

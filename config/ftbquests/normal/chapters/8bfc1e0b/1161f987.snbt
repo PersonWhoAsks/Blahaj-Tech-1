@@ -1,0 +1,28 @@
+{
+	x: 6.0d,
+	y: 6.5d,
+	shape: "rsquare",
+	hide_dependency_lines: true,
+	dependencies: [
+		"afd2221e",
+		"5537a776",
+		"a253fe55"
+	],
+	tasks: [{
+		uid: "d099e02d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "qmd:gluon_gun",
+			tag: {
+				qmd_item_mode: {
+					mode: "breaking"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

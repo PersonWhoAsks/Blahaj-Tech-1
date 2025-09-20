@@ -1,14 +1,14 @@
 {
-	x: 2.5d,
-	y: 8.0d,
+	x: -1.0d,
+	y: 10.5d,
 	dependencies: [
-		"92e3690c"
+		"705a10f5"
 	],
 	tasks: [{
-		uid: "43f8eda7",
+		uid: "2ba63128",
 		type: "item",
 		items: [{
-			item: "qmd:part 1 4"
+			item: "qmd:ingot2"
 		}]
 	}]
 }

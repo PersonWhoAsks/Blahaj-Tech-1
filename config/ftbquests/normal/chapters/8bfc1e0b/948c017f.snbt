@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 15.0d,
+	dependencies: [
+		"887eee3b",
+		"c02a33a5"
+	],
+	tasks: [{
+		uid: "4cdf9d1b",
+		type: "item",
+		items: [{
+			item: "qmd:linear_accelerator_controller"
+		}]
+	}]
+}

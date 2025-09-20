@@ -21,6 +21,8 @@ import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.ChemicalReactor;
 import mods.nuclearcraft.FissionHeating;
 
+import mods.astralsorcery.Altar;
+
 // Removing impossible recipes
 mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:nuggets>);
 mods.nuclearcraft.Melter.removeRecipeWithInput(<tconstruct:ingots>);

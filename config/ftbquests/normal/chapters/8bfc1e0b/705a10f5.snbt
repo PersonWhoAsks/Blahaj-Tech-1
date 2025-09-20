@@ -1,14 +1,14 @@
 {
 	x: 0.0d,
-	y: 2.5d,
+	y: 12.0d,
 	dependencies: [
-		"3a111d3d"
+		"259f3dfa"
 	],
 	tasks: [{
-		uid: "3e0fff04",
+		uid: "2a2a53d5",
 		type: "item",
 		items: [{
-			item: "qmd:luminous_paint 1 1"
+			item: "qmd:ring_accelerator_controller"
 		}]
 	}]
 }

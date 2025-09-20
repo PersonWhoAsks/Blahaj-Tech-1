@@ -1,0 +1,17 @@
+{
+	x: 1.0d,
+	y: 10.5d,
+	dependencies: [
+		"705a10f5"
+	],
+	tasks: [{
+		uid: "e35c285e",
+		type: "item",
+		items: [{
+			item: "qmd:ingot 1 14"
+		},
+		{
+			item: "qmd:dust 1 14"
+		}]
+	}]
+}

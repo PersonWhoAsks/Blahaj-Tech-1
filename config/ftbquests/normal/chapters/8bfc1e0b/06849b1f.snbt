@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: 11.5d,
+	shape: "rsquare",
+	dependencies: [
+		"705a10f5"
+	],
+	tasks: [{
+		uid: "8e467e27",
+		type: "item",
+		items: [{
+			item: "qmd:potassium_iodine_tablet"
+		}]
+	}]
+}

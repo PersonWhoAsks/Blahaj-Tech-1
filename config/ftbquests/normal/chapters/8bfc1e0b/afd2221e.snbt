@@ -1,16 +1,17 @@
 {
 	x: -2.5d,
-	y: 13.0d,
+	y: 6.6d,
 	shape: "circle",
 	dependencies: [
-		"4e820c63"
+		"9cc3dc9d",
+		"9a24857b"
 	],
 	size: 1.2d,
 	tasks: [{
-		uid: "887b0511",
+		uid: "669ad519",
 		type: "item",
 		items: [{
-			item: "qmd:semiconductor 1 4"
+			item: "qmd:ingot_alloy 1 6"
 		}]
 	}]
 }

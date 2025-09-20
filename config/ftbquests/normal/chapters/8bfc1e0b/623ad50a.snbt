@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 14.0d,
+	dependencies: [
+		"887eee3b",
+		"c02a33a5"
+	],
+	tasks: [{
+		uid: "e1035f0e",
+		type: "item",
+		items: [{
+			item: "qmd:target_chamber_controller"
+		}]
+	}]
+}

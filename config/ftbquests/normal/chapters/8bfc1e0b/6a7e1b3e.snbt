@@ -1,14 +1,14 @@
 {
-	x: -6.0d,
-	y: 11.5d,
+	x: -5.5d,
+	y: 13.0d,
 	dependencies: [
 		"2e378630"
 	],
 	tasks: [{
-		uid: "ba06606d",
+		uid: "1323e04b",
 		type: "item",
 		items: [{
-			item: "qmd:atmosphere_collector"
+			item: "qmd:semiconductor 1 3"
 		}]
 	}]
 }

@@ -1,14 +1,15 @@
 {
-	x: 2.5d,
+	x: -2.5d,
 	y: 8.0d,
 	dependencies: [
-		"92e3690c"
+		"1ed25cbf",
+		"cab5e67e"
 	],
 	tasks: [{
-		uid: "43f8eda7",
+		uid: "6744335e",
 		type: "item",
 		items: [{
-			item: "qmd:part 1 4"
+			item: "qmd:ingot_alloy 1 3"
 		}]
 	}]
 }

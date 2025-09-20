@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: 3.5d,
+	dependencies: [
+		"4ca78b37"
+	],
+	tasks: [{
+		uid: "315d6761",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -8630824201861639239L,
+					AS_Amulet_HolderMost: -7424322137771980438L
+				}
+			},
+			id: "qmd:cell",
+			tag: {
+				particle_storage: {
+					particle_amount: 100000,
+					particle_capacity: 100000
+				}
+			},
+			Damage: 8s
+		}],
+		ignore_nbt: 1b
+	}]
+}

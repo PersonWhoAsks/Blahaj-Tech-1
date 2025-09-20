@@ -1,14 +1,14 @@
 {
 	x: 0.0d,
-	y: 2.5d,
+	y: 16.0d,
 	dependencies: [
-		"3a111d3d"
+		"887eee3b"
 	],
 	tasks: [{
-		uid: "3e0fff04",
+		uid: "3ad95495",
 		type: "item",
 		items: [{
-			item: "qmd:luminous_paint 1 1"
+			item: "qmd:particle_chamber"
 		}]
 	}]
 }

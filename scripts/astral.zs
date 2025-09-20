@@ -136,3 +136,34 @@ for key in t4table {
         t4table[key], t4table[key]
     ]);
 }
+
+// Tier 5 seeds recipes
+val t5essen = <mysticalagriculture:crafting:4>;
+val t5essenBlock = <mysticalagriculture:storage:4>;
+val t5seeds = <mysticalagriculture:crafting:21>;
+
+val t5table = {
+    "wither_skeleton" : [<mysticalagriculture:chunk:20>, <minecraft:nether_star>],
+    "uranium" : [<immersiveengineering:metal:5>, <immersiveengineering:storage:5>],
+    "platinum" : [<thermalfoundation:material:134>, <thermalfoundation:storage:6>],
+    "iridium" : [<thermalfoundation:material:135>, <thermalfoundation:storage:7>],
+    "enderium" : [<thermalfoundation:material:167>, <thermalfoundation:storage_alloy:7>],
+    "ender_amethyst" : [<biomesoplenty:gem>, <biomesoplenty:gem_block>]
+} as IIngredient[][string];
+
+for key in t5table {
+    val seed = itemUtils.getItem("mysticalagriculture:" ~ key ~ "_seeds"); 
+    recipes.remove(seed);
+    mods.astralsorcery.Altar.addTraitAltarRecipe("mypack:shaped/internal/altar/" ~ key ~ "_seeds", seed, 3200, 3200, [
+    t5essen, t5table[key][0], t5essen,
+    t5table[key][0], t5seeds, t5table[key][0],
+    t5essen, t5table[key][0], t5essen,
+    t5table[key][1], t5table[key][1], t5table[key][1], t5table[key][1],
+    t5table[key][0], t5table[key][0],
+    t5table[key][0], t5table[key][0],
+    t5table[key][0], t5table[key][0],
+    t5table[key][0], t5table[key][0],
+    t5essenBlock, t5essenBlock, t5essenBlock, t5essenBlock
+    ],
+    null);
+}
