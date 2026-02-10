@@ -30,13 +30,6 @@ honey                                             (biomesoplenty:honey)         
 blood                                             (biomesoplenty:blood)                                                            = Blood
 poison                                            (biomesoplenty:poison)                                                           = Poison
 hot_spring_water                                  (biomesoplenty:hot_spring_water)                                                 = Hot Spring Water
-soulium                                           (mysticalagradditions:molten_soulium)                                            = Molten Soulium
-base_essence                                      (mysticalagradditions:molten_base_essence)                                       = Molten Base Essence
-inferium                                          (mysticalagradditions:molten_inferium)                                           = Molten Inferium
-prudentium                                        (mysticalagradditions:molten_prudentium)                                         = Molten Prudentium
-intermedium                                       (mysticalagradditions:molten_intermedium)                                        = Molten Intermedium
-superium                                          (mysticalagradditions:molten_superium)                                           = Molten Superium
-supremium                                         (mysticalagradditions:molten_supremium)                                          = Molten Supremium
 steam                                             ([no block])                                                                     = Steam
 creosote                                          (immersiveengineering:fluidcreosote)                                             = Creosote Oil
 coal                                              ([no block])                                                                     = Liquifacted Coal

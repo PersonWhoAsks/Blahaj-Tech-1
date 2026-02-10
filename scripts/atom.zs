@@ -593,3 +593,29 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("astralsorcery:shaped/internal
     <astralsorcery:blockmarble:2>, <astralsorcery:itemcraftingcomponent:1>, <astralsorcery:blockmarble:2>,
     <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:itemcraftingcomponent:2>, <astralsorcery:blockmarble:4>, <astralsorcery:blockmarble:4>
 ]);
+
+// Other recipes
+recipes.remove(<ae2wtlib:infinity_booster_card>);
+recipes.addShaped(<ae2wtlib:infinity_booster_card>, [
+    [<appliedenergistics2:material:9>, <ore:ingotCalifornium250All>, <appliedenergistics2:material:9>],
+    [null, <appliedenergistics2:material:41>, null]
+]);
+
+recipes.remove(<wct:wct>);
+recipes.addShaped(<wct:wct>, [
+    [<appliedenergistics2:wireless_terminal>, <ore:pearlFluix>],
+    [<appliedenergistics2:part:360>, <ore:ingotBerkelium247All>]
+]);
+
+recipes.remove(<wit:wit>);
+recipes.addShaped(<wit:wit>, [
+    [<appliedenergistics2:wireless_terminal>, <appliedenergistics2:material:9>],
+    [<appliedenergistics2:part:440> | <appliedenergistics2:interface>, <ore:ingotCurium246All>]
+]);
+
+recipes.remove(<fluxnetworks:fluxcore>);
+recipes.addShaped(<fluxnetworks:fluxcore>, [
+    [<fluxnetworks:flux>, <minecraft:obsidian>, <fluxnetworks:flux>],
+    [<minecraft:obsidian>, <nuclearcraft:uranium:5>, <minecraft:obsidian>],
+    [<fluxnetworks:flux>, <minecraft:obsidian>, <fluxnetworks:flux>]
+]);

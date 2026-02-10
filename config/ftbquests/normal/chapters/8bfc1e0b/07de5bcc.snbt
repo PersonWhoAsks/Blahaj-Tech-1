@@ -30,16 +30,7 @@
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "blahaj:bread"
-		}
-	},
-	{
-		uid: "9dc75976",
-		type: "item",
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "blahaj:bread"
-		}
+		},
+		count: 2
 	}]
 }

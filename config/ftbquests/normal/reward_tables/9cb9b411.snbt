@@ -47,15 +47,6 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "quark:archaeologist_hat",
-			tag: {}
-		}
-	},
-	{
-		item: {
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
 			id: "quark:witch_hat",
 			tag: {}
 		}

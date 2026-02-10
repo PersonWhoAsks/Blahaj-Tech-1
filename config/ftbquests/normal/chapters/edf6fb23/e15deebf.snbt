@@ -4,6 +4,12 @@
 	y: 0.0d,
 	shape: "circle",
 	description: "Thermal Foundation",
+	text: [
+		"meow test"
+	],
+	dependencies: [
+		"9326b958"
+	],
 	size: 1.2d,
 	tasks: [{
 		uid: "f949d91b",

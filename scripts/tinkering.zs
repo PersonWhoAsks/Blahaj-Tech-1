@@ -69,12 +69,19 @@ for cast in castsNoAlubrass {
 
 // RECIPES
 // No vanilla smelting ores
+furnace.remove(<nuclearcraft:ingot:3>, <nuclearcraft:ore:3>);
+furnace.remove(<nuclearcraft:ingot:5>, <nuclearcraft:ore:5>);
+furnace.remove(<nuclearcraft:ingot:6>, <nuclearcraft:ore:6>);
+furnace.remove(<nuclearcraft:ingot:7>, <nuclearcraft:ore:7>);
 furnace.remove(<immersiveengineering:metal>, <immersiveengineering:ore>);
 furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
+furnace.remove(<immersiveengineering:metal:2>, <immersiveengineering:ore:2>);
 furnace.remove(<immersiveengineering:metal:3>, <immersiveengineering:ore:3>);
 furnace.remove(<immersiveengineering:metal:4>, <immersiveengineering:ore:4>);
-furnace.remove(<immersiveengineering:metal:2>, <immersiveengineering:ore:2>);
+furnace.remove(<immersiveengineering:metal:5>, <immersiveengineering:ore:5>);
 furnace.remove(<thermalfoundation:material:129>, <thermalfoundation:ore:1>);
+furnace.remove(<thermalfoundation:material:135>, <thermalfoundation:ore:7>);
+furnace.remove(<thermalfoundation:material:134>, <thermalfoundation:ore:6>);
 furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
 furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
 

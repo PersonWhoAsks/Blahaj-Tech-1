@@ -29,12 +29,6 @@ mods.immersiveengineering.CokeOven.addRecipe(<immersiveengineering:stone_decorat
 mods.immersiveengineering.BlastFurnace.removeFuel(<minecraft:coal:1>);
 mods.immersiveengineering.BlastFurnace.removeFuel(<thermalfoundation:storage_resource>);
 
-// Remove HOP Graphite, Graphite Electrode & Fluorescent Tube
-recipes.remove(<immersiveengineering:fluorescent_tube>);
-removeAndHide(<immersiveengineering:graphite_electrode>);
-mods.immersiveengineering.MetalPress.removeRecipe(<immersiveengineering:graphite_electrode>.withTag({graphDmg: 48000}));
-mods.immersiveengineering.Blueprint.removeRecipe(<immersiveengineering:graphite_electrode>);
-
 furnace.remove(<immersiveengineering:material:19>);
 recipes.remove(<immersiveengineering:material:19> * 3);
 removeAndHide(<immersiveengineering:material:19>);

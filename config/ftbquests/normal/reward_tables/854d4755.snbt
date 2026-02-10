@@ -154,7 +154,8 @@
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
 			id: "quark:archaeologist_hat",
-			tag: {}
+			tag: {},
+			Count: 1b
 		}
 	},
 	{

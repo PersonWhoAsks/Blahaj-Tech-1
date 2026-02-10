@@ -1,0 +1,12 @@
+{
+	title: "fix",
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "62d0d540",
+		type: "item",
+		items: [{
+			item: "pneumaticcraft:printed_circuit_board"
+		}]
+	}]
+}

@@ -148,12 +148,10 @@ val thingsToErase = [
     <mysticalagriculture:chunk:2>,
     <mysticalagriculture:chunk:3>,
     <mysticalagriculture:chunk:4>,
+    <mysticalagradditions:insanium:1>,
     <mysticalagradditions:insanium:4>,
     <mysticalagriculture:crafting:23>,
-    <mysticalagriculture:crafting:24>,
-
-    // Immersive Engineering
-    <immersiveengineering:fluorescent_tube>
+    <mysticalagriculture:crafting:24>
 ] as IItemStack[];
 for thing in thingsToErase {
     erase(thing);
@@ -223,6 +221,11 @@ val thingsToUnify = [
     <immersiveengineering:metal:24>,    // nuggetNickel
     <immersiveengineering:metal:13>,    // dustNickel
     <immersiveengineering:metal:34>,    // plateNickel
+
+    // Uranium
+    <immersiveengineering:metal:5>,     // ingotUranium
+    <immersiveengineering:storage:5>,   // blockUranium
+    <immersiveengineering:metal:14>,    // dustUranium
 
     // Steel
     <immersiveengineering:metal:8>,     // ingotSteel

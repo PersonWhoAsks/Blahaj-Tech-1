@@ -13,13 +13,6 @@ lead                                              (tconstruct:molten_lead)      
 silver                                            (tconstruct:molten_silver)                                                       = Molten Silver
 electrum                                          (tconstruct:molten_electrum)                                                     = Molten Electrum
 steel                                             (tconstruct:molten_steel)                                                        = Molten Steel
-soulium                                           (mysticalagradditions:molten_soulium)                                            = Molten Soulium
-base_essence                                      (mysticalagradditions:molten_base_essence)                                       = Molten Base Essence
-inferium                                          (mysticalagradditions:molten_inferium)                                           = Molten Inferium
-prudentium                                        (mysticalagradditions:molten_prudentium)                                         = Molten Prudentium
-intermedium                                       (mysticalagradditions:molten_intermedium)                                        = Molten Intermedium
-superium                                          (mysticalagradditions:molten_superium)                                           = Molten Superium
-supremium                                         (mysticalagradditions:molten_supremium)                                          = Molten Supremium
 constantan                                        (immersiveengineering:molten_constantan)                                         = Molten Constantan
 boron                                             (tconstruct:molten_boron)                                                        = Molten Boron
 tough                                             (nuclearcraft:fluid_tough)                                                       = Molten Tough Alloy
