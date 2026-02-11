@@ -137,11 +137,6 @@ val thingsToErase = [
     <minecraft:golden_hoe>,
     <immersiveengineering:hoe_steel>,
 
-    // Dense ores
-    <densemetals:dense_iridium_ore>,
-    <densemetals:dense_mithril_ore>,
-    <densemetals:dense_platinum_ore>,
-
     // Mystical Agriculture
     <mysticalagriculture:chunk>,
     <mysticalagriculture:chunk:1>,

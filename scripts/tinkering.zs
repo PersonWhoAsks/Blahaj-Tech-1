@@ -8,6 +8,7 @@ import mods.jei.JEI;
 
 import mods.tconstruct.Alloy;
 import mods.tconstruct.Casting;
+import mods.tconstruct.Melting;
 
 // Tweak recipes using removed vanilla tools
 recipes.remove(<ftbquests:loot_crate_opener>);
@@ -71,19 +72,19 @@ for cast in castsNoAlubrass {
 // No vanilla smelting ores
 furnace.remove(<nuclearcraft:ingot:3>, <nuclearcraft:ore:3>);
 furnace.remove(<nuclearcraft:ingot:5>, <nuclearcraft:ore:5>);
-furnace.remove(<nuclearcraft:ingot:6>, <nuclearcraft:ore:6>);
-furnace.remove(<nuclearcraft:ingot:7>, <nuclearcraft:ore:7>);
 furnace.remove(<immersiveengineering:metal>, <immersiveengineering:ore>);
-furnace.remove(<immersiveengineering:metal:1>, <immersiveengineering:ore:1>);
-furnace.remove(<immersiveengineering:metal:2>, <immersiveengineering:ore:2>);
-furnace.remove(<immersiveengineering:metal:3>, <immersiveengineering:ore:3>);
 furnace.remove(<immersiveengineering:metal:4>, <immersiveengineering:ore:4>);
 furnace.remove(<immersiveengineering:metal:5>, <immersiveengineering:ore:5>);
-furnace.remove(<thermalfoundation:material:129>, <thermalfoundation:ore:1>);
 furnace.remove(<thermalfoundation:material:135>, <thermalfoundation:ore:7>);
 furnace.remove(<thermalfoundation:material:134>, <thermalfoundation:ore:6>);
 furnace.remove(<minecraft:iron_ingot>, <minecraft:iron_ore>);
 furnace.remove(<minecraft:gold_ingot>, <minecraft:gold_ore>);
+
+// Smeltery recipes changes
+mods.tconstruct.Melting.removeRecipe(<liquid:thorium>, <nuclearcraft:ore:3>);
+mods.tconstruct.Melting.removeRecipe(<liquid:boron>, <nuclearcraft:ore:5>);
+mods.tconstruct.Melting.removeRecipe(<liquid:platinum>, <thermalfoundation:ore:6>);
+mods.tconstruct.Melting.removeRecipe(<liquid:iridium>, <thermalfoundation:ore:7>);
 
 // Bonsai Trees recipes tweaks
 recipes.remove(<bonsaitrees:bonsaipot>);

@@ -4391,9 +4391,6 @@ appliedenergistics2:facade:0, Cable Facade - Slime Block
 appliedenergistics2:facade:0, Cable Facade - Slime Block
 appliedenergistics2:facade:0, Cable Facade - Blood Slime Block
 appliedenergistics2:facade:0, Cable Facade - Slime Block
-appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
-appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
-appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
 appliedenergistics2:facade:0, Cable Facade - Swamp Oak Leaves
 appliedenergistics2:facade:0, Cable Facade - White Cave Crystal
 appliedenergistics2:facade:0, Cable Facade - Ender Biotite Ore
@@ -4439,6 +4436,9 @@ appliedenergistics2:facade:0, Cable Facade - Soul Sandstone
 appliedenergistics2:facade:0, Cable Facade - Turf Block
 appliedenergistics2:facade:0, Cable Facade - Netherwrought Stone
 appliedenergistics2:facade:0, Cable Facade - White Quilted Wool
+appliedenergistics2:facade:0, Cable Facade - Spruce Bookshelf
+appliedenergistics2:facade:0, Cable Facade - Lit Redstone Lamp
+appliedenergistics2:facade:0, Cable Facade - Blaze Lantern
 appliedenergistics2:facade:0, Cable Facade - Sugar Block
 appliedenergistics2:facade:0, Cable Facade - Red Slime Block
 appliedenergistics2:facade:0, Cable Facade - Gravisand
@@ -4557,27 +4557,6 @@ appliedenergistics2:facade:0, Cable Facade - Birch Trim
 appliedenergistics2:facade:0, Cable Facade - Jungle Trim
 appliedenergistics2:facade:0, Cable Facade - Acacia Trim
 appliedenergistics2:facade:0, Cable Facade - Dark Oak Trim
-appliedenergistics2:facade:0, Cable Facade - Dense Iron Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Coal Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Gold Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Diamond Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Emerald Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Lapis Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Redstone Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Quartz Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Aluminum Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Copper Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Iridium Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Lead Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Mithril Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Nickel Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Platinum Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Silver Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Tin Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Boron Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Thorium Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Magnesium Ore
-appliedenergistics2:facade:0, Cable Facade - Dense Uranium Ore
 appliedenergistics2:facade:0, Cable Facade - Rock Crystal Ore
 appliedenergistics2:facade:0, Cable Facade - Starmetal Ore
 appliedenergistics2:facade:0, Cable Facade - Aquamarine Shale
@@ -4958,34 +4937,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Sign Plate Pattern
 tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Hammer Head Pattern
 tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Shovel Head Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Pan Pattern
-tconstruct:pattern:0, Binding Pattern
 tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Shovel Head Pattern
 tconstruct:pattern:0, Excavator Head Pattern
 tconstruct:pattern:0, Bowstring Pattern
 tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Sign Plate Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Wide Guard Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Large Plate Pattern
+tconstruct:pattern:0, Axe Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Tool Rod Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -5013,14 +4992,6 @@ tconstruct:shard:0, Lead Shard
 tconstruct:shard:0, Silver Shard
 tconstruct:shard:0, Electrum Shard
 tconstruct:shard:0, Steel Shard
-tconstruct:shard:0, Prosperity Shard Shard
-tconstruct:shard:0, Soulium Shard
-tconstruct:shard:0, Base Essence Shard
-tconstruct:shard:0, Inferium Shard
-tconstruct:shard:0, Prudentium Shard
-tconstruct:shard:0, Intermedium Shard
-tconstruct:shard:0, Superium Shard
-tconstruct:shard:0, Supremium Shard
 tconstruct:shard:0, Treated Wood Shard
 tconstruct:shard:0, Constantan Shard
 tconstruct:shard:0, Boron Shard
@@ -5058,14 +5029,6 @@ tconstruct:sharpening_kit:0, Lead Sharpening Kit
 tconstruct:sharpening_kit:0, Silver Sharpening Kit
 tconstruct:sharpening_kit:0, Electrum Sharpening Kit
 tconstruct:sharpening_kit:0, Steel Sharpening Kit
-tconstruct:sharpening_kit:0, Prosperity Shard Sharpening Kit
-tconstruct:sharpening_kit:0, Soulium Sharpening Kit
-tconstruct:sharpening_kit:0, Base Essence Sharpening Kit
-tconstruct:sharpening_kit:0, Inferium Sharpening Kit
-tconstruct:sharpening_kit:0, Prudentium Sharpening Kit
-tconstruct:sharpening_kit:0, Intermedium Sharpening Kit
-tconstruct:sharpening_kit:0, Superium Sharpening Kit
-tconstruct:sharpening_kit:0, Supremium Sharpening Kit
 tconstruct:sharpening_kit:0, Treated Wood Sharpening Kit
 tconstruct:sharpening_kit:0, Constantan Sharpening Kit
 tconstruct:sharpening_kit:0, Boron Sharpening Kit
@@ -5103,14 +5066,6 @@ tconstruct:pick_head:0, Lead Pickaxe Head
 tconstruct:pick_head:0, Silver Pickaxe Head
 tconstruct:pick_head:0, Electrum Pickaxe Head
 tconstruct:pick_head:0, Steel Pickaxe Head
-tconstruct:pick_head:0, Prosperity Shard Pickaxe Head
-tconstruct:pick_head:0, Soulium Pickaxe Head
-tconstruct:pick_head:0, Base Essence Pickaxe Head
-tconstruct:pick_head:0, Inferium Pickaxe Head
-tconstruct:pick_head:0, Prudentium Pickaxe Head
-tconstruct:pick_head:0, Intermedium Pickaxe Head
-tconstruct:pick_head:0, Superium Pickaxe Head
-tconstruct:pick_head:0, Supremium Pickaxe Head
 tconstruct:pick_head:0, Treated Wood Pickaxe Head
 tconstruct:pick_head:0, Constantan Pickaxe Head
 tconstruct:pick_head:0, Boron Pickaxe Head
@@ -5148,14 +5103,6 @@ tconstruct:shovel_head:0, Lead Shovel Head
 tconstruct:shovel_head:0, Silver Shovel Head
 tconstruct:shovel_head:0, Electrum Shovel Head
 tconstruct:shovel_head:0, Steel Shovel Head
-tconstruct:shovel_head:0, Prosperity Shard Shovel Head
-tconstruct:shovel_head:0, Soulium Shovel Head
-tconstruct:shovel_head:0, Base Essence Shovel Head
-tconstruct:shovel_head:0, Inferium Shovel Head
-tconstruct:shovel_head:0, Prudentium Shovel Head
-tconstruct:shovel_head:0, Intermedium Shovel Head
-tconstruct:shovel_head:0, Superium Shovel Head
-tconstruct:shovel_head:0, Supremium Shovel Head
 tconstruct:shovel_head:0, Treated Wood Shovel Head
 tconstruct:shovel_head:0, Constantan Shovel Head
 tconstruct:shovel_head:0, Boron Shovel Head
@@ -5193,14 +5140,6 @@ tconstruct:axe_head:0, Lead Axe Head
 tconstruct:axe_head:0, Silver Axe Head
 tconstruct:axe_head:0, Electrum Axe Head
 tconstruct:axe_head:0, Steel Axe Head
-tconstruct:axe_head:0, Prosperity Shard Axe Head
-tconstruct:axe_head:0, Soulium Axe Head
-tconstruct:axe_head:0, Base Essence Axe Head
-tconstruct:axe_head:0, Inferium Axe Head
-tconstruct:axe_head:0, Prudentium Axe Head
-tconstruct:axe_head:0, Intermedium Axe Head
-tconstruct:axe_head:0, Superium Axe Head
-tconstruct:axe_head:0, Supremium Axe Head
 tconstruct:axe_head:0, Treated Wood Axe Head
 tconstruct:axe_head:0, Constantan Axe Head
 tconstruct:axe_head:0, Boron Axe Head
@@ -5238,14 +5177,6 @@ tconstruct:broad_axe_head:0, Lead Broad Axe Head
 tconstruct:broad_axe_head:0, Silver Broad Axe Head
 tconstruct:broad_axe_head:0, Electrum Broad Axe Head
 tconstruct:broad_axe_head:0, Steel Broad Axe Head
-tconstruct:broad_axe_head:0, Prosperity Shard Broad Axe Head
-tconstruct:broad_axe_head:0, Soulium Broad Axe Head
-tconstruct:broad_axe_head:0, Base Essence Broad Axe Head
-tconstruct:broad_axe_head:0, Inferium Broad Axe Head
-tconstruct:broad_axe_head:0, Prudentium Broad Axe Head
-tconstruct:broad_axe_head:0, Intermedium Broad Axe Head
-tconstruct:broad_axe_head:0, Superium Broad Axe Head
-tconstruct:broad_axe_head:0, Supremium Broad Axe Head
 tconstruct:broad_axe_head:0, Treated Wood Broad Axe Head
 tconstruct:broad_axe_head:0, Constantan Broad Axe Head
 tconstruct:broad_axe_head:0, Boron Broad Axe Head
@@ -5283,14 +5214,6 @@ tconstruct:sword_blade:0, Lead Sword Blade
 tconstruct:sword_blade:0, Silver Sword Blade
 tconstruct:sword_blade:0, Electrum Sword Blade
 tconstruct:sword_blade:0, Steel Sword Blade
-tconstruct:sword_blade:0, Prosperity Shard Sword Blade
-tconstruct:sword_blade:0, Soulium Sword Blade
-tconstruct:sword_blade:0, Base Essence Sword Blade
-tconstruct:sword_blade:0, Inferium Sword Blade
-tconstruct:sword_blade:0, Prudentium Sword Blade
-tconstruct:sword_blade:0, Intermedium Sword Blade
-tconstruct:sword_blade:0, Superium Sword Blade
-tconstruct:sword_blade:0, Supremium Sword Blade
 tconstruct:sword_blade:0, Treated Wood Sword Blade
 tconstruct:sword_blade:0, Constantan Sword Blade
 tconstruct:sword_blade:0, Boron Sword Blade
@@ -5328,14 +5251,6 @@ tconstruct:large_sword_blade:0, Lead Large Sword Blade
 tconstruct:large_sword_blade:0, Silver Large Sword Blade
 tconstruct:large_sword_blade:0, Electrum Large Sword Blade
 tconstruct:large_sword_blade:0, Steel Large Sword Blade
-tconstruct:large_sword_blade:0, Prosperity Shard Large Sword Blade
-tconstruct:large_sword_blade:0, Soulium Large Sword Blade
-tconstruct:large_sword_blade:0, Base Essence Large Sword Blade
-tconstruct:large_sword_blade:0, Inferium Large Sword Blade
-tconstruct:large_sword_blade:0, Prudentium Large Sword Blade
-tconstruct:large_sword_blade:0, Intermedium Large Sword Blade
-tconstruct:large_sword_blade:0, Superium Large Sword Blade
-tconstruct:large_sword_blade:0, Supremium Large Sword Blade
 tconstruct:large_sword_blade:0, Treated Wood Large Sword Blade
 tconstruct:large_sword_blade:0, Constantan Large Sword Blade
 tconstruct:large_sword_blade:0, Boron Large Sword Blade
@@ -5373,14 +5288,6 @@ tconstruct:hammer_head:0, Lead Hammer Head
 tconstruct:hammer_head:0, Silver Hammer Head
 tconstruct:hammer_head:0, Electrum Hammer Head
 tconstruct:hammer_head:0, Steel Hammer Head
-tconstruct:hammer_head:0, Prosperity Shard Hammer Head
-tconstruct:hammer_head:0, Soulium Hammer Head
-tconstruct:hammer_head:0, Base Essence Hammer Head
-tconstruct:hammer_head:0, Inferium Hammer Head
-tconstruct:hammer_head:0, Prudentium Hammer Head
-tconstruct:hammer_head:0, Intermedium Hammer Head
-tconstruct:hammer_head:0, Superium Hammer Head
-tconstruct:hammer_head:0, Supremium Hammer Head
 tconstruct:hammer_head:0, Treated Wood Hammer Head
 tconstruct:hammer_head:0, Constantan Hammer Head
 tconstruct:hammer_head:0, Boron Hammer Head
@@ -5418,14 +5325,6 @@ tconstruct:excavator_head:0, Lead Excavator Head
 tconstruct:excavator_head:0, Silver Excavator Head
 tconstruct:excavator_head:0, Electrum Excavator Head
 tconstruct:excavator_head:0, Steel Excavator Head
-tconstruct:excavator_head:0, Prosperity Shard Excavator Head
-tconstruct:excavator_head:0, Soulium Excavator Head
-tconstruct:excavator_head:0, Base Essence Excavator Head
-tconstruct:excavator_head:0, Inferium Excavator Head
-tconstruct:excavator_head:0, Prudentium Excavator Head
-tconstruct:excavator_head:0, Intermedium Excavator Head
-tconstruct:excavator_head:0, Superium Excavator Head
-tconstruct:excavator_head:0, Supremium Excavator Head
 tconstruct:excavator_head:0, Treated Wood Excavator Head
 tconstruct:excavator_head:0, Constantan Excavator Head
 tconstruct:excavator_head:0, Boron Excavator Head
@@ -5463,14 +5362,6 @@ tconstruct:kama_head:0, Lead Kama Head
 tconstruct:kama_head:0, Silver Kama Head
 tconstruct:kama_head:0, Electrum Kama Head
 tconstruct:kama_head:0, Steel Kama Head
-tconstruct:kama_head:0, Prosperity Shard Kama Head
-tconstruct:kama_head:0, Soulium Kama Head
-tconstruct:kama_head:0, Base Essence Kama Head
-tconstruct:kama_head:0, Inferium Kama Head
-tconstruct:kama_head:0, Prudentium Kama Head
-tconstruct:kama_head:0, Intermedium Kama Head
-tconstruct:kama_head:0, Superium Kama Head
-tconstruct:kama_head:0, Supremium Kama Head
 tconstruct:kama_head:0, Treated Wood Kama Head
 tconstruct:kama_head:0, Constantan Kama Head
 tconstruct:kama_head:0, Boron Kama Head
@@ -5508,14 +5399,6 @@ tconstruct:scythe_head:0, Lead Scythe Head
 tconstruct:scythe_head:0, Silver Scythe Head
 tconstruct:scythe_head:0, Electrum Scythe Head
 tconstruct:scythe_head:0, Steel Scythe Head
-tconstruct:scythe_head:0, Prosperity Shard Scythe Head
-tconstruct:scythe_head:0, Soulium Scythe Head
-tconstruct:scythe_head:0, Base Essence Scythe Head
-tconstruct:scythe_head:0, Inferium Scythe Head
-tconstruct:scythe_head:0, Prudentium Scythe Head
-tconstruct:scythe_head:0, Intermedium Scythe Head
-tconstruct:scythe_head:0, Superium Scythe Head
-tconstruct:scythe_head:0, Supremium Scythe Head
 tconstruct:scythe_head:0, Treated Wood Scythe Head
 tconstruct:scythe_head:0, Constantan Scythe Head
 tconstruct:scythe_head:0, Boron Scythe Head
@@ -5553,14 +5436,6 @@ tconstruct:pan_head:0, Lead Pan
 tconstruct:pan_head:0, Silver Pan
 tconstruct:pan_head:0, Electrum Pan
 tconstruct:pan_head:0, Steel Pan
-tconstruct:pan_head:0, Prosperity Shard Pan
-tconstruct:pan_head:0, Soulium Pan
-tconstruct:pan_head:0, Base Essence Pan
-tconstruct:pan_head:0, Inferium Pan
-tconstruct:pan_head:0, Prudentium Pan
-tconstruct:pan_head:0, Intermedium Pan
-tconstruct:pan_head:0, Superium Pan
-tconstruct:pan_head:0, Supremium Pan
 tconstruct:pan_head:0, Treated Wood Pan
 tconstruct:pan_head:0, Constantan Pan
 tconstruct:pan_head:0, Boron Pan
@@ -5598,14 +5473,6 @@ tconstruct:sign_head:0, Lead Sign Plate
 tconstruct:sign_head:0, Silver Sign Plate
 tconstruct:sign_head:0, Electrum Sign Plate
 tconstruct:sign_head:0, Steel Sign Plate
-tconstruct:sign_head:0, Prosperity Shard Sign Plate
-tconstruct:sign_head:0, Soulium Sign Plate
-tconstruct:sign_head:0, Base Essence Sign Plate
-tconstruct:sign_head:0, Inferium Sign Plate
-tconstruct:sign_head:0, Prudentium Sign Plate
-tconstruct:sign_head:0, Intermedium Sign Plate
-tconstruct:sign_head:0, Superium Sign Plate
-tconstruct:sign_head:0, Supremium Sign Plate
 tconstruct:sign_head:0, Treated Wood Sign Plate
 tconstruct:sign_head:0, Constantan Sign Plate
 tconstruct:sign_head:0, Boron Sign Plate
@@ -5643,14 +5510,6 @@ tconstruct:tool_rod:0, Lead Tool Rod
 tconstruct:tool_rod:0, Silver Tool Rod
 tconstruct:tool_rod:0, Electrum Tool Rod
 tconstruct:tool_rod:0, Steel Tool Rod
-tconstruct:tool_rod:0, Prosperity Shard Tool Rod
-tconstruct:tool_rod:0, Soulium Tool Rod
-tconstruct:tool_rod:0, Base Essence Tool Rod
-tconstruct:tool_rod:0, Inferium Tool Rod
-tconstruct:tool_rod:0, Prudentium Tool Rod
-tconstruct:tool_rod:0, Intermedium Tool Rod
-tconstruct:tool_rod:0, Superium Tool Rod
-tconstruct:tool_rod:0, Supremium Tool Rod
 tconstruct:tool_rod:0, Treated Wood Tool Rod
 tconstruct:tool_rod:0, Constantan Tool Rod
 tconstruct:tool_rod:0, Boron Tool Rod
@@ -5688,14 +5547,6 @@ tconstruct:tough_tool_rod:0, Lead Tough Tool Rod
 tconstruct:tough_tool_rod:0, Silver Tough Tool Rod
 tconstruct:tough_tool_rod:0, Electrum Tough Tool Rod
 tconstruct:tough_tool_rod:0, Steel Tough Tool Rod
-tconstruct:tough_tool_rod:0, Prosperity Shard Tough Tool Rod
-tconstruct:tough_tool_rod:0, Soulium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Base Essence Tough Tool Rod
-tconstruct:tough_tool_rod:0, Inferium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Prudentium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Intermedium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Superium Tough Tool Rod
-tconstruct:tough_tool_rod:0, Supremium Tough Tool Rod
 tconstruct:tough_tool_rod:0, Treated Wood Tough Tool Rod
 tconstruct:tough_tool_rod:0, Constantan Tough Tool Rod
 tconstruct:tough_tool_rod:0, Boron Tough Tool Rod
@@ -5733,14 +5584,6 @@ tconstruct:binding:0, Lead Binding
 tconstruct:binding:0, Silver Binding
 tconstruct:binding:0, Electrum Binding
 tconstruct:binding:0, Steel Binding
-tconstruct:binding:0, Prosperity Shard Binding
-tconstruct:binding:0, Soulium Binding
-tconstruct:binding:0, Base Essence Binding
-tconstruct:binding:0, Inferium Binding
-tconstruct:binding:0, Prudentium Binding
-tconstruct:binding:0, Intermedium Binding
-tconstruct:binding:0, Superium Binding
-tconstruct:binding:0, Supremium Binding
 tconstruct:binding:0, Treated Wood Binding
 tconstruct:binding:0, Constantan Binding
 tconstruct:binding:0, Boron Binding
@@ -5778,14 +5621,6 @@ tconstruct:tough_binding:0, Lead Tough Binding
 tconstruct:tough_binding:0, Silver Tough Binding
 tconstruct:tough_binding:0, Electrum Tough Binding
 tconstruct:tough_binding:0, Steel Tough Binding
-tconstruct:tough_binding:0, Prosperity Shard Tough Binding
-tconstruct:tough_binding:0, Soulium Tough Binding
-tconstruct:tough_binding:0, Base Essence Tough Binding
-tconstruct:tough_binding:0, Inferium Tough Binding
-tconstruct:tough_binding:0, Prudentium Tough Binding
-tconstruct:tough_binding:0, Intermedium Tough Binding
-tconstruct:tough_binding:0, Superium Tough Binding
-tconstruct:tough_binding:0, Supremium Tough Binding
 tconstruct:tough_binding:0, Treated Wood Tough Binding
 tconstruct:tough_binding:0, Constantan Tough Binding
 tconstruct:tough_binding:0, Boron Tough Binding
@@ -5823,14 +5658,6 @@ tconstruct:wide_guard:0, Lead Wide Guard
 tconstruct:wide_guard:0, Silver Wide Guard
 tconstruct:wide_guard:0, Electrum Wide Guard
 tconstruct:wide_guard:0, Steel Wide Guard
-tconstruct:wide_guard:0, Prosperity Shard Wide Guard
-tconstruct:wide_guard:0, Soulium Wide Guard
-tconstruct:wide_guard:0, Base Essence Wide Guard
-tconstruct:wide_guard:0, Inferium Wide Guard
-tconstruct:wide_guard:0, Prudentium Wide Guard
-tconstruct:wide_guard:0, Intermedium Wide Guard
-tconstruct:wide_guard:0, Superium Wide Guard
-tconstruct:wide_guard:0, Supremium Wide Guard
 tconstruct:wide_guard:0, Treated Wood Wide Guard
 tconstruct:wide_guard:0, Constantan Wide Guard
 tconstruct:wide_guard:0, Boron Wide Guard
@@ -5868,14 +5695,6 @@ tconstruct:hand_guard:0, Lead Hand Guard
 tconstruct:hand_guard:0, Silver Hand Guard
 tconstruct:hand_guard:0, Electrum Hand Guard
 tconstruct:hand_guard:0, Steel Hand Guard
-tconstruct:hand_guard:0, Prosperity Shard Hand Guard
-tconstruct:hand_guard:0, Soulium Hand Guard
-tconstruct:hand_guard:0, Base Essence Hand Guard
-tconstruct:hand_guard:0, Inferium Hand Guard
-tconstruct:hand_guard:0, Prudentium Hand Guard
-tconstruct:hand_guard:0, Intermedium Hand Guard
-tconstruct:hand_guard:0, Superium Hand Guard
-tconstruct:hand_guard:0, Supremium Hand Guard
 tconstruct:hand_guard:0, Treated Wood Hand Guard
 tconstruct:hand_guard:0, Constantan Hand Guard
 tconstruct:hand_guard:0, Boron Hand Guard
@@ -5913,14 +5732,6 @@ tconstruct:cross_guard:0, Lead Cross Guard
 tconstruct:cross_guard:0, Silver Cross Guard
 tconstruct:cross_guard:0, Electrum Cross Guard
 tconstruct:cross_guard:0, Steel Cross Guard
-tconstruct:cross_guard:0, Prosperity Shard Cross Guard
-tconstruct:cross_guard:0, Soulium Cross Guard
-tconstruct:cross_guard:0, Base Essence Cross Guard
-tconstruct:cross_guard:0, Inferium Cross Guard
-tconstruct:cross_guard:0, Prudentium Cross Guard
-tconstruct:cross_guard:0, Intermedium Cross Guard
-tconstruct:cross_guard:0, Superium Cross Guard
-tconstruct:cross_guard:0, Supremium Cross Guard
 tconstruct:cross_guard:0, Treated Wood Cross Guard
 tconstruct:cross_guard:0, Constantan Cross Guard
 tconstruct:cross_guard:0, Boron Cross Guard
@@ -5958,14 +5769,6 @@ tconstruct:large_plate:0, Lead Large Plate
 tconstruct:large_plate:0, Silver Large Plate
 tconstruct:large_plate:0, Electrum Large Plate
 tconstruct:large_plate:0, Steel Large Plate
-tconstruct:large_plate:0, Prosperity Shard Large Plate
-tconstruct:large_plate:0, Soulium Large Plate
-tconstruct:large_plate:0, Base Essence Large Plate
-tconstruct:large_plate:0, Inferium Large Plate
-tconstruct:large_plate:0, Prudentium Large Plate
-tconstruct:large_plate:0, Intermedium Large Plate
-tconstruct:large_plate:0, Superium Large Plate
-tconstruct:large_plate:0, Supremium Large Plate
 tconstruct:large_plate:0, Treated Wood Large Plate
 tconstruct:large_plate:0, Constantan Large Plate
 tconstruct:large_plate:0, Boron Large Plate
@@ -6003,14 +5806,6 @@ tconstruct:knife_blade:0, Lead Knife Blade
 tconstruct:knife_blade:0, Silver Knife Blade
 tconstruct:knife_blade:0, Electrum Knife Blade
 tconstruct:knife_blade:0, Steel Knife Blade
-tconstruct:knife_blade:0, Prosperity Shard Knife Blade
-tconstruct:knife_blade:0, Soulium Knife Blade
-tconstruct:knife_blade:0, Base Essence Knife Blade
-tconstruct:knife_blade:0, Inferium Knife Blade
-tconstruct:knife_blade:0, Prudentium Knife Blade
-tconstruct:knife_blade:0, Intermedium Knife Blade
-tconstruct:knife_blade:0, Superium Knife Blade
-tconstruct:knife_blade:0, Supremium Knife Blade
 tconstruct:knife_blade:0, Treated Wood Knife Blade
 tconstruct:knife_blade:0, Constantan Knife Blade
 tconstruct:knife_blade:0, Boron Knife Blade
@@ -6048,14 +5843,6 @@ tconstruct:bow_limb:0, Lead Bowlimb
 tconstruct:bow_limb:0, Silver Bowlimb
 tconstruct:bow_limb:0, Electrum Bowlimb
 tconstruct:bow_limb:0, Steel Bowlimb
-tconstruct:bow_limb:0, Prosperity Shard Bowlimb
-tconstruct:bow_limb:0, Soulium Bowlimb
-tconstruct:bow_limb:0, Base Essence Bowlimb
-tconstruct:bow_limb:0, Inferium Bowlimb
-tconstruct:bow_limb:0, Prudentium Bowlimb
-tconstruct:bow_limb:0, Intermedium Bowlimb
-tconstruct:bow_limb:0, Superium Bowlimb
-tconstruct:bow_limb:0, Supremium Bowlimb
 tconstruct:bow_limb:0, Treated Wood Bowlimb
 tconstruct:bow_limb:0, Constantan Bowlimb
 tconstruct:bow_limb:0, Boron Bowlimb
@@ -6098,14 +5885,6 @@ tconstruct:arrow_head:0, Lead Arrow Head
 tconstruct:arrow_head:0, Silver Arrow Head
 tconstruct:arrow_head:0, Electrum Arrow Head
 tconstruct:arrow_head:0, Steel Arrow Head
-tconstruct:arrow_head:0, Prosperity Shard Arrow Head
-tconstruct:arrow_head:0, Soulium Arrow Head
-tconstruct:arrow_head:0, Base Essence Arrow Head
-tconstruct:arrow_head:0, Inferium Arrow Head
-tconstruct:arrow_head:0, Prudentium Arrow Head
-tconstruct:arrow_head:0, Intermedium Arrow Head
-tconstruct:arrow_head:0, Superium Arrow Head
-tconstruct:arrow_head:0, Supremium Arrow Head
 tconstruct:arrow_head:0, Treated Wood Arrow Head
 tconstruct:arrow_head:0, Constantan Arrow Head
 tconstruct:arrow_head:0, Boron Arrow Head
@@ -6284,62 +6063,62 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Sign Plate Cast
 tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Hammer Head Cast
 tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Tough Tool Rod Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Shovel Head Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Pan Cast
-tconstruct:cast:0, Binding Cast
 tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Shovel Head Cast
 tconstruct:cast:0, Excavator Head Cast
 tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Sign Plate Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Wide Guard Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Large Plate Cast
+tconstruct:cast:0, Axe Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Tool Rod Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Sign Plate Clay Cast
 tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
 tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Shovel Head Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
 tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Shovel Head Clay Cast
 tconstruct:clay_cast:0, Excavator Head Clay Cast
 tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Sign Plate Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Wide Guard Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -6524,137 +6303,6 @@ ags_modernmarkings:wall_marking_voltage_umv, UMV Voltage Wall Symbol
 ags_modernmarkings:wall_marking_voltage_uv, UV Voltage Wall Symbol
 ags_modernmarkings:wall_marking_voltage_uxv, UXV Voltage Wall Symbol
 ags_modernmarkings:wall_marking_voltage_zpm, Zero Point Module Voltage Wall Symbol
-quark:pickarang, item.pickarang.name
-quark:arrow_ender, item.arrow_ender.name
-quark:arrow_explosive, item.arrow_explosive.name
-quark:arrow_torch, item.arrow_torch.name
-quark:slime_bucket:0, Slime in a Bucket
-quark:rune:0, White Rune
-quark:rune:1, Orange Rune
-quark:rune:2, Magenta Rune
-quark:rune:3, Light Blue Rune
-quark:rune:4, Yellow Rune
-quark:rune:5, Lime Rune
-quark:rune:6, Pink Rune
-quark:rune:7, Gray Rune
-quark:rune:8, Light Gray Rune
-quark:rune:9, Cyan Rune
-quark:rune:10, Purple Rune
-quark:rune:11, Blue Rune
-quark:rune:12, Brown Rune
-quark:rune:13, Green Rune
-quark:rune:14, Red Rune
-quark:rune:15, Black Rune
-quark:rune:16, Rainbow Rune
-quark:black_ash, tile.black_ash.name
-quark:ancient_tome, item.ancient_tome.name
-quark:horse_whistle, item.horse_whistle.name
-quark:soul_powder, item.soul_powder.name
-quark:parrot_egg:0, Red Parrot Egg
-quark:parrot_egg:1, Blue Parrot Egg
-quark:parrot_egg:2, Green Parrot Egg
-quark:parrot_egg:3, Cyan Parrot Egg
-quark:parrot_egg:4, Gray Parrot Egg
-quark:enderdragon_scale, item.enderdragon_scale.name
-quark:spruce_trapdoor, tile.spruce_trapdoor.name
-quark:birch_trapdoor, tile.birch_trapdoor.name
-quark:jungle_trapdoor, tile.jungle_trapdoor.name
-quark:acacia_trapdoor, tile.acacia_trapdoor.name
-quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
-quark:paper_wall, tile.paper_wall.name
-quark:paper_wall_big, tile.paper_wall_big.name
-quark:paper_wall_sakura, tile.paper_wall_sakura.name
-quark:iron_ladder, tile.iron_ladder.name
-quark:paper_lantern:0, Paper Lamp
-quark:paper_lantern:1, Decorated Paper Lamp
-quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
-quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
-quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
-quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
-quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
-quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
-quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
-quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
-quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
-quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
-quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
-quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
-quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
-quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
-quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
-quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
-quark:custom_bookshelf:0, Spruce Bookshelf
-quark:custom_bookshelf:1, Birch Bookshelf
-quark:custom_bookshelf:2, Jungle Bookshelf
-quark:custom_bookshelf:3, Acacia Bookshelf
-quark:custom_bookshelf:4, Dark Oak Bookshelf
-quark:colored_item_frame:0, White Item Frame
-quark:colored_item_frame:1, Orange Item Frame
-quark:colored_item_frame:2, Magenta Item Frame
-quark:colored_item_frame:3, Light Blue Item Frame
-quark:colored_item_frame:4, Yellow Item Frame
-quark:colored_item_frame:5, Lime Item Frame
-quark:colored_item_frame:6, Pink Item Frame
-quark:colored_item_frame:7, Gray Item Frame
-quark:colored_item_frame:8, Light Gray Item Frame
-quark:colored_item_frame:9, Cyan Item Frame
-quark:colored_item_frame:10, Purple Item Frame
-quark:colored_item_frame:11, Blue Item Frame
-quark:colored_item_frame:12, Brown Item Frame
-quark:colored_item_frame:13, Green Item Frame
-quark:colored_item_frame:14, Red Item Frame
-quark:colored_item_frame:15, Black Item Frame
-quark:lit_lamp, tile.lit_lamp.name
-quark:custom_chest:0, Spruce Chest
-quark:custom_chest:1, Birch Chest
-quark:custom_chest:2, Jungle Chest
-quark:custom_chest:3, Acacia Chest
-quark:custom_chest:4, Dark Oak Chest
-quark:custom_chest_trap:0, Spruce Trapped Chest
-quark:custom_chest_trap:1, Birch Trapped Chest
-quark:custom_chest_trap:2, Jungle Trapped Chest
-quark:custom_chest_trap:3, Acacia Trapped Chest
-quark:custom_chest_trap:4, Dark Oak Trapped Chest
-quark:candle:0, White Candle
-quark:candle:1, Orange Candle
-quark:candle:2, Magenta Candle
-quark:candle:3, Light Blue Candle
-quark:candle:4, Yellow Candle
-quark:candle:5, Lime Candle
-quark:candle:6, Pink Candle
-quark:candle:7, Gray Candle
-quark:candle:8, Light Gray Candle
-quark:candle:9, Cyan Candle
-quark:candle:10, Purple Candle
-quark:candle:11, Blue Candle
-quark:candle:12, Brown Candle
-quark:candle:13, Green Candle
-quark:candle:14, Red Candle
-quark:candle:15, Black Candle
-quark:tallow, item.tallow.name
-quark:rope, tile.rope.name
-quark:blaze_lantern, tile.blaze_lantern.name
-quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
-quark:leaf_carpet:0, Oak Leaf Carpet
-quark:leaf_carpet:1, Spruce Leaf Carpet
-quark:leaf_carpet:2, Birch Leaf Carpet
-quark:leaf_carpet:3, Jungle Leaf Carpet
-quark:leaf_carpet:4, Acacia Leaf Carpet
-quark:leaf_carpet:5, Dark Oak Leaf Carpet
-quark:leaf_carpet:6, Swamp Oak Leaf Carpet
-quark:leaf_carpet:7, Blossoming Leaf Carpet
-quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
-quark:birch_pressure_plate, tile.birch_pressure_plate.name
-quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
-quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
-quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
-quark:spruce_button, tile.spruce_button.name
-quark:birch_button, tile.birch_button.name
-quark:jungle_button, tile.jungle_button.name
-quark:acacia_button, tile.acacia_button.name
-quark:dark_oak_button, tile.dark_oak_button.name
-quark:grate, tile.grate.name
-quark:glass_item_frame, item.glass_item_frame.name
 quark:glass_shards:0, Glass Shard
 quark:glass_shards:1, White Glass Shard
 quark:glass_shards:2, Orange Glass Shard
@@ -6684,7 +6332,6 @@ quark:root_dye:0, Blue Dye
 quark:root_dye:1, Black Dye
 quark:root_dye:2, White Dye
 quark:diamond_heart, item.diamond_heart.name
-quark:archaeologist_hat, item.archaeologist_hat.name
 quark:variant_leaves:0, Swamp Oak Leaves
 quark:variant_leaves:1, Blossoming Leaves
 quark:variant_sapling:0, Swamp Oak Sapling
@@ -6796,7 +6443,6 @@ quark:glowshroom, tile.glowshroom.name
 quark:glowshroom_block, tile.glowshroom_block.name
 quark:soul_bead, item.soul_bead.name
 quark:smoker, tile.smoker.name
-quark:witch_hat, item.witch_hat.name
 quark:sandstone_new:0, Polished Sandstone
 quark:sandstone_new:1, Sandstone Bricks
 quark:sandstone_new:2, Polished Red Sandstone
@@ -7117,6 +6763,106 @@ quark:quilted_wool:12, Brown Quilted Wool
 quark:quilted_wool:13, Green Quilted Wool
 quark:quilted_wool:14, Red Quilted Wool
 quark:quilted_wool:15, Black Quilted Wool
+quark:witch_hat, item.witch_hat.name
+quark:spruce_trapdoor, tile.spruce_trapdoor.name
+quark:birch_trapdoor, tile.birch_trapdoor.name
+quark:jungle_trapdoor, tile.jungle_trapdoor.name
+quark:acacia_trapdoor, tile.acacia_trapdoor.name
+quark:dark_oak_trapdoor, tile.dark_oak_trapdoor.name
+quark:paper_wall, tile.paper_wall.name
+quark:paper_wall_big, tile.paper_wall_big.name
+quark:paper_wall_sakura, tile.paper_wall_sakura.name
+quark:iron_ladder, tile.iron_ladder.name
+quark:paper_lantern:0, Paper Lamp
+quark:paper_lantern:1, Decorated Paper Lamp
+quark:colored_flowerpot_white, tile.colored_flowerpot_white.name
+quark:colored_flowerpot_orange, tile.colored_flowerpot_orange.name
+quark:colored_flowerpot_magenta, tile.colored_flowerpot_magenta.name
+quark:colored_flowerpot_light_blue, tile.colored_flowerpot_light_blue.name
+quark:colored_flowerpot_yellow, tile.colored_flowerpot_yellow.name
+quark:colored_flowerpot_lime, tile.colored_flowerpot_lime.name
+quark:colored_flowerpot_pink, tile.colored_flowerpot_pink.name
+quark:colored_flowerpot_gray, tile.colored_flowerpot_gray.name
+quark:colored_flowerpot_silver, tile.colored_flowerpot_silver.name
+quark:colored_flowerpot_cyan, tile.colored_flowerpot_cyan.name
+quark:colored_flowerpot_purple, tile.colored_flowerpot_purple.name
+quark:colored_flowerpot_blue, tile.colored_flowerpot_blue.name
+quark:colored_flowerpot_brown, tile.colored_flowerpot_brown.name
+quark:colored_flowerpot_green, tile.colored_flowerpot_green.name
+quark:colored_flowerpot_red, tile.colored_flowerpot_red.name
+quark:colored_flowerpot_black, tile.colored_flowerpot_black.name
+quark:custom_bookshelf:0, Spruce Bookshelf
+quark:custom_bookshelf:1, Birch Bookshelf
+quark:custom_bookshelf:2, Jungle Bookshelf
+quark:custom_bookshelf:3, Acacia Bookshelf
+quark:custom_bookshelf:4, Dark Oak Bookshelf
+quark:colored_item_frame:0, White Item Frame
+quark:colored_item_frame:1, Orange Item Frame
+quark:colored_item_frame:2, Magenta Item Frame
+quark:colored_item_frame:3, Light Blue Item Frame
+quark:colored_item_frame:4, Yellow Item Frame
+quark:colored_item_frame:5, Lime Item Frame
+quark:colored_item_frame:6, Pink Item Frame
+quark:colored_item_frame:7, Gray Item Frame
+quark:colored_item_frame:8, Light Gray Item Frame
+quark:colored_item_frame:9, Cyan Item Frame
+quark:colored_item_frame:10, Purple Item Frame
+quark:colored_item_frame:11, Blue Item Frame
+quark:colored_item_frame:12, Brown Item Frame
+quark:colored_item_frame:13, Green Item Frame
+quark:colored_item_frame:14, Red Item Frame
+quark:colored_item_frame:15, Black Item Frame
+quark:lit_lamp, tile.lit_lamp.name
+quark:custom_chest:0, Spruce Chest
+quark:custom_chest:1, Birch Chest
+quark:custom_chest:2, Jungle Chest
+quark:custom_chest:3, Acacia Chest
+quark:custom_chest:4, Dark Oak Chest
+quark:custom_chest_trap:0, Spruce Trapped Chest
+quark:custom_chest_trap:1, Birch Trapped Chest
+quark:custom_chest_trap:2, Jungle Trapped Chest
+quark:custom_chest_trap:3, Acacia Trapped Chest
+quark:custom_chest_trap:4, Dark Oak Trapped Chest
+quark:candle:0, White Candle
+quark:candle:1, Orange Candle
+quark:candle:2, Magenta Candle
+quark:candle:3, Light Blue Candle
+quark:candle:4, Yellow Candle
+quark:candle:5, Lime Candle
+quark:candle:6, Pink Candle
+quark:candle:7, Gray Candle
+quark:candle:8, Light Gray Candle
+quark:candle:9, Cyan Candle
+quark:candle:10, Purple Candle
+quark:candle:11, Blue Candle
+quark:candle:12, Brown Candle
+quark:candle:13, Green Candle
+quark:candle:14, Red Candle
+quark:candle:15, Black Candle
+quark:tallow, item.tallow.name
+quark:rope, tile.rope.name
+quark:blaze_lantern, tile.blaze_lantern.name
+quark:nether_brick_fence_gate, tile.nether_brick_fence_gate.name
+quark:leaf_carpet:0, Oak Leaf Carpet
+quark:leaf_carpet:1, Spruce Leaf Carpet
+quark:leaf_carpet:2, Birch Leaf Carpet
+quark:leaf_carpet:3, Jungle Leaf Carpet
+quark:leaf_carpet:4, Acacia Leaf Carpet
+quark:leaf_carpet:5, Dark Oak Leaf Carpet
+quark:leaf_carpet:6, Swamp Oak Leaf Carpet
+quark:leaf_carpet:7, Blossoming Leaf Carpet
+quark:spruce_pressure_plate, tile.spruce_pressure_plate.name
+quark:birch_pressure_plate, tile.birch_pressure_plate.name
+quark:jungle_pressure_plate, tile.jungle_pressure_plate.name
+quark:acacia_pressure_plate, tile.acacia_pressure_plate.name
+quark:dark_oak_pressure_plate, tile.dark_oak_pressure_plate.name
+quark:spruce_button, tile.spruce_button.name
+quark:birch_button, tile.birch_button.name
+quark:jungle_button, tile.jungle_button.name
+quark:acacia_button, tile.acacia_button.name
+quark:dark_oak_button, tile.dark_oak_button.name
+quark:grate, tile.grate.name
+quark:glass_item_frame, item.glass_item_frame.name
 quark:chute, tile.chute.name
 quark:sugar_block, tile.sugar_block.name
 quark:redstone_randomizer, tile.redstone_randomizer.name
@@ -7133,6 +6879,38 @@ quark:gravisand, tile.gravisand.name
 quark:redstone_inductor, tile.redstone_inductor.name
 quark:rain_detector, tile.rain_detector.name
 quark:chain, item.chain.name
+quark:pickarang, item.pickarang.name
+quark:arrow_ender, item.arrow_ender.name
+quark:arrow_explosive, item.arrow_explosive.name
+quark:arrow_torch, item.arrow_torch.name
+quark:slime_bucket:0, Slime in a Bucket
+quark:rune:0, White Rune
+quark:rune:1, Orange Rune
+quark:rune:2, Magenta Rune
+quark:rune:3, Light Blue Rune
+quark:rune:4, Yellow Rune
+quark:rune:5, Lime Rune
+quark:rune:6, Pink Rune
+quark:rune:7, Gray Rune
+quark:rune:8, Light Gray Rune
+quark:rune:9, Cyan Rune
+quark:rune:10, Purple Rune
+quark:rune:11, Blue Rune
+quark:rune:12, Brown Rune
+quark:rune:13, Green Rune
+quark:rune:14, Red Rune
+quark:rune:15, Black Rune
+quark:rune:16, Rainbow Rune
+quark:black_ash, tile.black_ash.name
+quark:ancient_tome, item.ancient_tome.name
+quark:horse_whistle, item.horse_whistle.name
+quark:soul_powder, item.soul_powder.name
+quark:parrot_egg:0, Red Parrot Egg
+quark:parrot_egg:1, Blue Parrot Egg
+quark:parrot_egg:2, Green Parrot Egg
+quark:parrot_egg:3, Cyan Parrot Egg
+quark:parrot_egg:4, Gray Parrot Egg
+quark:enderdragon_scale, item.enderdragon_scale.name
 akashictome:tome, item.tome.name
 bonsaitrees:bonsaipot:0, Bonsai Pot
 bonsaitrees:bonsaipot:1, Hopping Bonsai Pot
@@ -7180,13 +6958,6 @@ ceramics:clay_bucket:0, Honey Clay Bucket
 ceramics:clay_bucket:0, Blood Clay Bucket
 ceramics:clay_bucket:0, Poison Clay Bucket
 ceramics:clay_bucket:0, Hot Spring Water Clay Bucket
-ceramics:clay_bucket:0, Molten Soulium Clay Bucket
-ceramics:clay_bucket:0, Molten Base Essence Clay Bucket
-ceramics:clay_bucket:0, Molten Inferium Clay Bucket
-ceramics:clay_bucket:0, Molten Prudentium Clay Bucket
-ceramics:clay_bucket:0, Molten Intermedium Clay Bucket
-ceramics:clay_bucket:0, Molten Superium Clay Bucket
-ceramics:clay_bucket:0, Molten Supremium Clay Bucket
 ceramics:clay_bucket:0, Steam Clay Bucket
 ceramics:clay_bucket:0, Creosote Oil Clay Bucket
 ceramics:clay_bucket:0, Liquifacted Coal Clay Bucket
@@ -7764,6 +7535,24 @@ ftbquests:lootcrate, Loot Crate
 ftbquests:custom_icon, Custom Icon
 gravestone:gravestone, Grave
 gravestone:death_info, Obituary
+ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
+ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
+ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
+ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
+ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
+ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
+ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
+ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
+ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
+ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
+ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
+ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
+ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
+ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
+ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
+ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
+ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
+ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 ironchest:iron_chest:0, Iron Chest
 ironchest:iron_chest:1, Gold Chest
 ironchest:iron_chest:2, Diamond Chest
@@ -7884,24 +7673,6 @@ ironchest:iron_shulker_box_black:3, Black Copper Shulker Box
 ironchest:iron_shulker_box_black:4, Black Silver Shulker Box
 ironchest:iron_shulker_box_black:5, Black Crystal Shulker Box
 ironchest:iron_shulker_box_black:6, Black Obsidian Shulker Box
-ironchest:iron_gold_chest_upgrade, Iron to Gold Chest Upgrade
-ironchest:gold_diamond_chest_upgrade, Gold to Diamond Chest Upgrade
-ironchest:copper_silver_chest_upgrade, Copper to Silver Chest Upgrade
-ironchest:silver_gold_chest_upgrade, Silver to Gold Chest Upgrade
-ironchest:copper_iron_chest_upgrade, Copper to Iron Chest Upgrade
-ironchest:diamond_crystal_chest_upgrade, Diamond to Crystal Chest Upgrade
-ironchest:wood_iron_chest_upgrade, Wood to Iron Chest Upgrade
-ironchest:wood_copper_chest_upgrade, Wood to Copper Chest Upgrade
-ironchest:diamond_obsidian_chest_upgrade, Diamond to Obsidian Chest Upgrade
-ironchest:iron_gold_shulker_upgrade, Iron to Gold Shulker Box Upgrade
-ironchest:gold_diamond_shulker_upgrade, Gold to Diamond Shulker Box Upgrade
-ironchest:copper_silver_shulker_upgrade, Copper to Silver Shulker Box Upgrade
-ironchest:silver_gold_shulker_upgrade, Silver to Gold Shulker Box Upgrade
-ironchest:copper_iron_shulker_upgrade, Copper to Iron Shulker Box Upgrade
-ironchest:diamond_crystal_shulker_upgrade, Diamond to Crystal Shulker Box Upgrade
-ironchest:vanilla_iron_shulker_upgrade, Vanilla to Iron Shulker Box Upgrade
-ironchest:vanilla_copper_shulker_upgrade, Vanilla to Copper Shulker Box Upgrade
-ironchest:diamond_obsidian_shulker_upgrade, Diamond to Obsidian Shulker Box Upgrade
 jecalculation:item_calculator:0, Crafting Calculator
 jecalculation:item_calculator:1, Math Calculator
 mysticalagriculture:storage:0, §eBlock of Inferium Essence
@@ -8740,13 +8511,13 @@ pneumaticcraft:pneumatic_dynamo, Pneumatic Dynamo
 pneumaticcraft:fake_ice, tile.fake_ice.name
 pneumaticcraft:thermal_compressor, Thermal Compressor
 pneumaticcraft:drone_interface, Drone Interface
-pneumaticcraft:fluid.fuel, Gasoline
-pneumaticcraft:fluid.lubricant, Lubricant
-pneumaticcraft:fluid.oil, Oil
-pneumaticcraft:fluid.plastic, Plastic
-pneumaticcraft:fluid.etchacid, Etching Acid
 pneumaticcraft:fluid.lpg, LPG
+pneumaticcraft:fluid.fuel, Gasoline
 pneumaticcraft:fluid.diesel, Diesel
+pneumaticcraft:fluid.lubricant, Lubricant
+pneumaticcraft:fluid.plastic, Plastic
+pneumaticcraft:fluid.oil, Oil
+pneumaticcraft:fluid.etchacid, Etching Acid
 pneumaticcraft:fluid.kerosene, Kerosene
 storagedrawers:basicdrawers:0, Basic Drawer
 storagedrawers:basicdrawers:0, Basic Drawer
@@ -8824,60 +8595,6 @@ wct:wct_creative, Creative Wireless Crafting Terminal
 wct:magnet_card, Magnet Card
 wit:wit, Wireless Interface Terminal
 wit:wit_creative, Creative Wireless Interface Terminal
-densemetals:dense_iron_ore, Dense Iron Ore 
-densemetals:dense_coal_ore, Dense Coal Ore 
-densemetals:dense_gold_ore, Dense Gold Ore 
-densemetals:dense_diamond_ore, Dense Diamond Ore 
-densemetals:dense_emerald_ore, Dense Emerald Ore 
-densemetals:dense_lapis_ore, Dense Lapis Ore 
-densemetals:dense_redstone_ore, Dense Redstone Ore 
-densemetals:dense_quartz_ore, Dense Quartz Ore 
-densemetals:dense_nether_iron_ore, Dense Nether Iron Ore 
-densemetals:dense_nether_coal_ore, Dense Nether Coal Ore 
-densemetals:dense_nether_gold_ore, Dense Nether Gold Ore 
-densemetals:dense_nether_diamond_ore, Dense Nether Diamond Ore 
-densemetals:dense_nether_emerald_ore, Dense Nether Emerald Ore 
-densemetals:dense_nether_lapis_ore, Dense Nether Lapis Ore 
-densemetals:dense_nether_redstone_ore, Dense Nether Redstone Ore 
-densemetals:dense_aluminum_ore, Dense Aluminum Ore 
-densemetals:dense_copper_ore, Dense Copper Ore 
-densemetals:dense_iridium_ore, Dense Iridium Ore 
-densemetals:dense_lead_ore, Dense Lead Ore 
-densemetals:dense_mithril_ore, Dense Mithril Ore 
-densemetals:dense_nickel_ore, Dense Nickel Ore 
-densemetals:dense_platinum_ore, Dense Platinum Ore 
-densemetals:dense_silver_ore, Dense Silver Ore 
-densemetals:dense_tin_ore, Dense Tin Ore 
-densemetals:dense_nether_aluminum_ore, Dense Nether Aluminum Ore 
-densemetals:dense_nether_copper_ore, Dense Nether Copper Ore 
-densemetals:dense_nether_iridium_ore, Dense Nether Iridium Ore 
-densemetals:dense_nether_lead_ore, Dense Nether Lead Ore 
-densemetals:dense_nether_mithril_ore, Dense Nether Mithril Ore 
-densemetals:dense_nether_nickel_ore, Dense Nether Nickel Ore 
-densemetals:dense_nether_platinum_ore, Dense Nether Platinum Ore 
-densemetals:dense_nether_silver_ore, Dense Nether Silver Ore 
-densemetals:dense_nether_tin_ore, Dense Nether Tin Ore 
-densemetals:dense_adamantine_ore, Dense Adamantine Ore 
-densemetals:dense_coldiron_ore, Dense Cold-Iron Ore 
-densemetals:dense_starsteel_ore, Dense Starsteel Ore 
-densemetals:dense_zinc_ore, Dense Zinc Ore 
-densemetals:dense_mercury_ore, Dense Mercury Ore 
-densemetals:dense_antimony_ore, Dense Antimony Ore 
-densemetals:dense_bismuth_ore, Dense Bismuth Ore 
-densemetals:dense_boron_ore, Dense Boron Ore 
-densemetals:dense_thorium_ore, Dense Thorium Ore 
-densemetals:dense_beryllium_ore, Dense Beryllium Ore 
-densemetals:dense_cadmium_ore, Dense Cadmium Ore 
-densemetals:dense_chromium_ore, Dense Chromium Ore 
-densemetals:dense_magnesium_ore, Dense Magnesium Ore 
-densemetals:dense_manganese_ore, Dense Manganese Ore 
-densemetals:dense_osmium_ore, Dense Osmium Ore 
-densemetals:dense_plutonium_ore, Dense Plutonium Ore 
-densemetals:dense_rutile_ore, Dense Rutile Ore 
-densemetals:dense_tantalum_ore, Dense Tantalum Ore 
-densemetals:dense_tungsten_ore, Dense Tungsten Ore 
-densemetals:dense_uranium_ore, Dense Uranium Ore 
-densemetals:dense_zirconium_ore, Dense Zirconium Ore 
 astralsorcery:itemcraftingcomponent:0, Aquamarine
 astralsorcery:itemcraftingcomponent:1, Starmetal Ingot
 astralsorcery:itemcraftingcomponent:2, Stardust
