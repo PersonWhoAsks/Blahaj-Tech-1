@@ -37,21 +37,24 @@ val items = [
 ] as string[];
 
 val chests = {
-    "minecraft:chests/end_city_treasure" : "main",
-    "minecraft:chests/village_blacksmith" : "main",
-    "minecraft:chests/abandoned_mineshaft" : "main",
-    "minecraft:chests/nether_bridge" : "main",
-    "minecraft:chests/stronghold_crossing" : "main",
-    "minecraft:chests/stronghold_corridor" : "main",
-    "minecraft:chests/igloo_chest" : "main",
-    "minecraft:chests/woodland_mansion" : "main",
-    "minecraft:chests/spawn_bonus_chest" : "pool1",
-    "immersiveengineering:chests/engineers_house" : "immersiveengineering:engineers_village_house_2"
-} as string[string];
+    "minecraft:chests/end_city_treasure" : ["main"],
+    "minecraft:chests/village_blacksmith" : ["main"],
+    "minecraft:chests/abandoned_mineshaft" : ["main"],
+    "minecraft:chests/nether_bridge" : ["main"],
+    "minecraft:chests/stronghold_crossing" : ["main"],
+    "minecraft:chests/stronghold_corridor" : ["main"],
+    "minecraft:chests/igloo_chest" : ["main"],
+    "minecraft:chests/woodland_mansion" : ["main"],
+    "minecraft:chests/spawn_bonus_chest" : ["main", "pool1"],
+    "immersiveengineering:chests/engineers_house" : ["immersiveengineering:engineers_village_house_2"]
+} as string[][string];
 
-for table, pool in chests {
-    val chest = LootTweaker.getTable(table).getPool(pool);
-    for item in items {
-        chest.removeEntry(item);
+for table, poolArr in chests {
+    val chestTable = LootTweaker.getTable(table);
+    for pool in poolArr {
+        val chestPool = chestTable.getPool(pool);
+        for item in items {
+            chestPool.removeEntry(item);
+        }
     }
 }
