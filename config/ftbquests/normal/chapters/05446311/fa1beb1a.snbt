@@ -1,5 +1,6 @@
 {
 	icon: "nuclearcraft:neptunium 1 5",
+	disable_toast: true,
 	x: 3.0d,
 	y: 0.0d,
 	dependencies: [

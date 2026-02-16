@@ -173,7 +173,7 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "molds"})
 ]);
 
 recipes.remove(<immersiveengineering:conveyor> * 8);
-recipes.addShaped(<immersiveengineering:conveyor> * 8, [
+recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8, [
     [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
     [<immersiveengineering:metal:8>, <minecraft:redstone>, <immersiveengineering:metal:8>]
 ]);

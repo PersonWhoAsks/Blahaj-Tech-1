@@ -1,5 +1,6 @@
 {
 	title: "Pressure Chamber",
+	disable_toast: true,
 	x: 1.5d,
 	y: -1.0d,
 	text: [

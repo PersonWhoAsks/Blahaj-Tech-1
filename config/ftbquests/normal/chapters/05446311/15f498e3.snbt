@@ -1,5 +1,6 @@
 {
 	icon: "thermalexpansion:frame 1 130",
+	disable_toast: true,
 	x: 4.5d,
 	y: -1.5d,
 	dependencies: [

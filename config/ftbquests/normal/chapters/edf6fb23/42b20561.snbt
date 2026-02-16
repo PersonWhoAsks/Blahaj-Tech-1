@@ -1,4 +1,5 @@
 {
+	disable_toast: true,
 	x: 14.5d,
 	y: 1.5d,
 	dependencies: [

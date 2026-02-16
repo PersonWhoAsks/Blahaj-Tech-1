@@ -1,5 +1,6 @@
 {
 	title: "Immersive Engineering",
+	disable_toast: true,
 	x: 0.0d,
 	y: 0.0d,
 	shape: "gear",

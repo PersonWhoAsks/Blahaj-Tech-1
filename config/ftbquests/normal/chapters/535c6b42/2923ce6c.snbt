@@ -1,10 +1,12 @@
 {
+	disable_toast: true,
 	x: 6.5d,
 	y: -3.5d,
 	shape: "rsquare",
 	dependencies: [
 		"1e24f541"
 	],
+	optional: true,
 	tasks: [{
 		uid: "8947d5cb",
 		type: "item",

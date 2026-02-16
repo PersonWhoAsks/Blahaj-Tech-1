@@ -100,7 +100,7 @@ import mods.immersiveengineering.MetalPress;
     recipes.remove(<thermalexpansion:machine:2>);
     recipes.addShaped(<thermalexpansion:machine:2>, [
         [<immersiveengineering:material:9>, <thermalfoundation:material:657>, <immersiveengineering:material:9>],
-        [<immersiveengineering:conveyor>, <thermalexpansion:frame>, <immersiveengineering:conveyor>],
+        [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <thermalexpansion:frame>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})],
         [<thermalfoundation:material:256>, <thermalexpansion:frame:128>, <thermalfoundation:material:256>]
     ]);
 
@@ -120,7 +120,7 @@ import mods.immersiveengineering.MetalPress;
 
     recipes.remove(<thermalexpansion:device:12>);
     recipes.addShaped(<thermalexpansion:device:12>, [
-        [<immersiveengineering:conveyor>, <minecraft:hopper>, <immersiveengineering:conveyor>],
+        [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <minecraft:hopper>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})],
         [<thermalfoundation:material:24>, <thermalexpansion:frame:64>, <thermalfoundation:material:24>],
         [<immersiveengineering:material:26>, <thermalexpansion:frame:128>, <immersiveengineering:material:26>]
     ]);
@@ -335,7 +335,7 @@ import mods.immersiveengineering.MetalPress;
 
     recipes.remove(<thermalexpansion:machine:11>);
     recipes.addShaped(<thermalexpansion:machine:11>, [
-        [<immersiveengineering:conveyor>, <ore:workbench>, <immersiveengineering:conveyor>],
+        [<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <ore:workbench>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"})],
         [<thermalfoundation:glass:3>, <thermalexpansion:frame>, <thermalfoundation:glass:3>],
         [<thermalfoundation:material:26>, <thermalexpansion:frame:132>, <thermalfoundation:material:26>]
     ]);

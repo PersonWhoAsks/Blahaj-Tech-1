@@ -1,6 +1,7 @@
 {
 	title: "Astral Sorcery & Mystical Agriculture",
 	icon: "astralsorcery:blockmachine",
+	disable_toast: true,
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

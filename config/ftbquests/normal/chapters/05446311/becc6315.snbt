@@ -1,5 +1,6 @@
 {
 	icon: "pneumaticcraft:plastic",
+	disable_toast: true,
 	x: 3.0d,
 	y: -3.0d,
 	text: [

@@ -1,5 +1,6 @@
 {
 	title: "Tier 5 Seeds",
+	disable_toast: true,
 	x: 0.0d,
 	y: -1.5d,
 	dependencies: [

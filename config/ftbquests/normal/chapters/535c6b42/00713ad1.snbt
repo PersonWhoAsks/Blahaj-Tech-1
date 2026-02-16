@@ -1,5 +1,6 @@
 {
 	icon: "immersiveengineering:stone_device 1 7",
+	disable_toast: true,
 	x: 4.0d,
 	y: 2.0d,
 	dependencies: [
