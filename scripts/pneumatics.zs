@@ -99,6 +99,14 @@ recipes.addShaped(<opencomputers:material:7> * 8, [
     [<pneumaticcraft:transistor>, <minecraft:iron_nugget>, <pneumaticcraft:transistor>]
 ]);
 
+// Astral Sorcery
+recipes.remove(<astralsorcery:blockaltar>);
+recipes.addShaped(<astralsorcery:blockaltar>, [
+    [<ore:stoneMarble>, <pneumaticcraft:plastic>, <ore:stoneMarble>],
+    [<ore:stoneMarble>, <astralsorcery:blockblackmarble>, <ore:stoneMarble>],
+    [<ore:stoneMarble>, <ore:workbench>, <ore:stoneMarble>]
+]);
+
 // Main tweaks
 recipes.remove(<pneumaticcraft:air_canister:30000>);
 recipes.addShaped(<pneumaticcraft:air_canister:30000>, [

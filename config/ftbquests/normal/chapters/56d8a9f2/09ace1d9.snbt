@@ -12,6 +12,7 @@
 	tasks: [{
 		uid: "30c35c9a",
 		type: "item",
+		disable_toast: true,
 		items: [{
 			item: "pneumaticcraft:pressure_chamber_wall"
 		}]
@@ -19,6 +20,7 @@
 	{
 		uid: "06d72c85",
 		type: "item",
+		disable_toast: true,
 		items: [{
 			item: "pneumaticcraft:pressure_chamber_interface"
 		}]
@@ -26,6 +28,7 @@
 	{
 		uid: "5fb2ff5c",
 		type: "item",
+		disable_toast: true,
 		items: [{
 			item: "pneumaticcraft:pressure_chamber_valve"
 		}]

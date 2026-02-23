@@ -10,5 +10,10 @@
 		uid: "2862f8f2",
 		type: "fluid",
 		fluid: "oil"
+	}],
+	rewards: [{
+		uid: "0dec695a",
+		type: "item",
+		item: "pneumaticcraft:fluid.oil"
 	}]
 }

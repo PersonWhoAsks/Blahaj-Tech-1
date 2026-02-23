@@ -8,6 +8,7 @@
 		"afd2221e",
 		"e056d6c7"
 	],
+	optional: true,
 	tasks: [{
 		uid: "48f41a63",
 		type: "item",

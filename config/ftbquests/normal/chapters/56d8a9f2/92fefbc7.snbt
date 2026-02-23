@@ -13,5 +13,18 @@
 		uid: "77bd0320",
 		type: "checkmark",
 		title: "PneumaticCraft"
+	}],
+	rewards: [{
+		uid: "d995428f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "pneumaticcraft:book"
+			}
+		}
 	}]
 }

@@ -10,5 +10,10 @@
 		uid: "bd2cd0b3",
 		type: "fluid",
 		fluid: "lpg"
+	}],
+	rewards: [{
+		uid: "82c422b2",
+		type: "item",
+		item: "pneumaticcraft:fluid.lpg"
 	}]
 }

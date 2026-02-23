@@ -10,5 +10,10 @@
 		uid: "09dffa0e",
 		type: "fluid",
 		fluid: "plastic"
+	}],
+	rewards: [{
+		uid: "e3e7a0a2",
+		type: "item",
+		item: "pneumaticcraft:fluid.plastic"
 	}]
 }
